@@ -89,9 +89,9 @@ p {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
-    color: #7a838b;
+    color: #161718;
     margin-bottom: 0;
-    font-family: rubik, sans-serif
+    font-family: rubik, sans-serif;
 }
 
 label {
@@ -911,7 +911,9 @@ h3 {
     -webkit-transition: .6s;
     -moz-transition: .6s;
     -o-transition: .6s;
-    transition: .6s
+    transition: .6s;
+    columns: 3;
+    width: 620px;
 }
 
 .header-area .main-header-area .main-menu ul li .submenu li {
@@ -2408,7 +2410,7 @@ h3 {
 }
 
 .destination_banner_wrap {
-    background-image: url(../img/banner/destination.png);
+    background-image: url(../img/banner/masai-mara-flying-packages-safaris.jpg);
     padding: 120px 0;
     background-size: cover;
     background-position: center center
@@ -2416,7 +2418,7 @@ h3 {
 
 @media(max-width:767px) {
     .destination_banner_wrap {
-        padding: 10px 0
+        padding: 30px 0
     }
 }
 
@@ -2459,21 +2461,21 @@ h3 {
 }
 
 .destination_details_info {
-    padding-bottom: 15px;
-    padding-top: 7px
+    padding-bottom: 30px;
+    padding-top: 30px
 }
 
 @media(max-width:767px) {
     .destination_details_info {
-        padding-top: 10px;
-        padding-bottom: 10px
+        padding-top: 30px;
+        padding-bottom: 30px
     }
 }
 
 @media(min-width:768px) and (max-width:991px) {
     .destination_details_info {
-        padding-top: 7px;
-        padding-bottom: 7px
+        padding-top: 30px;
+        padding-bottom: 30px
     }
 }
 
