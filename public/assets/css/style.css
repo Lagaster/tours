@@ -1513,8 +1513,8 @@ h3 {
 }
 
 .footer .footer_top {
-    padding-top: 115px;
-    padding-bottom: 129px
+    padding-top: 10px;
+    padding-bottom: 10px
 }
 
 @media(max-width:767px) {
@@ -2409,20 +2409,20 @@ h3 {
 
 .destination_banner_wrap {
     background-image: url(../img/banner/destination.png);
-    padding: 340px 0;
+    padding: 120px 0;
     background-size: cover;
     background-position: center center
 }
 
 @media(max-width:767px) {
     .destination_banner_wrap {
-        padding: 150px 0
+        padding: 10px 0
     }
 }
 
 @media(min-width:768px) and (max-width:991px) {
     .destination_banner_wrap {
-        padding: 250px 0
+        padding: 20px 0
     }
 }
 
@@ -2459,28 +2459,28 @@ h3 {
 }
 
 .destination_details_info {
-    padding-bottom: 150px;
-    padding-top: 70px
+    padding-bottom: 15px;
+    padding-top: 7px
 }
 
 @media(max-width:767px) {
     .destination_details_info {
-        padding-top: 70px;
-        padding-bottom: 70px
+        padding-top: 10px;
+        padding-bottom: 10px
     }
 }
 
 @media(min-width:768px) and (max-width:991px) {
     .destination_details_info {
-        padding-top: 70px;
-        padding-bottom: 70px
+        padding-top: 7px;
+        padding-bottom: 7px
     }
 }
 
 .destination_details_info .bordered_1px {
     border-top: 1px solid #e4e6e8;
-    margin-top: 65px;
-    padding-bottom: 65px
+    margin-top: 6px;
+    padding-bottom: 6px
 }
 
 .destination_details_info .destination_info h3 {

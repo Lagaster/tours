@@ -15,4 +15,4 @@ use App\Http\Controllers\PageController;
 */
 
 Route::get('/',[PageController::class,'index']);
-Route::get('/thearc',[PageController::class,'thearc']);
+Route::get('/maraflight',[PageController::class,'maraflight'])->name('maraflight');

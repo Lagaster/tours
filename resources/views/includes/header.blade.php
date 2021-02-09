@@ -17,15 +17,21 @@
                                     <ul id="navigation">
                                         <li><a class="active" href="#">home</a></li>
                                         <li><a href="#">About</a></li>
-                                        <li><a class="" href="#">Destination</a></l /li>
+                                        {{--  <li><a class="" href="#">Destination</a></l /li>  --}}
                                         <li><a href="#">Packages <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="#">3 Days Masai Mara Flight and Luxury Safari Package.</a></a></li>
+                                            <ul class="submenu" style="columns:3;width:620px">
+                                                <li><a href="{{ route('maraflight') }}">3 Days Masai Mara Flight and Luxury Safari Package.</a></a></li>
                                                 <li><a href="#">3 Days Luxury Lodge Safari Amboseli National Park.</a></li>
-                                                <li><a href="#">3 Days Luxury Lodge Safar Samburu National Reserve.</a></li>
+                                                <li><a href="#">3 Days Luxury Lodge Safari Samburu National Reserve.</a></li>
                                                 <li> <a href="#">4 Days Luxury Lodge Safari Lake Nakuru And Maasai Mara.</a> </li>
-                                                <li><a href="#">5 Days Luxury Lodge Safari Amboseli/ Tsavo West And Tsavo East</a></li>
-                                                <li><a href="#">3 Days Aberdare</a></li>
+                                                <li><a href="#">5 Days Luxury Lodge Safari Amboseli/ Tsavo West And Tsavo East.</a></li>
+                                                <li><a href="#">3 Days Aberdare/ Lake Nakuru/ Masai Mara Luxury Lodge Safari.</a></li>
+                                                <li><a href="#">7 Days Luxury Lodge Safari Masai Mara/ Lake Nakuru/ Naivasha/ Amboseli.</a></li>
+                                                <li><a href="#">7 Days Luxury Lodge Safari Amboseli/ Ol Pejeta/ Lake Nakuru Masai Mara.</a></li>
+                                                <li><a href="#">8 Days Luxury Lodge Safari Aberdare/ Ol Pejeta/ Lake Nakuru Masai Mara.</a></li>
+                                                <li><a href="#">8 Days Best Of The Northern And Southern Circuit Luxury Lodge Safari.</a></li>
+                                                <li><a href="#">12 Days Samburu/ Lake Nakuru/ Masai Mara/ Lake Naivasha/ Amboseli/ Tsavo.</a></li>
+
                                             </ul>
                                         </li>
                                         {{--  <li><a href="#">blog <i class="ti-angle-down"></i></a>
@@ -42,7 +48,7 @@
                         <div class="col-xl-4 col-lg-4 d-none d-lg-block">
                             <div class="social_wrap d-flex align-items-center justify-content-end">
                                 <div class="number">
-                                    <p> <i class="fa fa-phone"></i> 10(256)-928 256</p>
+                                    <p> <i class="fa fa-phone"></i> 0700 000 000</p>
                                 </div>
                                 <div class="social_links d-none d-xl-block">
                                     <ul>

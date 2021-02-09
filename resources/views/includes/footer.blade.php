@@ -125,13 +125,12 @@
                     <p class="copy_right text-center">
 
                         Copyright &copy;<script data-cfasync="false"
-                            src="https://preview.colorlib.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js">
+                            >
                         </script>
                         <script>
                             document.write(new Date().getFullYear());
 
-                        </script> All rights reserved | This template is made with <i class="fa fa-heart-o"
-                            aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib</a>
+                        </script> All rights reserved |Safari Adventures Kenya  </a>
 
                     </p>
                 </div>

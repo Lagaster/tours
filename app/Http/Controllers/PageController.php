@@ -10,4 +10,7 @@ class PageController extends Controller
     {
         return view('client.index');
     }
+    public function maraFlight(){
+        return view('client.packages.masai-mara-flight');
+    }
 }
