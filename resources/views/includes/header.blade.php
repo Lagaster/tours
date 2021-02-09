@@ -15,11 +15,11 @@
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a class="active" href="#">home</a></li>
+                                        <li><a class="active" href="/">home</a></li>
                                         <li><a href="#">About</a></li>
                                         {{--  <li><a class="" href="#">Destination</a></l /li>  --}}
                                         <li><a href="#">Packages <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu" style="columns:3;width:620px">
+                                            <ul class="submenu" >
                                                 <li><a href="{{ route('maraflight') }}">3 Days Masai Mara Flight and Luxury Safari Package.</a></a></li>
                                                 <li><a href="#">3 Days Luxury Lodge Safari Amboseli National Park.</a></li>
                                                 <li><a href="#">3 Days Luxury Lodge Safari Samburu National Reserve.</a></li>
