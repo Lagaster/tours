@@ -40,6 +40,7 @@
                                                 <li><a href="single-blog.html">single-blog</a></li>
                                             </ul>
                                         </li>  --}}
+                                        <li><a href="{{ route('pictorials') }}">Pictorials</a></li>
                                         <li><a href="#">Contact</a></li>
                                     </ul>
                                 </nav>
