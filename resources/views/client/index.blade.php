@@ -99,11 +99,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_destination">
                         <div class="thumb">
-                            <img src="{{ asset('assets/client/img/aberdares/1.jpeg') }}" alt="Aberdares">
+                            <img height="170" width="200" src="{{ asset('assets/client/img/aberdares/1.jpeg') }}"
+                                alt="Aberdares">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Aberdares <a href="travel_destination.html"> national
-                                    Pack</a>
+                            <p class="d-flex align-items-center">Aberdares National Pack
                             </p>
                         </div>
                     </div>
@@ -111,12 +111,12 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_destination">
                         <div class="thumb">
-                            <img src="{{ asset('assets/client/img/amboseli/6-Reasons-Why-You-Must-Visit-Amboseli-National-Park.jpg') }}"
+                            <img height="170" width="200"
+                                src="{{ asset('assets/client/img/amboseli/6-Reasons-Why-You-Must-Visit-Amboseli-National-Park.jpg') }}"
                                 alt="Amboseli national pack">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Amboseli <a href="travel_destination.html">national
-                                    Pack</a>
+                            <p class="d-flex align-items-center">Amboseli National Pack
                             </p>
                         </div>
                     </div>
@@ -124,10 +124,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_destination">
                         <div class="thumb">
-                            <img src="{{ asset('assets/client/img/mara/conservancyimg3.jpg') }}" alt="Amara">
+                            <img height="170" width="200" src="{{ asset('assets/client/img/mara/conservancyimg3.jpg') }}"
+                                alt="Maasai Mara">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Amara <a href="travel_destination.html"> National Pack</a>
+                            <p class="d-flex align-items-center">Maasai Mara
                             </p>
                         </div>
                     </div>
@@ -135,12 +136,12 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_destination">
                         <div class="thumb">
-                            <img src="{{ asset('assets/client/img/mara/lake-naivasha-and-maasai-mara-luxury-safari-4-days-tour-2-27894_1574158046.jpeg') }}"
+                            <img height="170" width="200"
+                                src="{{ asset('assets/client/img/mara/lake-naivasha-and-maasai-mara-luxury-safari-4-days-tour-2-27894_1574158046.jpeg') }}"
                                 alt="">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">lake Naivasha and <a href="travel_destination.html"> Maasai
-                                    mara Tour</a>
+                            <p class="d-flex align-items-center">lake Naivasha
                             </p>
                         </div>
                     </div>
@@ -148,21 +149,21 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_destination">
                         <div class="thumb">
-                            <img src="{{ asset('assets/client/img/mara/Ecotourism-Safari-Masai-Mara.jpg') }}" alt="">
+                            <img height="170" width="200"
+                                src="{{ asset('assets/client/img/mara/Ecotourism-Safari-Masai-Mara.jpg') }}" alt="">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Ecotourism <a href="travel_destination.html">Maasai
-                                    Mara</a> </p>
+                            <p class="d-flex align-items-center">Tours at Maasai Mara </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="single_destination">
                         <div class="thumb">
-                            <img src="{{ asset('assets/client/img/aberdares/2.jpg') }}" alt="">
+                            <img height="170" width="200" src="{{ asset('assets/client/img/aberdares/2.jpg') }}" alt="">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Aberdares <a href="travel_destination.html">World life</a>
+                            <p class="d-flex align-items-center">Aberdares World life
                             </p>
                         </div>
                     </div>
@@ -197,15 +198,8 @@
                                 <h3>The Ark Kenya </h3>
                             </a>
                             <p>Aberdares National Pack</p>
-                            <div class="rating_days d-flex justify-content-between">
-                                <span class="d-flex justify-content-center align-items-center">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <a href="#">(20 Review)</a>
-                                </span>
+                            <div class="rating_days d-flex  justify-content-end ">
+
                                 <div class="days">
                                     <i class="fa fa-clock-o"></i>
                                     <a href="#">5 Days</a>
@@ -226,15 +220,8 @@
                                 <h3> Magura Waterfall</h3>
                             </a>
                             <p>Aberdare National Park</p>
-                            <div class="rating_days d-flex justify-content-between">
-                                <span class="d-flex justify-content-center align-items-center">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <a href="#">(20 Review)</a>
-                                </span>
+                            <div class="rating_days d-flex  justify-content-end ">
+
                                 <div class="days">
                                     <i class="fa fa-clock-o"></i>
                                     <a href="#">5 Days</a>
@@ -254,15 +241,8 @@
                                 <h3 class="text text-capitalize">ZEBRA PLAINS AMBOSELI CAMP</h3>
                             </a>
                             <p>Amboseli Camp</p>
-                            <div class="rating_days d-flex justify-content-between">
-                                <span class="d-flex justify-content-center align-items-center">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <a href="#">(20 Review)</a>
-                                </span>
+                            <div class="rating_days d-flex  justify-content-end ">
+
                                 <div class="days">
                                     <i class="fa fa-clock-o"></i>
                                     <a href="#">5 Days</a>
@@ -282,15 +262,8 @@
                                 <h3>Amboseli </h3>
                             </a>
                             <p>Best Amboseli national Pack</p>
-                            <div class="rating_days d-flex justify-content-between">
-                                <span class="d-flex justify-content-center align-items-center">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <a href="#">(20 Review)</a>
-                                </span>
+                            <div class="rating_days d-flex  justify-content-end ">
+
                                 <div class="days">
                                     <i class="fa fa-clock-o"></i>
                                     <a href="#">5 Days</a>
@@ -311,15 +284,8 @@
                                 <h3>masai warriors ceremony </h3>
                             </a>
                             <p>Maasai Mara National Pack</p>
-                            <div class="rating_days d-flex justify-content-between">
-                                <span class="d-flex justify-content-center align-items-center">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <a href="#">(20 Review)</a>
-                                </span>
+                            <div class="rating_days d-flex  justify-content-end ">
+
                                 <div class="days">
                                     <i class="fa fa-clock-o"></i>
                                     <a href="#">5 Days</a>
@@ -339,15 +305,8 @@
                                 <h3>Masai Mara Tours</h3>
                             </a>
                             <p>3 Days Masai</p>
-                            <div class="rating_days d-flex justify-content-between">
-                                <span class="d-flex justify-content-center align-items-center">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <a href="#">(20 Review)</a>
-                                </span>
+                            <div class="rating_days d-flex  justify-content-end ">
+
                                 <div class="days">
                                     <i class="fa fa-clock-o"></i>
                                     <a href="#">5 Days</a>
@@ -357,13 +316,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-center more_place_btn">
-                        <a class="boxed-btn4" href="#">More Places</a>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </div>
     {{-- <div class="video_area video_bg overlay">
@@ -388,7 +341,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="text-center single_travel">
                         <div class="icon">
-                            <img width="200" height="" src="{{ asset('assets/client/img/mara/3.jpg') }}" alt="">
+                            <img width="260" height="200" src="{{ asset('assets/client/img/mara/3.jpg') }}" alt="">
                         </div>
                         <h3>Maasai Mara</h3>
                         <p>Explore the Maasai Mara National Reserve on a 3-day camping safari that’s a cost-effective way to
@@ -398,7 +351,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="text-center single_travel">
                         <div class="icon">
-                            <img width="200" height=""
+                            <img width="260" height="200"
                                 src="{{ asset('assets/client/img/mara/Description-of-Masai-Mara-National-ReserveA.jpg') }}"
                                 alt="">
                         </div>
@@ -411,7 +364,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="text-center single_travel">
                         <div class="icon">
-                            <img width="200" height=""
+                            <img width="260" height="200"
                                 src="{{ asset('assets/client/img/mara/6-Days-Masai-Mara-Lake-Nakuru-Amboseli-Safaris-1.jpg') }}"
                                 alt="">
                         </div>
@@ -433,10 +386,12 @@
                                 <div class="col-lg-8">
                                     <div class="text-center single_testmonial">
                                         <div class="author_thumb">
-                                            <img src="img/testmonial/author.png" alt="">
+                                            <img height="50" width="100"
+                                                src="/assets/client/img/aberdares/baby_leopard_climbing.jpg" alt="">
                                         </div>
-                                        <p>"Working in conjunction with humanitarian aid agencies, we have supported
-                                            programmes to help alleviate human suffering.</p>
+                                        <p>As its name signifies, the lodge has been designed in the shape of Noah’s ark. It
+                                            has enchanting views of the park’s wildlife as they come to close-by watering
+                                            holes and a salt lick.</p>
                                         <div class="testmonial_author">
                                             <h3>- Micky Mouse</h3>
                                         </div>
@@ -449,12 +404,15 @@
                                 <div class="col-lg-8">
                                     <div class="text-center single_testmonial">
                                         <div class="author_thumb">
-                                            <img src="img/testmonial/author.png" alt="">
+                                            <img height="50" width="100"
+                                                src="/assets/client/img/aberdares/25-the-ark-kenya-1580834691.jpg" alt="">
                                         </div>
-                                        <p>"Working in conjunction with humanitarian aid agencies, we have supported
-                                            programmes to help alleviate human suffering.</p>
+                                        <p>Along your route you may see buffalo, antelope, baboon, monkey and elephant
+                                            emerging from the dense forest. The park is home to over 2,000 elephants and
+                                            some very rare species such the bongo – a giant antelope that lives in the
+                                            bamboo forest. Also found here is the very rare African golden cat</p>
                                         <div class="testmonial_author">
-                                            <h3>- Tom Mouse</h3>
+                                            <h3>- Tom Johnstone</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -465,12 +423,14 @@
                                 <div class="col-lg-8">
                                     <div class="text-center single_testmonial">
                                         <div class="author_thumb">
-                                            <img src="img/testmonial/author.png" alt="">
+                                            <img height="50" width="100"
+                                                src="/assets/client/img/amboseli/getlstd-property-photo.jpg" alt="">
                                         </div>
-                                        <p>"Working in conjunction with humanitarian aid agencies, we have supported
-                                            programmes to help alleviate human suffering.</p>
+                                        <p>Amboseli is known for its large elephant herds and views of immense Mount
+                                            Kilimanjaro, across the border in Tanzania. Observation Hill offers panoramas of
+                                            the peak and the park’s plains and swamps..</p>
                                         <div class="testmonial_author">
-                                            <h3>- Jerry Mouse</h3>
+                                            <h3>- Jerry Hanne</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -499,7 +459,7 @@
                         </div>
                         <div class="info">
                             <div class="date">
-                                <span>Oct 12, 2019</span>
+                                <span>March 9, 2019</span>
                             </div>
                             <a href="#">
                                 <h3>Amboseli Jumbo tents</h3>
@@ -514,7 +474,7 @@
                         </div>
                         <div class="info">
                             <div class="date">
-                                <span>Oct 12, 2019</span>
+                                <span>Oct 12, 2020</span>
                             </div>
                             <a href="#">
                                 <h3>The Aberdare National Park in the central highlands</h3>
@@ -529,7 +489,7 @@
                         </div>
                         <div class="info">
                             <div class="date">
-                                <span>Oct 12, 2019</span>
+                                <span>Jan 2, 2021</span>
                             </div>
                             <a href="#">
                                 <h3>Enjoy watching waterfall at Aberdares Country club</h3>

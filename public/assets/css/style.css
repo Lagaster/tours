@@ -2643,14 +2643,14 @@ h3 {
 
 .popular_places_area {
     padding-top: 142px;
-    padding-bottom: 150px;
+    padding-bottom: 1px;
     background: #f7fafd
 }
 
 @media(max-width:767px) {
     .popular_places_area {
         padding-top: 60px;
-        padding-bottom: 60px
+        padding-bottom: 1px
     }
 }
 
@@ -2664,7 +2664,7 @@ h3 {
     -moz-transition: .3s;
     -o-transition: .3s;
     transition: .3s;
-    margin-bottom: 30px
+    margin-bottom: 1px
 }
 
 .popular_places_area .single_place .thumb {

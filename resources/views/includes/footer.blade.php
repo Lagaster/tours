@@ -9,10 +9,12 @@
                                 <img src="img/footer_logo.png" alt="">
                             </a>
                         </div>
-                        <p>5th flora, 700/D kings road, green <br> lane New York-1782 <br>
-                            <a href="#">+10 367 826 2567</a> <br>
-                            <a href="#"><span class="__cf_email__"
-                                    data-cfemail="91f2feffe5f0f2e5d1f2f0e3e1f4ffe5f4e3bff2fefc">[email&#160;protected]</span></a>
+                        <p><b>Safari Adventures Kenya</b> <br>
+                            <br>
+                            Simco Plaza 5th Floor Suite
+                            <br>
+                            <a href="#">+254 7 000 00 00 00</a> <br>
+                            <a href="mailto:info@safariadventureskenya.co.ke">info@safariadventureskenya.co.ke</a>
                         </p>
                         <div class="socail_links">
                             <ul>
@@ -53,7 +55,7 @@
                         <ul class="links">
                             <li><a href="#">Pricing</a></li>
                             <li><a href="#">About</a></li>
-                            <li><a href="#"> Gallery</a></li>
+                            <li><a href="{{ route('pictorials') }}">Pictorials</a></li>
                             <li><a href="#"> Contact</a></li>
                         </ul>
                     </div>
@@ -64,14 +66,11 @@
                             Popular destination
                         </h3>
                         <ul class="links double_links">
-                            <li><a href="#">Indonesia</a></li>
-                            <li><a href="#">America</a></li>
-                            <li><a href="#">India</a></li>
-                            <li><a href="#">Switzerland</a></li>
-                            <li><a href="#">Italy</a></li>
-                            <li><a href="#">Canada</a></li>
-                            <li><a href="#">Franch</a></li>
-                            <li><a href="#">England</a></li>
+                            <li><a href="#">Amboseli</a></li>
+                            <li><a href="#">Maasai Mara</a></li>
+                            <li><a href="">The Ark</a></li>
+                            <li><a href="#">Aberdare Country Club</a></li>
+                            <li><a href="#">Mara Comp</a></li>
                         </ul>
                     </div>
                 </div>
@@ -83,17 +82,17 @@
                         <div class="instagram_feed">
                             <div class="single_insta">
                                 <a href="#">
-                                    <img src="img/instagram/1.png" alt="">
+                                    <img src="/assets/img/instagram/1.png" alt="">
                                 </a>
                             </div>
                             <div class="single_insta">
                                 <a href="#">
-                                    <img src="img/instagram/2.png" alt="">
+                                    <img src="/assets/img/instagram/2.png" alt="">
                                 </a>
                             </div>
                             <div class="single_insta">
                                 <a href="#">
-                                    <img src="img/instagram/3.png" alt="">
+                                    <img src="/assets/img/instagram/3.png" alt="">
                                 </a>
                             </div>
                             <div class="single_insta">
@@ -124,13 +123,12 @@
                 <div class="col-xl-12">
                     <p class="copy_right text-center">
 
-                        Copyright &copy;<script data-cfasync="false"
-                            >
+                        Copyright &copy;<script data-cfasync="false">
                         </script>
                         <script>
                             document.write(new Date().getFullYear());
 
-                        </script> All rights reserved |Safari Adventures Kenya  </a>
+                        </script> All rights reserved |Safari Adventures Kenya </a>
 
                     </p>
                 </div>
