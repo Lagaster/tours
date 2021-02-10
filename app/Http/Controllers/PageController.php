@@ -16,4 +16,7 @@ class PageController extends Controller
     public function pictorials(){
         return view('client.pictorials');
     }
+    public function theark(){
+        return view('client.pictorios.theark');
+    }
 }

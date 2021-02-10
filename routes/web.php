@@ -17,3 +17,4 @@ use App\Http\Controllers\PageController;
 Route::get('/',[PageController::class,'index']);
 Route::get('/maraflight',[PageController::class,'maraflight'])->name('maraflight');
 Route::get('/pictorials',[PageController::class,'pictorials'])->name('pictorials');
+Route::get('/theark',[PageController::class,'theark'])->name('theark');
