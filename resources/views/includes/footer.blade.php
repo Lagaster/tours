@@ -69,7 +69,7 @@
                             <li><a href="#">Amboseli</a></li>
                             <li><a href="#">Maasai Mara</a></li>
                             <li><a href="">The Ark</a></li>
-                            <li><a href="#">Aberdare Country Club</a></li>
+                            <li><a href="#">Aberdare </a></li>
                             <li><a href="#">Mara Comp</a></li>
                         </ul>
                     </div>
@@ -77,7 +77,7 @@
                 <div class="col-xl-3 col-md-6 col-lg-3">
                     <div class="footer_widget">
                         <h3 class="footer_title">
-                            Instagram
+                            Gallery
                         </h3>
                         <div class="instagram_feed">
                             <div class="single_insta">
