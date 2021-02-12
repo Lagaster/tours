@@ -90,8 +90,8 @@
                 <div class="col-lg-6">
                     <div class="text-center section_title mb_70">
                         <h3>Popular Destination</h3>
-                        <p>Suffered alteration in some form, by injected humour or good day randomised booth anim 8-bit
-                            hella wolf moon beard words.</p>
+                        <p>Walking through thi unspoiled terrain is paradise .Play around a golf watched by a family of
+                            warthong</p>
                     </div>
                 </div>
             </div>
@@ -202,7 +202,7 @@
 
                                 <div class="days">
                                     <i class="fa fa-clock-o"></i>
-                                    <a href="#">5 Days</a>
+                                    <a href="#">3 Days</a>
                                 </div>
                             </div>
                         </div>
@@ -224,7 +224,7 @@
 
                                 <div class="days">
                                     <i class="fa fa-clock-o"></i>
-                                    <a href="#">5 Days</a>
+                                    <a href="#">3 Days</a>
                                 </div>
                             </div>
                         </div>
@@ -245,7 +245,7 @@
 
                                 <div class="days">
                                     <i class="fa fa-clock-o"></i>
-                                    <a href="#">5 Days</a>
+                                    <a href="#">3 Days</a>
                                 </div>
                             </div>
                         </div>
@@ -266,7 +266,7 @@
 
                                 <div class="days">
                                     <i class="fa fa-clock-o"></i>
-                                    <a href="#">5 Days</a>
+                                    <a href="#">3 Days</a>
                                 </div>
                             </div>
                         </div>
@@ -288,7 +288,7 @@
 
                                 <div class="days">
                                     <i class="fa fa-clock-o"></i>
-                                    <a href="#">5 Days</a>
+                                    <a href="#">3 Days</a>
                                 </div>
                             </div>
                         </div>
@@ -309,7 +309,7 @@
 
                                 <div class="days">
                                     <i class="fa fa-clock-o"></i>
-                                    <a href="#">5 Days</a>
+                                    <a href="#">3 Days</a>
                                 </div>
                             </div>
                         </div>
