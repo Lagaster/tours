@@ -19,4 +19,10 @@ class PageController extends Controller
     public function theark(){
         return view('client.pictorios.theark');
     }
+    public function maraleisurecamp(){
+        return view('client.pictorios.maraleisurecamp');
+    }
+    public function theaberdareclub(){
+        return view('client.pictorios.theaberdarecountryclub');
+    }
 }

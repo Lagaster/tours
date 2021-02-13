@@ -1133,6 +1133,14 @@ h3 {
     background-image: url(../img/banner/the-arc.jpg)
 }
 
+.slide_aberdare {
+    background-image: url(../img/pictorialls/aberdare/aberdaer.jpg);
+}
+
+.slide_maracamp {
+    background-image: url(../img/pictorialls/mara/maracamp.jpg);
+}
+
 .slider_area {
     position: relative;
     z-index: 0

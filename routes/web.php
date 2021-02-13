@@ -18,3 +18,5 @@ Route::get('/',[PageController::class,'index']);
 Route::get('/maraflight',[PageController::class,'maraflight'])->name('maraflight');
 Route::get('/pictorials',[PageController::class,'pictorials'])->name('pictorials');
 Route::get('/theark',[PageController::class,'theark'])->name('theark');
+Route::get('maracamp',[PageController::class,'maraleisurecamp'])->name('maracamp');
+Route::get('aberdareclub',[PageController::class,'theaberdareclub'])->name('aberdareclub');
