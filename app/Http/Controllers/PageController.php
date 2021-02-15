@@ -87,8 +87,7 @@ class PageController extends Controller
     public function bookPackage(Request $request)
     {
         $bookData = $request->all();
-        return new BookPackage($bookData);
-        return   Mail::to("info@tavaratoursandtravel.com")
+           Mail::to("info@tavaratoursandtravel.com")
             ->cc("benerd@tavaratoursandtravel.com")
             ->bcc("Kimunto@tavaratoursandtravel.com")
 
