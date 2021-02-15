@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\BookPackage;
 use Illuminate\Http\Request;
+use App\Http\Requests\BookRequest;
+use Illuminate\Support\Facades\Mail;
+
 
 class PageController extends Controller
 {
@@ -78,5 +82,17 @@ class PageController extends Controller
     public function theaberdareclub()
     {
         return view('client.pictorios.theaberdarecountryclub');
+    }
+
+    public function bookPackage(Request $request)
+    {
+        $bookData = $request->all();
+        return new BookPackage($bookData);
+        return   Mail::to("info@tavaratoursandtravel.com")
+            ->cc("benerd@tavaratoursandtravel.com")
+            ->bcc("Kimunto@tavaratoursandtravel.com")
+
+            ->send(new BookPackage($bookData));
+        return back();
     }
 }

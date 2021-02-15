@@ -30,3 +30,4 @@ Route::get('/seven-Days-Luxury-lodge-Amboseli-OlPejeta-Nakuru-MasaiMara', [PageC
 Route::get('/aberdares-OlPejeta-lake-Nakuru-MasaiMara', [PageController::class, 'aberdaresOlpejetaNakuruMasaiMara'])->name('aberdaresOlpejetaNakuruMasaiMara');
 Route::get('/best-of-the-northern-and-sourthern-circuit', [PageController::class, 'bestOfTheNorthernAndSourthenCircuit'])->name('bestOfTheNorthernAndSourthenCircuit');
 Route::get('samburu-Nakuru-MasaiMara-Naivasha-Amboseli-TsavoWest', [PageController::class, 'samburuNakuruMasaiMaraNaivashaAmboseliTsavoWest'])->name('samburuNakuruMasaiMaraNaivashaAmboseliTsavoWest');
+Route::post('book-now', [PageController::class, 'bookPackage'])->name('book-package');
