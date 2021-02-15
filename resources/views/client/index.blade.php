@@ -380,63 +380,50 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="testmonial_active owl-carousel">
-                        <div class="single_carousel">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <div class="text-center single_testmonial">
-                                        <div class="author_thumb">
-                                            <img height="50" width="100"
-                                                src="/assets/client/img/aberdares/baby_leopard_climbing.jpg" alt="">
-                                        </div>
-                                        <p>As its name signifies, the lodge has been designed in the shape of Noah’s ark. It
-                                            has enchanting views of the park’s wildlife as they come to close-by watering
-                                            holes and a salt lick.</p>
-                                        <div class="testmonial_author">
-                                            <h3>- Micky Mouse</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single_carousel">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <div class="text-center single_testmonial">
-                                        <div class="author_thumb">
-                                            <img height="50" width="100"
-                                                src="/assets/client/img/aberdares/25-the-ark-kenya-1580834691.jpg" alt="">
-                                        </div>
-                                        <p>Along your route you may see buffalo, antelope, baboon, monkey and elephant
-                                            emerging from the dense forest. The park is home to over 2,000 elephants and
-                                            some very rare species such the bongo – a giant antelope that lives in the
-                                            bamboo forest. Also found here is the very rare African golden cat</p>
-                                        <div class="testmonial_author">
-                                            <h3>- Tom Johnstone</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single_carousel">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <div class="text-center single_testmonial">
-                                        <div class="author_thumb">
-                                            <img height="50" width="100"
-                                                src="/assets/client/img/amboseli/getlstd-property-photo.jpg" alt="">
-                                        </div>
-                                        <p>Amboseli is known for its large elephant herds and views of immense Mount
-                                            Kilimanjaro, across the border in Tanzania. Observation Hill offers panoramas of
-                                            the peak and the park’s plains and swamps..</p>
-                                        <div class="testmonial_author">
-                                            <h3>- Jerry Hanne</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+<h3 style="text-align: center">SIX STYLES OF TRAVEL TOURS</h3>
+
+<div class="travel-row justify-content-between">
+
+
+    <div class=" travel-card  ">
+        <img class=" image-travel " src="{{ asset('assets/client/img/amboseli/tent1.jpg') }}" alt="">
+        <div class="travel-title">
+            <h5 class="card-title">Luxury Safari </h5>
+        </div>
+    </div>
+    <div class=" travel-card  ">
+        <img class=" image-travel " src="{{ asset('assets/client/img/amboseli/tent1.jpg') }}" alt="">
+        <div class="travel-title">
+            <h5 class="card-title">Cultural & Historical</h5>
+        </div>
+    </div>
+    <div class=" travel-card  ">
+        <img class=" image-travel " src="{{ asset('assets/client/img/amboseli/tent1.jpg') }}" alt="">
+        <div class="travel-title">
+            <h5 class="card-title">Adventure</h5>
+        </div>
+    </div>
+    <div class=" travel-card  ">
+        <img class=" image-travel " src="{{ asset('assets/client/img/amboseli/tent1.jpg') }}" alt="">
+        <div class="travel-title">
+            <h5 class="card-title">Family</h5>
+        </div>
+    </div>
+    <div class=" travel-card  ">
+        <img class=" image-travel " src="{{ asset('assets/client/img/amboseli/tent1.jpg') }}" alt="">
+        <div class="travel-title">
+            <h5 class="card-title">Day</h5>
+        </div>
+    </div>
+    <div class=" travel-card  ">
+        <img class=" image-travel " src="{{ asset('assets/client/img/amboseli/tent1.jpg') }}" alt="">
+        <div class="travel-title">
+            <h5 class="card-title">Mice</h5>
+        </div>
+    </div>
+</div>
+
                 </div>
             </div>
         </div>

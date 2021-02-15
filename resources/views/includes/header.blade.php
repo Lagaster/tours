@@ -7,7 +7,7 @@
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
                                 <a href="#">
-                                    Safari Adventures Kenya Logo
+                                    Tavara Tours And Travel
                                 </a>
                             </div>
                         </div>
@@ -15,10 +15,10 @@
                             <div class="main-menu d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a class="active" href="/">home</a></li>
-                                        <li><a href="#">About</a></li>
+                                        <li><a class="active" href="/">HOME</a></li>
+                                        <li><a href="#">ABOUT</a></li>
                                         {{-- <li><a class="" href="#">Destination</a></l /li> --}}
-                                        <li><a href="#">Packages <i class="ti-angle-down"></i></a>
+                                        <li><a href="#">PACKAGES <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
                                                 <li><a href="{{ route('maraflight') }}">3 Days Masai Mara Flight and
                                                         Luxury Safari Package.</a></a></li>
@@ -61,8 +61,8 @@
                                                 <li><a href="single-blog.html">single-blog</a></li>
                                             </ul>
                                         </li> --}}
-                                        <li><a href="{{ route('pictorials') }}">Pictorials</a></li>
-                                        <li><a href="#">Contact</a></li>
+                                        <li><a href="{{ route('pictorials') }}">PICTORIALS</a></li>
+                                        <li><a href="#">CONTACT</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -72,14 +72,14 @@
                                 <div class="number">
                                     <p> <i class="fa fa-phone"></i> 0700 000 000</p>
                                 </div>
-                                <div class="social_links d-none d-xl-block">
+                                {{--  <div class="social_links d-none d-xl-block">
                                     <ul>
                                         <li><a href="#"> <i class="fa fa-instagram"></i> </a></li>
                                         <li><a href="#"> <i class="fa fa-linkedin"></i> </a></li>
                                         <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
                                         <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
                                     </ul>
-                                </div>
+                                </div>  --}}
                             </div>
                         </div>
                         {{-- <div class="seach_icon">
