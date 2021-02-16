@@ -319,7 +319,22 @@
         }
 
         .addInfo {
-            padding: 10px 3px;
+            padding: 10px 3px 3px 10px ;
+        }
+        .addInfo .addInfoTitle{
+            font-size: 16px ;
+            font-style: normal ;
+            font-weight: bold ;
+            text-align: center ;
+            color: black ;
+
+        }
+        .addInfo .addInfoDescription{
+            color: #000;
+            padding: 10px 3px 3px 10px ;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+            text-align: justify ;
         }
 
 
@@ -345,7 +360,7 @@
                         <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                             <tr>
                                 <td class="logo" style="text-align: center;">
-                                    <h1><a href="{{ config('app.url') }}">{{ config('app.name') }}</a></h1>
+                                    <h1 style="text-align: center;" ><a href="{{ config('app.url') }}">{{ config('app.name') }}</a></h1>
                                 </td>
                             </tr>
                         </table>
@@ -357,7 +372,7 @@
                             <tr>
                                 <td style="padding: 0 2.5em; text-align: center; padding-bottom: 3em;">
                                     <div class="text">
-                                        <h2>Booking for {{ $data['tour'] }}</h2>
+                                        <h3>Booking for {{ $data['tour'] }}</h3>
                                     </div>
                                 </td>
                             </tr>
@@ -424,7 +439,7 @@
                                                 <ul>
                                                     <li><span class="text">203 Fake St. Mountain View, San Francisco,
                                                             California, USA</span></li>
-                                                    <li><span class="text">+2 392 3929 210</span></a></li>
+                                                    <li><span class="text">+2547 000 000</span></a></li>
                                                 </ul>
                                             </td>
                                         </tr>
@@ -436,10 +451,10 @@
                                             <td style="text-align: left; padding-left: 10px;">
                                                 <h3 class="heading">Useful Links</h3>
                                                 <ul>
-                                                    <li><a href="#">Home</a></li>
-                                                    <li><a href="#">About</a></li>
-                                                    <li><a href="#">Services</a></li>
-                                                    <li><a href="#">Work</a></li>
+                                                    <li><a href="{{ route('index') }}">Home</a></li>
+                                                    <li><a href="#">Packages</a></li>
+                                                    <li><a href="{{ route('pictorials') }}">Pictorials</a></li>
+
                                                 </ul>
                                             </td>
                                         </tr>
@@ -451,8 +466,9 @@
                 </tr><!-- end: tr -->
                 <tr>
                     <td class="bg_light" style="text-align: center;">
-                        <p>No longer want to receive these email? You can <a href="#"
-                                style="color: rgba(0,0,0,.8);">Unsubscribe here</a></p>
+
+                            © {{ date('Y') }} {{ config('app.name') }}. @lang('All rights reserved.')
+
                     </td>
                 </tr>
             </table>

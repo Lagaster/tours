@@ -75,10 +75,5 @@
 
 
 
-
-        @include('includes.book')
-
-
-
     </div>
 </div>

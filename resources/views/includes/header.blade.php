@@ -18,7 +18,7 @@
                                         <li><a class="active" href="/">HOME</a></li>
                                         <li><a href="#">ABOUT</a></li>
                                         {{-- <li><a class="" href="#">Destination</a></l /li> --}}
-                                        <li><a href="#">PACKAGES <i class="ti-angle-down"></i></a>
+                                        <li><a href="{{ route('packages') }}">PACKAGES <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
                                                 <li><a href="{{ route('maraflight') }}">3 Days Masai Mara Flight and
                                                         Luxury Safari Package.</a></a></li>
@@ -48,8 +48,7 @@
                                                 <li><a href="{{ route('bestOfTheNorthernAndSourthenCircuit') }}">8
                                                         Days Best Of The Northern And Southern Circuit Luxury
                                                         Lodge Safari.</a></li>
-                                                <li><a
-                                                        href="{{ route('samburuNakuruMasaiMaraNaivashaAmboseliTsavoWest') }}">12
+                                                <li><a href="{{ route('samburuNakuruMasaiMaraNaivashaAmboseliTsavoWest') }}">12
                                                         Days Samburu/ Lake Nakuru/ Masai Mara/ Lake Naivasha/
                                                         Amboseli/ Tsavo.</a></li>
 
