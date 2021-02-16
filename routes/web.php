@@ -21,7 +21,7 @@ Route::get('maracamp', [PageController::class, 'maraleisurecamp'])->name('maraca
 Route::get('aberdareclub', [PageController::class, 'theaberdareclub'])->name('aberdareclub');
 Route::get('/maraflight', [PageController::class, 'maraflight'])->name('maraflight');
 
-Route::get('/package',[PageController::class,'package'])->name('packages');
+Route::get('/best-tour-packages', [PageController::class, 'package'])->name('packages');
 Route::get('/three-days-luxury-lodge-safari-Amboseli-National-Park', [PageController::class, 'threeDaysLuxuryLodgeSafariAmboseli'])->name('three-days-luxury-lodge-safari-Amboseli');
 Route::get('/three-days-luxury-lodge-safari-Samburu-National-Park', [PageController::class, 'threedaysLuxuryLodgeSafariSamburuNationalPark'])->name('Samburu-National-Park');
 Route::get('/four-days-luxury-lodge-safari-Lake-Nakuru-and-Masai-Mara', [PageController::class, 'fourDaysSafariLakeNakuruAndMasaiMara'])->name('safari-Lake-Nakuru-and-Masai-Mara');

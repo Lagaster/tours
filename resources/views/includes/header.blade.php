@@ -18,8 +18,8 @@
                                         <li><a class="active" href="/">HOME</a></li>
                                         <li><a href="#">ABOUT</a></li>
                                         {{-- <li><a class="" href="#">Destination</a></l /li> --}}
-                                        <li><a href="{{ route('packages') }}">PACKAGES <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
+                                        <li><a href="{{ route('packages') }}">PACKAGES</a>
+                                            {{-- <ul class="submenu">
                                                 <li><a href="{{ route('maraflight') }}">3 Days Masai Mara Flight and
                                                         Luxury Safari Package.</a></a></li>
                                                 <li><a href="{{ route('three-days-luxury-lodge-safari-Amboseli') }}">3
@@ -52,7 +52,7 @@
                                                         Days Samburu/ Lake Nakuru/ Masai Mara/ Lake Naivasha/
                                                         Amboseli/ Tsavo.</a></li>
 
-                                            </ul>
+                                            </ul> --}}
                                         </li>
                                         {{-- <li><a href="#">blog <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
@@ -71,14 +71,14 @@
                                 <div class="number">
                                     <p> <i class="fa fa-phone"></i> 0700 000 000</p>
                                 </div>
-                                {{--  <div class="social_links d-none d-xl-block">
+                                {{-- <div class="social_links d-none d-xl-block">
                                     <ul>
                                         <li><a href="#"> <i class="fa fa-instagram"></i> </a></li>
                                         <li><a href="#"> <i class="fa fa-linkedin"></i> </a></li>
                                         <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
                                         <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
                                     </ul>
-                                </div>  --}}
+                                </div> --}}
                             </div>
                         </div>
                         {{-- <div class="seach_icon">
