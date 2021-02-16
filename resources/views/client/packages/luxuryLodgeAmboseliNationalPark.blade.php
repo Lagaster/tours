@@ -85,7 +85,7 @@
                                 </div>
                                 <div class="tab-pane fade" id="tab5primary">
                                     <div>
-                                        @livewire("includes.book",["tour" =>"03 Days luxury Lodge Amboseli National Park"])
+                                        @livewire('book-package',["tour" =>"03 Days luxury Lodge Amboseli National Park"])
                                     </div>
                                 </div>
                             </div>
