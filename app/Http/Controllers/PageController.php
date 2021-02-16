@@ -19,7 +19,8 @@ class PageController extends Controller
         return view('client.packages.masai-mara-flight');
     }
 
-    public function package(){
+    public function package()
+    {
         return view('client.packages.packages');
     }
 
@@ -89,10 +90,11 @@ class PageController extends Controller
         return view('client.pictorios.theaberdarecountryclub');
     }
 
-    public function bookPackage(Request $request)
+    public function bookPackage(BookRequest $request)
     {
+        return $request;
         $bookData = $request->all();
-           Mail::to("info@tavaratoursandtravel.com")
+        Mail::to("info@tavaratoursandtravel.com")
             ->cc("benerd@tavaratoursandtravel.com")
             ->bcc("Kimunto@tavaratoursandtravel.com")
 

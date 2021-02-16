@@ -76,7 +76,7 @@
                                 </div>
                                 <div class="tab-pane fade" id="tab5primary">
                                     <div>
-                                        @include("includes.book",["tour" =>"3 Days Luxury Lodge Safari Samburu National
+                                        @livewire("includes.book",["tour" =>"3 Days Luxury Lodge Safari Samburu National
                                         Reserve"])
                                     </div>
                                 </div>

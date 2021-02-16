@@ -3,12 +3,12 @@
             padding: 0px;
             margin: 0px;
         }
-        
+
         .nav-design-tab li {
             text-decoration: none;
             list-style: none;
         }
-        
+
         .nav-design-tab li a {
             color: black;
             margin: 1px;
@@ -24,12 +24,12 @@
     color: #cccccc;
     font-weight: bold;
 } */
-        
+
         .nav-design-tab li a:hover {
             color: #cccccc;
             background-color: rgb(116, 142, 199);
         }
-        
+
         @media(max-width:767px) {
             .nav-design-tab {
                 display: block;

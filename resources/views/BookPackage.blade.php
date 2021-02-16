@@ -319,22 +319,24 @@
         }
 
         .addInfo {
-            padding: 10px 3px 3px 10px ;
+            padding: 10px 3px 3px 10px;
         }
-        .addInfo .addInfoTitle{
-            font-size: 16px ;
-            font-style: normal ;
-            font-weight: bold ;
-            text-align: center ;
-            color: black ;
+
+        .addInfo .addInfoTitle {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: bold;
+            text-align: center;
+            color: black;
 
         }
-        .addInfo .addInfoDescription{
+
+        .addInfo .addInfoDescription {
             color: #000;
-            padding: 10px 3px 3px 10px ;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+            padding: 10px 3px 3px 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-            text-align: justify ;
+            text-align: justify;
         }
 
 
@@ -360,7 +362,8 @@
                         <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                             <tr>
                                 <td class="logo" style="text-align: center;">
-                                    <h1 style="text-align: center;" ><a href="{{ config('app.url') }}">{{ config('app.name') }}</a></h1>
+                                    <h1 style="text-align: center;"><a
+                                            href="{{ config('app.url') }}">{{ config('app.name') }}</a></h1>
                                 </td>
                             </tr>
                         </table>
@@ -384,6 +387,8 @@
                                         <th>Phone</th>
                                         <th>Adults</th>
                                         <th>Children</th>
+                                        <th>Start Date</th>
+                                        <th>End Date</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -393,6 +398,8 @@
                                         <td>{{ $data['phone'] }} </td>
                                         <td>{{ $data['adult'] }}</td>
                                         <td>{{ $data['child'] }}</td>
+                                        <td>{{ $data['startDate'] }}</td>
+                                        <td>{{ $data['endDate'] }}</td>
                                     </tr>
 
 
@@ -467,7 +474,7 @@
                 <tr>
                     <td class="bg_light" style="text-align: center;">
 
-                            © {{ date('Y') }} {{ config('app.name') }}. @lang('All rights reserved.')
+                        © {{ date('Y') }} {{ config('app.name') }}. @lang('All rights reserved.')
 
                     </td>
                 </tr>
