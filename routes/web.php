@@ -20,6 +20,8 @@ Route::get('/theark', [PageController::class, 'theark'])->name('theark');
 Route::get('maracamp', [PageController::class, 'maraleisurecamp'])->name('maracamp');
 Route::get('aberdareclub', [PageController::class, 'theaberdareclub'])->name('aberdareclub');
 Route::get('/maraflight', [PageController::class, 'maraflight'])->name('maraflight');
+
+Route::get('/package',[PageController::class,'package'])->name('packages');
 Route::get('/three-days-luxury-lodge-safari-Amboseli-National-Park', [PageController::class, 'threeDaysLuxuryLodgeSafariAmboseli'])->name('three-days-luxury-lodge-safari-Amboseli');
 Route::get('/three-days-luxury-lodge-safari-Samburu-National-Park', [PageController::class, 'threedaysLuxuryLodgeSafariSamburuNationalPark'])->name('Samburu-National-Park');
 Route::get('/four-days-luxury-lodge-safari-Lake-Nakuru-and-Masai-Mara', [PageController::class, 'fourDaysSafariLakeNakuruAndMasaiMara'])->name('safari-Lake-Nakuru-and-Masai-Mara');
@@ -30,4 +32,6 @@ Route::get('/seven-Days-Luxury-lodge-Amboseli-OlPejeta-Nakuru-MasaiMara', [PageC
 Route::get('/aberdares-OlPejeta-lake-Nakuru-MasaiMara', [PageController::class, 'aberdaresOlpejetaNakuruMasaiMara'])->name('aberdaresOlpejetaNakuruMasaiMara');
 Route::get('/best-of-the-northern-and-sourthern-circuit', [PageController::class, 'bestOfTheNorthernAndSourthenCircuit'])->name('bestOfTheNorthernAndSourthenCircuit');
 Route::get('samburu-Nakuru-MasaiMara-Naivasha-Amboseli-TsavoWest', [PageController::class, 'samburuNakuruMasaiMaraNaivashaAmboseliTsavoWest'])->name('samburuNakuruMasaiMaraNaivashaAmboseliTsavoWest');
+
+
 Route::post('book-now', [PageController::class, 'bookPackage'])->name('book-package');

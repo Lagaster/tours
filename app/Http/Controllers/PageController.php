@@ -18,6 +18,11 @@ class PageController extends Controller
     {
         return view('client.packages.masai-mara-flight');
     }
+
+    public function package(){
+        return view('client.packages.packages');
+    }
+
     public function threeDaysLuxuryLodgeSafariAmboseli()
     {
         # code...
