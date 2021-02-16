@@ -78,6 +78,9 @@
                 <input id="endDate" wire:model="endDate"
                     class="form-control @error('endDate')  border-danger   @enderror" type="date"
                     value="{{ old('endDate') }}" name="endDate">
+                @error('endDate')
+                    <span class="text text-danger"> {{ $message }} </span>
+                @enderror
             </div>
         </div>
 

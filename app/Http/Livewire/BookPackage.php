@@ -4,6 +4,8 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 use App\Mail\BookPackage as MailBookPackage;
+use App\Rules\FutureDate;
+use App\Rules\previousDate;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Session;
 
@@ -21,10 +23,10 @@ class BookPackage extends Component
             'phone' => "required|alpha_num|min:10",
             'tour' => "required|string",
             'description' => "nullable",
-            'adult' => "required|numeric",
-            'child' => "required|numeric",
-            'startDate' => "required|date",
-            'endDate' => "required|date"
+            'adult' => "required|numeric|min:0",
+            'child' => "required|numeric|min:0",
+            'startDate' => ['required', 'date',  new previousDate()],
+            'endDate' => ['required', 'date',  new previousDate(), new FutureDate($this->startDate)],
         ]);
 
         $bookData = [
