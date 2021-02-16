@@ -75,7 +75,7 @@
                                 </div>
                                 <div class="tab-pane fade" id="tab5primary">
                                     <div>
-                                        @livewire("includes.book",["tour" =>"08 days Best of the Northern and Southern
+                                        @livewire('book-package',["tour" =>"08 days Best of the Northern and Southern
                                         Circuit"])
                                     </div>
                                 </div>

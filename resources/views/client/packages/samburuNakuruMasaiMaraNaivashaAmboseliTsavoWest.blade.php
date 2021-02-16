@@ -83,7 +83,7 @@
                                 </div>
                                 <div class="tab-pane fade" id="tab5primary">
                                     <div>
-                                        @livewire("includes.book",["tour" =>"12 days Luxury Lodge Samburu-Lake Nakuru-Masai
+                                        @livewire('book-package',["tour" =>"12 days Luxury Lodge Samburu-Lake Nakuru-Masai
                                         Mara-Lake Naivasha-Amboseli-Tsavo West"])
                                     </div>
                                 </div>
