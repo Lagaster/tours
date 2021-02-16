@@ -379,12 +379,20 @@
                                     </div>
                                 </td>
                             </tr>
+                            <tr>
+                                <td style="padding-left: 20px; color:black;">
+                                    <div>From:  {{ $data['first'] }} {{ $data['second'] }}</div>
+                                    <div>Phone Number:  {{ $data['phone'] }}</div> <br>
+                                </td>
+
+
+                            </tr>
                             <table class="table-data">
                                 <thead class="thead-light">
                                     <tr>
-                                        <th>First Name</th>
+                                        {{-- <th>First Name</th>
                                         <th>Last Name</th>
-                                        <th>Phone</th>
+                                        <th>Phone</th> --}}
                                         <th>Adults</th>
                                         <th>Children</th>
                                         <th>Start Date</th>
@@ -393,9 +401,9 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>{{ $data['first'] }} </td>
+                                        {{-- <td>{{ $data['first'] }} </td>
                                         <td>{{ $data['second'] }}</td>
-                                        <td>{{ $data['phone'] }} </td>
+                                        <td>{{ $data['phone'] }} </td> --}}
                                         <td>{{ $data['adult'] }}</td>
                                         <td>{{ $data['child'] }}</td>
                                         <td>{{ $data['startDate'] }}</td>

@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="{{ asset('/assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/custome.css') }}">
     @livewireStyles
+    <livewire:styles>
 
 </head>
 
@@ -92,6 +93,7 @@
 
     </script>
     @livewireScripts
+    <livewire:scripts>
 </body>
 
 
