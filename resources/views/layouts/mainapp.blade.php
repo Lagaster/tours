@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Travelo</title>
-    <meta name="description" content="">
+    <title>Tavara Tours And Travel</title>
+    <meta name="description" content="Best Tour guide in Kenya">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
 
     <link rel="stylesheet" href="{{ asset('/assets/css/bootstrap.min.css') }}">
@@ -37,7 +37,7 @@
 
     @yield('content')
 
-   @include('includes.footer')
+    @include('includes.footer')
 
 
     <script src="{{ asset('assets/s/vendor/modernizr-3.5.0.min.js') }}j"></script>

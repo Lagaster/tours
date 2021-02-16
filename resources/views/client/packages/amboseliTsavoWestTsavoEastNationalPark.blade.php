@@ -10,93 +10,92 @@
     </div>
     <div class="destination_details_info">
         <div class="container">
-            <div class="row ">
-                <div class="col-lg-6 col-md-6">
-                    <div class="destination_info">
-                        <h4>Day 1: Nairobi – Amboseli National Park</h4>
-                        <p style="text-align: justify;">Pick up from Ibis Styles hotel and drive through the Masai land to
-                            Amboseli national Park. You will arrive in time for lunch at the Amboseli Serena or Old Tukai
-                            lodge. you will have some rest in reading for the afternoon game drive that starts at 1600hrs.
-                            later dive back to the lodge for the dinner and overnight.</p>
-                        <div class="single_destination">
-                            <h4>Day 2: Amboseli National Park </h4>
-                            <p style="text-align: justify;">Full day spent on Elephant Trail Safari in Kenya at the Amboseli
-                                national Park with morning and evening game drive. located at the foot of Kilimanjaro, the
-                                park as many animals and the fact that it is a plain makes the sighting much easier. on a
-                                clear day, you will be able to see the tallest mountain in Africa, The Mt. Kilimanjaro. All
-                                meals on this day of Elephant Trail Safari in Kenya will be at Amboseli Serena lodge or Ol
-                                Tukai lodge. </p>
+
+
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="panel with-nav-tabs panel-primary">
+                        <div class="panel-heading row">
+                            <ul class="nav nav-tabs col-12">
+                                <li class="px-4 py-3 text-center active text "><a href="#tab1primary"
+                                        data-toggle="tab">Highlights</a>
+                                </li>
+                                <li class="px-4 py-3 text-center text "><a href="#tab2primary"
+                                        data-toggle="tab">Itinenary</a></li>
+                                <li class="px-4 py-3 text-center text "><a href="#tab3primary"
+                                        data-toggle="tab">Includes/Exludes
+                                    </a></li>
+                                <li class="px-4 py-3 text-center text "><a href="#tab4primary" data-toggle="tab">Map
+                                    </a></li>
+
+                                <li class="px-4 py-3 text-center text "><a href="#tab5primary" data-toggle="tab">Book Now
+                                    </a></li>
+
+
+                            </ul>
                         </div>
-                        <div class="single_destination">
-                            <h4>Day 3: Amboseli – Tsavo West National Park </h4>
-                            <p style="text-align: justify;">The day on Elephant trail Safari in Kenya will start with early
-                                morning game drive that will be followed by breakfast. You will than depart for Tsavo West
-                                National park. Also referred to as the land of many eaters, Tsavo west is well known for
-                                lions
-                                that terrorized railway workers in the 1890s nearly halting the construction of Kenya -
-                                Uganda
-                                Railway line. You arrive at the Kilaguni Serena Lodge in time for lunch. at 1600hrs, enjoy
-                                afternoon game drive on this day of Elephant Trail Safari in Kenya within the park to
-                                introduce
-                                the game in the area. Dinna and Overnight at Kilaguni Serena Lodge.
-                            </p>
+                        <div class="panel-body">
+                            <div class="tab-content">
+                                <div class="tab-pane fade in active" id="tab1primary">Primary 1</div>
+                                <div class="tab-pane fade" id="tab2primary">
+                                    @include("client.packages.itinenarys.amboseliTsavoWestTsavoEastNationalPark")
+                                </div>
+                                <div class="tab-pane fade" id="tab3primary">
+                                    <div class="row">
+                                        <div class="single_destination col-6 ">
+                                            <h4>Cost inclusive of:</h4>
+                                            <ol>
+                                                <li>Transport in 4 * 4 land cruiser with hatch roof</li>
+                                                <li>Pickup from and to the airport</li>
+                                                <li>Accommodation as per itinerary</li>
+                                                <li>All meals (B L D)</li>
+                                                <li>Services of our professional Guide / Drive</li>
+                                                <li>All Pack Entrance fees</li>
+                                                <li>All game drives</li>
+                                                <li>Statutory taxes</li>
+                                            </ol>
+                                        </div>
+
+                                        <div class="single-destination col-6 ">
+                                            <h4>Cost not inclusive of:</h4>
+                                            <ol>
+                                                <li>Personal insurance</li>
+                                                <li>Items of personal nature</li>
+                                                <li>Alcoholic & soft drinks like sodas</li>
+                                                <li>Balloon Safari</li>
+                                                <li>Masai Village</li>
+                                                <li>Visa</li>
+                                                <li>Tips</li>
+                                            </ol>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="tab-pane fade" id="tab4primary">
+                                    <img class="img-fluid" src="{{ asset('assets/client/img/map.jpg') }}" alt="Tour Map">
+                                </div>
+                                <div class="tab-pane fade" id="tab5primary">
+                                    <div>
+                                        @include("includes.book",["tour" =>"5 Days Luxury Lodge Safari Amboseli Tsavo West
+                                        And Tsavo East National Parks"])
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
 
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="single_destination">
-                        <h4>Day 4 Tsavo West – Tsavo East National Park</h4>
-                        <p style="text-align: justify;">You will have an early morning game drive at Elephant Trail Safari
-                            in Kenya. the elephant of this area have a difference appearance, brown in color, because of the
-                            soil of this area, followed by breakfast after which you will depart for Tsavo East National
-                            Park. You will arrive in time for lunch at the Ashnil Luxury Tented Camp. After a short rest at
-                            Elephant Trail Safari in Kenya you will go for afternoon game drive at 1600hrs before you return
-                            back to the lodge for Dinna and overnight.
-                        </p>
-                    </div>
-                    <div class="single_destination">
-                        <h4>Day 5: Tsavo East – Mombasa / Nairobi </h4>
-                        <p style="text-align: justify;">An early morning game drive will mark the climax of your Elephant
-                            Trail Safari in Kenya. this will be followed by breakfast and depart for Mombasa or back to
-                            Nairobi. you can opt to fly back home or drive back to Nairobi to be dropped off at the airport
-                            or your Nairobi hotel.
-                        </p>
-                    </div>
-
-
-
-                    <div class="single_destination">
-                        <h4>Cost inclusive of:</h4>
-                        <ol>
-                            <li>Transport in 4 * 4 land cruiser with hatch roof</li>
-                            <li>Pickup from and to the airport</li>
-                            <li>Accommodation as per itinerary</li>
-                            <li>All meals (B L D)</li>
-                            <li>Services of our professional Guide / Drive</li>
-                            <li>All Pack Entrance fees</li>
-                            <li>All game drives</li>
-                            <li>Statutory taxes</li>
-
-                        </ol>
-
-                    </div>
-                    <div class="single-destination">
-                        <h4>Cost not inclusive of:</h4>
-                        <ol>
-                            <li>Personal insurance</li>
-                            <li>Items of personal nature</li>
-                            <li>Alcoholic & soft drinks like sodas</li>
-                            <li>Balloon Safari</li>
-                            <li>Masai Village</li>
-                            <li>Visa</li>
-                            <li>Tips</li>
-                        </ol>
-                    </div>
                 </div>
             </div>
+
+
+
+
         </div>
+    </div>
+
     </div>
 
 

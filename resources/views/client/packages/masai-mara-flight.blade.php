@@ -3,184 +3,98 @@
 @section('content')
 
     <div class="destination_banner_wrap overlay">
-        <div class="destination_text text-center">
+        <div class="text-center destination_text">
             <h3>3 Days Masai Mara</h3>
             <p>Flight and Luxury Safari Package</p>
         </div>
     </div>
     <div class="destination_details_info">
         <div class="container">
-            <div class="row ">
-                <div class="col-lg-6 col-md-6">
-                    <div class="destination_info">
-                        <h4>Day 1: Nairobi to Maasai Mara Gae Reserve</h4>
-                        <p  style="text-align: justify;"  >We’ll pick you up from the Sarova Stanley hotel in the morning and transfer you to the Airport
-                            for your scheduled flight to Masai Mara reserve.
-                            During your flight, you will be delighted in the view of scenic geological occurrence that
-                            includes the sights of the Great Rift Valley. You will be arriving at the Masai Mara airstrip at
-                            approximately after an hour.
-                            On arrival you will be met by your host driver guide. After meet and greet, you will proceed for
-                            a host game viewing en-route to your lodge. After which you will check-in and enjoy your lunch.
-                            Your intensive game drive is scheduled in the afternoon. Wildlife is abundant in Masai Mara with
-                            the chances of spotting the big five game almost guaranteed.
-                            Accommodation: Mara Intrepid Luxury camp.</p>
-                        <div class="single_destination">
-                            <h4>Day 2: Maasai Mara full day</h4>
-                            <p style="text-align: justify;" >Masai Mara Game Reserve greenery rolling savanna plains is appealing.
-                                Three extensive game drives are scheduled for you. You will be amazed by
-                                the concentration of wildlife in this game reserve than any other park in the region.
-                                Get a glimpse of lion, elephant, buffalo, leopard, cheetah, wildebeests,
-                                hyenas and other plain game roaming free. With your packed lunch boxes, spend
-                                some time by the Mara river enjoying the wild beast river crossing or even
-                                watching hippos and crocodiles. Discover the wonders in African wildlife viewing
-                                as you witness the annual, migration, a phenomenon which attract thousands of
-                                visitors yearly between July and September. Masai Mara is also a bird watchers
-                                paradise as over 400 species have been recorded here. Later, drive back to the
-                                Mara intrepid Luxury camp for dinner and overnight stay.</p>
+
+
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="panel with-nav-tabs panel-primary">
+                        <div class="panel-heading row">
+                            <ul class="nav nav-tabs col-12">
+                                <li class="px-4 py-3 text-center active text "><a href="#tab1primary"
+                                        data-toggle="tab">Highlights</a>
+                                </li>
+                                <li class="px-4 py-3 text-center text "><a href="#tab2primary"
+                                        data-toggle="tab">Itinenary</a></li>
+                                <li class="px-4 py-3 text-center text "><a href="#tab3primary"
+                                        data-toggle="tab">Includes/Exludes
+                                    </a></li>
+                                <li class="px-4 py-3 text-center text "><a href="#tab4primary" data-toggle="tab">Map
+                                    </a></li>
+
+                                <li class="px-4 py-3 text-center text "><a href="#tab5primary" data-toggle="tab">Book Now
+                                    </a></li>
+
+
+                            </ul>
+                        </div>
+                        <div class="panel-body">
+                            <div class="tab-content">
+                                <div class="tab-pane fade in active" id="tab1primary">Primary 1</div>
+                                <div class="tab-pane fade" id="tab2primary">
+                                    @include("client.packages.itinenarys.masai-mara-flight")
+                                </div>
+                                <div class="tab-pane fade" id="tab3primary">
+                                    <div class="row">
+                                        <div class="single_destination col-6 ">
+                                            <h4>Cost inclusive of:</h4>
+                                            <ol>
+                                                <li>Parking entrance fees</li>
+                                                <li>4X4 land cruiser for your game drives</li>
+                                                <li>All meals at the lodge</li>
+                                                <li>2 litres of water per day per person</li>
+                                                <li> All transfers from the airport and hotel and back</li>
+
+                                            </ol>
+
+                                        </div>
+
+                                        <div class="single-destination col-6 ">
+                                            <h4>Cost not inclusive of:</h4>
+                                            <ol>
+                                                <li>Alcoholic and soft drinks</li>
+                                                <li>Masai village -$30</li>
+                                                <li>Balloon ride -$450</li>
+                                                <li>Tips</li>
+                                                <li>Personal items</li>
+                                            </ol>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="tab-pane fade" id="tab4primary">
+                                    <img class="img-fluid" src="{{ asset('assets/client/img/map.jpg') }}" alt="Tour Map">
+                                </div>
+                                <div class="tab-pane fade" id="tab5primary">
+                                    <div>
+                                        @include("includes.book",["tour" =>"3 Days Masai Mara Flight And Luxury Safari
+                                        Package"])
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
                 </div>
-                <div class="col-lg-6 col-md-6">
-
-
-                    <div class="single_destination">
-                        <h4>Day 3: Masai Mara Nairobi</h4>
-                        <p style="text-align: justify;" >Game drive will start before sunrise. Follow the animal trials and catch up with the early
-                            grazers and predators. During these early hours of the day, wild animals are actively seen
-                            in large number. Return to your luxury tented camp for breakfast. After breakfast you can
-                            opt to spare some time to visit one of the nearby local Masai village and sable their
-                            lifestyle.
-                            Return to your luxury camp for lunch. After lunch check-out and transfer to the air strip
-                            for your scheduled flight to Nairobi. Flight from Masai Mara and land a Wilson Airport,
-                            where you will meet our driver for the transfer to your hotel.
-                        </p>
-                    </div>
-
-                    <div class="single_destination">
-                        <h4>Cost inclusive of:</h4>
-                        <ol>
-                            <li>Parking entrance fees</li>
-                            <li>4X4 land cruiser for your game drives</li>
-                            <li>All meals at the lodge</li>
-                            <li>2 litres of water per day per person</li>
-                            <li> All transfers from the airport and hotel and back</li>
-
-                        </ol>
-
-                    </div>
-                    <div class="single-destination">
-                        <h4>Cost not inclusive of:</h4>
-                        <ol>
-                            <li>Alcoholic and soft drinks</li>
-                            <li>Masai village -$30</li>
-                            <li>Balloon ride -$450</li>
-                            <li>Tips</li>
-                            <li>Personal items</li>
-                        </ol>
-                    </div>
-                </div>
             </div>
+
+
+
+
         </div>
     </div>
 
+    </div>
 
-    {{--  <div class="popular_places_area">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="section_title text-center mb_70">
-                        <h3>More Places</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_place">
-                        <div class="thumb">
-                            <img src="img/place/1.png" alt="">
-                            <a href="#" class="prise">$500</a>
-                        </div>
-                        <div class="place_info">
-                            <a href="#">
-                                <h3>California</h3>
-                            </a>
-                            <p>United State of America</p>
-                            <div class="rating_days d-flex justify-content-between">
-                                <span class="d-flex justify-content-center align-items-center">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <a href="#">(20 Review)</a>
-                                </span>
-                                <div class="days">
-                                    <i class="fa fa-clock-o"></i>
-                                    <a href="#">5 Days</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_place">
-                        <div class="thumb">
-                            <img src="img/place/2.png" alt="">
-                            <a href="#" class="prise">$500</a>
-                        </div>
-                        <div class="place_info">
-                            <a href="#">
-                                <h3>Korola Megna</h3>
-                            </a>
-                            <p>United State of America</p>
-                            <div class="rating_days d-flex justify-content-between">
-                                <span class="d-flex justify-content-center align-items-center">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <a href="#">(20 Review)</a>
-                                </span>
-                                <div class="days">
-                                    <i class="fa fa-clock-o"></i>
-                                    <a href="#">5 Days</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_place">
-                        <div class="thumb">
-                            <img src="img/place/3.png" alt="">
-                            <a href="#" class="prise">$500</a>
-                        </div>
-                        <div class="place_info">
-                            <a href="#">
-                                <h3>London</h3>
-                            </a>
-                            <p>United State of America</p>
-                            <div class="rating_days d-flex justify-content-between">
-                                <span class="d-flex justify-content-center align-items-center">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <a href="#">(20 Review)</a>
-                                </span>
-                                <div class="days">
-                                    <i class="fa fa-clock-o"></i>
-                                    <a href="#">5 Days</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>  --}}
+
 
 @endsection

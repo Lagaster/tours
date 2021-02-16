@@ -4,73 +4,103 @@
 
     <div class="destination_banner_wrap overlay">
         <div class="text-center destination_text">
-            <h3>03 DaysAmboseli National Park</h3>
+            <h3>03 Days Amboseli National Park</h3>
             <p> Luxury lodge Safari Package</p>
         </div>
     </div>
     <div class="destination_details_info">
         <div class="container">
-            <div class="row ">
-                <div class="col-lg-6 col-md-6">
-                    <div class="destination_info">
-                        <h4 class="text text-capitalize">Day 1: Nairobi – Amboseli</h4>
-                        <p style="text-align: justify;">Drive to Amboseli National Park. Game viewing en route to your lodge
-                            arriving in time for lunch. Afternoon game drive till late in the evening and later, dinner and
-                            overnight at Amboseli Serena Lodge.</p>
-                        <div class="single_destination">
-                            <h4 class="text text-capitalize">Day 2: Amboseli full day </h4>
-                            <p style="text-align: justify;">MFull day in Amboseli with game drivers in the morning and
-                                afternoon. All meals and overnight at Amboseli Serena Lodge
-                                Optional visit to a local Maasai village for a cultural tour: $25 per person</p>
+
+
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="panel with-nav-tabs panel-primary">
+                        <div class="panel-heading row">
+                            <ul class="nav nav-tabs col-12">
+                                <li class="px-4 py-3 text-center active text "><a href="#tab1primary"
+                                        data-toggle="tab">Highlights</a>
+                                </li>
+                                <li class="px-4 py-3 text-center text "><a href="#tab2primary"
+                                        data-toggle="tab">Itinenary</a></li>
+                                <li class="px-4 py-3 text-center text "><a href="#tab3primary"
+                                        data-toggle="tab">Includes/Exludes
+                                    </a></li>
+                                <li class="px-4 py-3 text-center text "><a href="#tab4primary" data-toggle="tab">Map
+                                    </a></li>
+
+                                <li class="px-4 py-3 text-center text "><a href="#tab5primary" data-toggle="tab">Book Now
+                                    </a></li>
+
+
+                            </ul>
                         </div>
-                        <div class="single_destination">
-                            <h4 class="text text-capitalize">Day 3. Amboseli -Nairobi</h4>
-                            <p style="text-align: justify;">Early morning game drive. After breakfast return to Nairobi
-                                (Optional lunch at the Carnivore Restaurant
-                            </p>
+                        <div class="panel-body">
+                            <div class="tab-content">
+                                <div class="tab-pane fade in active" id="tab1primary">Primary 1</div>
+                                <div class="tab-pane fade" id="tab2primary">
+                                    @include("client.packages.itinenarys.luxuryLodgeAmboseliNationalPark")
+                                </div>
+                                <div class="tab-pane fade" id="tab3primary">
+                                    <div class="row">
+                                        <div class="single_destination col-6 ">
+                                            <h4>Cost inclusive of:</h4>
+                                            <ol>
+                                                <li>Ground transport in a safari land cruiser with pop up roof for game
+                                                    viewing, photography and
+                                                    touring</li>
+                                                <li>Full board accommodation whilst on safari</li>
+                                                <li>Meal plan as described, B=Breakfast, L=Lunch and D=Dinner</li>
+                                                <li>Accommodation in double/twin/triple room sharing</li>
+                                                <li> All park entrance fees to include government taxes</li>
+                                                <li>Service of an English speaking professional driver/guide </li>
+                                                <li>Game drives as detailed in the itinerary</li>
+                                                <li>Start and end in Nairobi </li>
+                                                <li>Service of an English speaking professional driver/guide</li>
+                                                <li>Game drives as detailed in the itinerary</li>
+                                                <li>Start and end in Nairobi</li>
+                                            </ol>
+                                        </div>
+
+                                        <div class="single-destination col-6 ">
+                                            <h4>Cost not inclusive of:</h4>
+                                            <ol>
+                                                <li>Tips</li>
+                                                <li>Laundry</li>
+                                                <li>Drinks</li>
+                                                <li>International flights</li>
+                                                <li>Visas</li>
+                                                <li>Items of a personal nature</li>
+                                                <li>Optional activities and any other extras not detailed in the above
+                                                    itinerary</li>
+                                            </ol>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="tab-pane fade" id="tab4primary">
+                                    <img class="img-fluid" src="{{ asset('assets/client/img/map.jpg') }}" alt="Tour Map">
+                                </div>
+                                <div class="tab-pane fade" id="tab5primary">
+                                    <div>
+                                        @include("includes.book",["tour" =>"03 Days luxury Lodge Amboseli National Park"])
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                </div>
-                <div class="col-lg-6 col-md-6">
-
-
-
-
-                    <div class="single_destination">
-                        <h4>Cost inclusive of:</h4>
-                        <ol>
-                            <li>Ground transport in a safari land cruiser with pop up roof for game viewing, photography and
-                                touring</li>
-                            <li>Full board accommodation whilst on safari</li>
-                            <li>Meal plan as described, B=Breakfast, L=Lunch and D=Dinner</li>
-                            <li>Accommodation in double/twin/triple room sharing</li>
-                            <li> All park entrance fees to include government taxes</li>
-                            <li>Service of an English speaking professional driver/guide </li>
-                            <li>Game drives as detailed in the itinerary</li>
-                            <li>Start and end in Nairobi </li>
-                            <li>Service of an English speaking professional driver/guide</li>
-                            <li>Game drives as detailed in the itinerary</li>
-                            <li>Start and end in Nairobi</li>
-
-                        </ol>
-
-                    </div>
-                    <div class="single-destination">
-                        <h4>Cost not inclusive of:</h4>
-                        <ol>
-                            <li>Tips</li>
-                            <li>Laundry</li>
-                            <li>Drinks</li>
-                            <li>International flights</li>
-                            <li>Visas</li>
-                            <li>Items of a personal nature</li>
-                            <li>Optional activities and any other extras not detailed in the above itinerary</li>
-                        </ol>
-                    </div>
                 </div>
             </div>
+
+
+
+
         </div>
+    </div>
+
     </div>
 
 
