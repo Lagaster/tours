@@ -1,3 +1,4 @@
+
 <footer class="footer">
     <div class="footer_top">
         <div class="container">
@@ -13,10 +14,10 @@
                             <br>
                             Simco Plaza 5th Floor Suite
                             <br>
-                            <a href="#">+254 7 000 00 00 00</a> <br>
-                            <a href="mailto:info@safariadventureskenya.co.ke">info@safariadventureskenya.co.ke</a>
+                            <a href="#">+254 7 000 000</a> <br>
+                            <a href="mailto:info@tavaratoursandtravel.co.ke">info@tavaratoursandtravel.co.ke</a>
                         </p>
-                        {{--  <div class="socail_links">
+                        {{-- <div class="socail_links">
                             <ul>
                                 <li>
                                     <a href="#">
@@ -44,7 +45,7 @@
                                     </a>
                                 </li>
                             </ul>
-                        </div>  --}}
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-xl-2 col-md-6 col-lg-2">
@@ -128,7 +129,7 @@
                         <script>
                             document.write(new Date().getFullYear());
 
-                        </script> All rights reserved |Safari Adventures Kenya </a>
+                        </script> All rights reserved |Tavara Tours And Travel </a>
 
                     </p>
                 </div>

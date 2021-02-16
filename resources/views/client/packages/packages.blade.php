@@ -227,7 +227,7 @@
                 <div class="col-md-4">
                     <article class="blog_item">
                         <div class="blog_item_img">
-                            <a href="{{ route('maracamp') }}">
+                            <a href="{{ route('Samburu-National-Park') }}">
                                 <img class="card-img rounded-0"
                                     src="{{ asset('assets/client/img/pictorials/download (2).jpg') }}" alt="">
                             </a>
@@ -235,7 +235,7 @@
 
                         </div>
                         <div class="blog_details">
-                            <p> 3 Days Luxury Lodge Safari Samburu National Reserve...<a href="{{ route('maracamp') }}"
+                            <p> 3 Days Luxury Lodge Safari Samburu National Reserve...<a href="{{ route('Samburu-National-Park') }}"
                                     class="btn btn-sm ">Read more</a></p>
                         </div>
                     </article>

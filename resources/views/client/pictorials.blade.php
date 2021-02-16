@@ -53,7 +53,7 @@
 
                         </div>
                         <div class="blog_details">
-                            <a class="d-inline-block" href="single-blog.html">
+                            <a class="d-inline-block" href="{{ route('aberdareclub') }}">
                                 <h2>The Aberdare Country Club</h2>
                             </a>
                             <p>The Aberdare Country Club, only a three-hour drive heading northest from Nairobi, is
