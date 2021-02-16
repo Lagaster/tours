@@ -82,7 +82,7 @@
                                 </div>
                                 <div class="tab-pane fade" id="tab5primary">
                                     <div>
-                                        @include("includes.book",["tour" =>"7 Days Luxury Lodge Amboseli, OlPejeta,Lake
+                                        @livewire("includes.book",["tour" =>"7 Days Luxury Lodge Amboseli, OlPejeta,Lake
                                         Nakuru And Masai Mara"])
                                     </div>
                                 </div>

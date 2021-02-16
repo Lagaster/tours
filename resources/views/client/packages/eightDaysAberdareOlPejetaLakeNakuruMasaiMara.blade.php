@@ -74,7 +74,7 @@
                                 </div>
                                 <div class="tab-pane fade" id="tab5primary">
                                     <div>
-                                        @include("includes.book",["tour" =>"8 Days Luxury lodge Safari Aberdare Ol'Pejeta
+                                        @livewire("includes.book",["tour" =>"8 Days Luxury lodge Safari Aberdare Ol'Pejeta
                                         Lake Nakuru Masai Mara"])
                                     </div>
                                 </div>

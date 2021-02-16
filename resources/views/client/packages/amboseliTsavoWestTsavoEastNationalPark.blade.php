@@ -79,7 +79,7 @@
                                 </div>
                                 <div class="tab-pane fade" id="tab5primary">
                                     <div>
-                                        @include("includes.book",["tour" =>"5 Days Luxury Lodge Safari Amboseli Tsavo West
+                                        @livewire("includes.book",["tour" =>"5 Days Luxury Lodge Safari Amboseli Tsavo West
                                         And Tsavo East National Parks"])
                                     </div>
                                 </div>

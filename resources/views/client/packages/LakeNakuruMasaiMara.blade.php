@@ -74,7 +74,8 @@
                                 </div>
                                 <div class="tab-pane fade" id="tab5primary">
                                     <div>
-                                        @include("includes.book",["tour" =>"4 Days Luxury Lodge Safari Lake Nakuru And Masai
+                                        @livewire("includes.book",["tour" =>"4 Days Luxury Lodge Safari Lake Nakuru And
+                                        Masai
                                         Mara"])
                                     </div>
                                 </div>

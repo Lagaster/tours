@@ -26,11 +26,14 @@ class BookRequest extends FormRequest
         return [
             'first' => "required|string",
             'second' => "required|string",
-            'phone' => "required|alpha_num",
+            'phone' => "required|alpha_num|min:10",
             'tour' => "required|string",
             'description' => "nullable",
             'adult' => "required|numeric",
-            'child' => "required|numeric"
+            'child' => "required|numeric",
+            'startDate' => "required|date",
+            'endDate' => "required|date"
+
         ];
     }
 }
