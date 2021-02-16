@@ -17,7 +17,8 @@
 
                     <div class="panel with-nav-tabs panel-primary">
                         <div class="panel-heading row">
-                            <ul class="nav nav-tabs col-12">
+
+                            <ul class="nav nav-tabs col-12 nav-design-tab ">
                                 <li class="px-4 py-3 text-center active text "><a href="#tab1primary"
                                         data-toggle="tab">Highlights</a>
                                 </li>
@@ -43,7 +44,7 @@
                                 </div>
                                 <div class="tab-pane fade" id="tab3primary">
                                     <div class="row">
-                                        <div class="single_destination col-6 ">
+                                        <div class="single_destination col-md-6 ">
                                             <h4>Cost inclusive of:</h4>
                                             <ol>
                                                 <li>Transport in a 4 *4 land cruiser</li>
@@ -56,7 +57,7 @@
                                             </ol>
                                         </div>
 
-                                        <div class="single-destination col-6 ">
+                                        <div class="single-destination col-md-6 ">
                                             <h4>Cost not inclusive of:</h4>
                                             <ol>
                                                 <li>Alcoholic and soft drinks</li>

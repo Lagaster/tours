@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="bradcam_text text-center">
+                    <div class="text-center bradcam_text">
                         <h3>Packages</h3>
                         {{-- <p>Pixel perfect design with awesome contents</p> --}}
                     </div>
@@ -34,7 +34,7 @@
                         <div class="blog_details">
 
                             <p>3 Days Masai Mara Flight and Luxury Safari Package...<a href="{{ route('maraflight') }}"
-                                    class="btn btn-sm  ">Read more</a>
+                                    class="btn btn-sm ">Read more</a>
                             </p>
                         </div>
                     </article>
@@ -44,7 +44,7 @@
                     <article class="blog_item">
                         <div class="blog_item_img">
 
-                            <a  href="{{ route('three-days-luxury-lodge-safari-Amboseli') }}">
+                            <a href="{{ route('three-days-luxury-lodge-safari-Amboseli') }}">
                                 <img class="card-img rounded-0"
                                     src="{{ asset('assets/client/img/pictorials/Amboseli-National-Park.jpg') }}" alt="">
                             </a>
@@ -54,7 +54,8 @@
                         <div class="blog_details">
 
                             <p>3 Days Luxury Lodge Safari Amboseli National Park...
-                                <a  href="{{ route('three-days-luxury-lodge-safari-Amboseli') }}" class="btn btn-sm  ">Read more</a>
+                                <a href="{{ route('three-days-luxury-lodge-safari-Amboseli') }}" class="btn btn-sm ">Read
+                                    more</a>
                             </p>
                         </div>
                     </article>
@@ -71,8 +72,8 @@
 
                         </div>
                         <div class="blog_details">
-                            <p> 3 Days Luxury Lodge Safari Samburu National Reserve...<a href="{{ route('Samburu-National-Park') }}"
-                                    class="btn btn-sm  ">Read more</a></p>
+                            <p> 3 Days Luxury Lodge Safari Samburu National Reserve...<a
+                                    href="{{ route('Samburu-National-Park') }}" class="btn btn-sm ">Read more</a></p>
                         </div>
                     </article>
                 </div>
@@ -80,7 +81,7 @@
                 <div class="col-md-4">
                     <article class="blog_item">
                         <div class="blog_item_img">
-                            <a  href="{{ route('safari-Lake-Nakuru-and-Masai-Mara') }}">
+                            <a href="{{ route('safari-Lake-Nakuru-and-Masai-Mara') }}">
                                 <img class="card-img rounded-0"
                                     src="{{ asset('assets/client/img/pictorials/4-Days-Lake-Nakuru-Masai-Mara.jpg') }}"
                                     alt="">
@@ -89,8 +90,9 @@
 
                         </div>
                         <div class="blog_details">
-                            <p> 4 Days Luxury Lodge Safari Lake Nakuru And Masai Mara...<a  href="{{ route('safari-Lake-Nakuru-and-Masai-Mara') }}"
-                                    class="btn btn-sm  ">Read more</a></p>
+                            <p> 4 Days Luxury Lodge Safari Lake Nakuru And Masai Mara...<a
+                                    href="{{ route('safari-Lake-Nakuru-and-Masai-Mara') }}" class="btn btn-sm ">Read
+                                    more</a></p>
                         </div>
                     </article>
                 </div>
@@ -107,7 +109,7 @@
                         </div>
                         <div class="blog_details">
                             <p>5 Days Luxury Lodge Safari Amboseli/ Tsavo West And Tsavo East...<a
-                                    href="{{ route('AmboseliTsavoWestAndEast') }}" class="btn btn-sm  ">Read more</a></p>
+                                    href="{{ route('AmboseliTsavoWestAndEast') }}" class="btn btn-sm ">Read more</a></p>
                         </div>
                     </article>
                 </div>
@@ -124,7 +126,8 @@
                         </div>
                         <div class="blog_details">
                             <p>5 Days Aberdare/ Lake Nakuru/ Masai Mara Luxury Lodge Safari...<a
-                                    href="{{ route('aberdareLakeNakuruMasaiMara') }}" class="btn btn-sm  ">Read more</a></p>
+                                    href="{{ route('aberdareLakeNakuruMasaiMara') }}" class="btn btn-sm ">Read more</a>
+                            </p>
                         </div>
                     </article>
                 </div>
@@ -142,7 +145,8 @@
                         </div>
                         <div class="blog_details">
                             <p>7 Days Luxury Lodge Safari Masai Mara/ Lake Nakuru/ Naivasha/ Amboseli...<a
-                                    href="{{ route('masaiMaraLakeNakuruNaivashaAmboseli') }}" class="btn btn-sm  ">Read more</a></p>
+                                    href="{{ route('masaiMaraLakeNakuruNaivashaAmboseli') }}" class="btn btn-sm ">Read
+                                    more</a></p>
                         </div>
                     </article>
                 </div>
@@ -160,7 +164,8 @@
                         </div>
                         <div class="blog_details">
                             <p>7 Days Luxury Lodge Safari Amboseli/ Ol Pejeta/ Lake Nakuru Masai Mara...<a
-                                    href="{{ route('sevenDaysAmboseliOlPejetaNakuruMasaiMara') }}" class="btn btn-sm  ">Read more</a></p>
+                                    href="{{ route('sevenDaysAmboseliOlPejetaNakuruMasaiMara') }}"
+                                    class="btn btn-sm ">Read more</a></p>
                         </div>
                     </article>
                 </div>
@@ -177,7 +182,8 @@
                         </div>
                         <div class="blog_details">
                             <p>8 Days Luxury Lodge Safari Aberdare/ Ol Pejeta/ Lake Nakuru Masai Mara...<a
-                                    href="{{ route('aberdaresOlpejetaNakuruMasaiMara') }}" class="btn btn-sm  ">Read more</a></p>
+                                    href="{{ route('aberdaresOlpejetaNakuruMasaiMara') }}" class="btn btn-sm ">Read
+                                    more</a></p>
                         </div>
                     </article>
                 </div>
@@ -194,7 +200,8 @@
                         </div>
                         <div class="blog_details">
                             <p>8 Days Best Of The Northern And Southern Circuit Luxury Lodge Safari...<a
-                                    href="{{ route('bestOfTheNorthernAndSourthenCircuit') }}" class="btn btn-sm  ">Read more</a></p>
+                                    href="{{ route('bestOfTheNorthernAndSourthenCircuit') }}" class="btn btn-sm ">Read
+                                    more</a></p>
                         </div>
                     </article>
                 </div>
@@ -210,8 +217,9 @@
 
                         </div>
                         <div class="blog_details">
-                            <p>12 Days Samburu/ Lake Nakuru/ Masai Mara/ Lake Naivasha/ Amboseli/ Tsavo...<a
-                            a href="{{ route('samburuNakuruMasaiMaraNaivashaAmboseliTsavoWest') }}" class="btn btn-sm  ">Read more</a></p>
+                            <p>12 Days Samburu/ Lake Nakuru/ Masai Mara/ Lake Naivasha/ Amboseli/ Tsavo...<a a
+                                    href="{{ route('samburuNakuruMasaiMaraNaivashaAmboseliTsavoWest') }}"
+                                    class="btn btn-sm ">Read more</a></p>
                         </div>
                     </article>
                 </div>
@@ -228,7 +236,7 @@
                         </div>
                         <div class="blog_details">
                             <p> 3 Days Luxury Lodge Safari Samburu National Reserve...<a href="{{ route('maracamp') }}"
-                                    class="btn btn-sm  ">Read more</a></p>
+                                    class="btn btn-sm ">Read more</a></p>
                         </div>
                     </article>
                 </div>

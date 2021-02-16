@@ -43,7 +43,7 @@
                                 </div>
                                 <div class="tab-pane fade" id="tab3primary">
                                     <div class="row">
-                                        <div class="single_destination col-6 ">
+                                        <div class="single_destination col-md-6 ">
                                             <h4>Cost inclusive of:</h4>
                                             <ol>
                                                 <li>Ground transport in a safari land cruiser with pop up roof for game
@@ -62,7 +62,7 @@
                                             </ol>
                                         </div>
 
-                                        <div class="single-destination col-6 ">
+                                        <div class="single-destination col-md-6 ">
                                             <h4>Cost not inclusive of:</h4>
                                             <ol>
                                                 <li>Tips</li>
