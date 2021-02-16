@@ -76,8 +76,8 @@
                                 </div>
                                 <div class="tab-pane fade" id="tab5primary">
                                     <div>
-                                        @include("includes.book",["tour" =>"3 Days Masai Mara Flight And Luxury Safari
-                                        Package"])
+                                        @include("includes.book",["tour" =>"7 Days Luxury Lodge Safari Masai Mara ,Lake
+                                        Nakuru, Naivasha and Amboseli"])
                                     </div>
                                 </div>
                             </div>
