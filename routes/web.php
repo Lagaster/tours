@@ -32,9 +32,15 @@ Route::get('/seven-Days-Luxury-lodge-Amboseli-OlPejeta-Nakuru-MasaiMara', [PageC
 Route::get('/aberdares-OlPejeta-lake-Nakuru-MasaiMara', [PageController::class, 'aberdaresOlpejetaNakuruMasaiMara'])->name('aberdaresOlpejetaNakuruMasaiMara');
 Route::get('/best-of-the-northern-and-sourthern-circuit', [PageController::class, 'bestOfTheNorthernAndSourthenCircuit'])->name('bestOfTheNorthernAndSourthenCircuit');
 Route::get('samburu-Nakuru-MasaiMara-Naivasha-Amboseli-TsavoWest', [PageController::class, 'samburuNakuruMasaiMaraNaivashaAmboseliTsavoWest'])->name('samburuNakuruMasaiMaraNaivashaAmboseliTsavoWest');
-Route::get('mara-flight-adventure',[PageController::class, 'maraFlightAdventure'])->name("maraFlightAdventure");
-Route::get('masa-mara-samburu-fly',[PageController::class, 'masaiMaraSamburuFly'])->name("masaiMaraSamburuFly");
-Route::get('four-days-Tsavo-west-sarova-taita-Tsavo-east',[PageController::class, 'fourDaysTsavoWestSarovaTsavoEst'])->name("fourDaysTsavoWestSarovaTsavoEst");
+Route::get('mara-flight-adventure', [PageController::class, 'maraFlightAdventure'])->name("maraFlightAdventure");
+Route::get('masa-mara-samburu-fly', [PageController::class, 'masaiMaraSamburuFly'])->name("masaiMaraSamburuFly");
+Route::get('four-days-Tsavo-west-sarova-taita-Tsavo-east', [PageController::class, 'fourDaysTsavoWestSarovaTsavoEst'])->name("fourDaysTsavoWestSarovaTsavoEst");
+Route::get('experience-wonders-in-Mt-Kenya', [PageController::class, 'experienceWonderMtKenya'])->name("experienceWonderMtKenya");
+Route::get('lake-Nakuru-Amboseli', [PageController::class, 'lakeNakuruAmboseli'])->name("lakeNakuruAmboseli");
+Route::get('historical-Tour-Kenya', [PageController::class, 'historicalTourKenta'])->name('historicalTourKenta');
+Route::get('mount-kenya-treck', [PageController::class, 'mountKenyaTreck'])->name('mountKenyaTreck');
+Route::get('nairobi-national-park-and-animal-orphanage', [PageController::class, 'nairobiNationalPark'])->name('nairobiNationalPark');
+Route::get('days-tour', [PageController::class, 'daystour'])->name('daystour');
 
 
 Route::post('book-now', [PageController::class, 'bookPackage'])->name('book-package');

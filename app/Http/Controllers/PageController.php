@@ -80,14 +80,45 @@ class PageController extends Controller
     public function masaiMaraSamburuFly()
     {
         # code...
-        return view("client.packages.masaiMaraSamburu") ;
+        return view("client.packages.masaiMaraSamburu");
     }
 
     public function fourDaysTsavoWestSarovaTsavoEst()
     {
         # code...
-        return view('client.packages.fourDaysTsavoWestSarovaTaitaTsavoWest') ;
+        return view('client.packages.fourDaysTsavoWestSarovaTaitaTsavoWest');
     }
+    public function experienceWonderMtKenya()
+    {
+        # code...
+        return view("client.packages.experienceWonderMtKenya");
+    }
+    public function lakeNakuruAmboseli()
+    {
+        # code...
+        return view('client.packages.lakeNakuruAmboseli');
+    }
+    public function historicalTourKenta()
+    {
+        # code...
+        return view('client.packages.historicalTourKenta');
+    }
+    public function mountKenyaTreck()
+    {
+        # code...
+        return view('client.packages.mountKenyaTreck');
+    }
+    public function nairobiNationalPark()
+    {
+        return view('client.packages.nairobinationalparkandandanimalorphanage');
+    }
+
+    public function daystour()
+    {
+        # code...
+        return view('client.packages.daystour');
+    }
+
 
     public function pictorials()
     {
