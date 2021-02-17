@@ -72,6 +72,22 @@ class PageController extends Controller
         # code...
         return view('client.packages.samburuNakuruMasaiMaraNaivashaAmboseliTsavoWest');
     }
+    public function maraFlightAdventure()
+    {
+        # code...
+        return view('client.packages.maraFightAdventure');
+    }
+    public function masaiMaraSamburuFly()
+    {
+        # code...
+        return view("client.packages.masaiMaraSamburu") ;
+    }
+
+    public function fourDaysTsavoWestSarovaTsavoEst()
+    {
+        # code...
+        return view('client.packages.fourDaysTsavoWestSarovaTaitaTsavoWest') ;
+    }
 
     public function pictorials()
     {
