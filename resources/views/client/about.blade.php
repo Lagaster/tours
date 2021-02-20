@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="bradcam_text text-center">
-                        <h3>Pictorials</h3>
+                        <h3>About Us</h3>
                         {{-- <p>Pixel perfect design with awesome contents</p> --}}
                     </div>
                 </div>
@@ -28,9 +28,17 @@
                         environments, and activities.
 
                     </p>
+                    <div>
+                         <img height="100%" width="100%" src="{{ asset('assets/img/blog/theark.jpg') }}" alt="">
+                    </div>
+
                 </div>
+
                 <div class="col-md-6">
                     <h3></h3>
+                    <div>
+                        <img height="100%" width="100%" src="{{ asset('assets/img/blog/aberdarecountryclub.jpg') }}"
+                    </div>
                     <p>
                         Every trip is expertly planned by a vibrant team playing the role of a well-connected friend,
                         showing our clients the beauty of our motherland, Kenya. We want to be that reliable, responsive,

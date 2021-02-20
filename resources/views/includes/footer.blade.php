@@ -83,34 +83,26 @@
                         <div class="instagram_feed">
                             <div class="single_insta">
                                 <a href="#">
-                                    <img src="/assets/img/instagram/1.png" alt="">
+                                    <img  src="{{ asset('assets/img/blog/maaraleisurecamp.jpg') }}" alt="">
                                 </a>
                             </div>
                             <div class="single_insta">
                                 <a href="#">
-                                    <img src="/assets/img/instagram/2.png" alt="">
+                                    <img src="{{ asset('assets/img/blog/theark.jpg') }}" alt="">
+                                </a>
+                            </div>
+
+                            <div class="single_insta">
+                                <a href="#">
+                                    <img src="{{ asset('assets/img/blog/aberdarecountryclub.jpg') }}" alt="">
                                 </a>
                             </div>
                             <div class="single_insta">
                                 <a href="#">
-                                    <img src="/assets/img/instagram/3.png" alt="">
+                                    <img  src="{{ asset('assets/img/blog/maaraleisurecamp.jpg') }}" alt="">
                                 </a>
                             </div>
-                            <div class="single_insta">
-                                <a href="#">
-                                    <img src="img/instagram/4.png" alt="">
-                                </a>
-                            </div>
-                            <div class="single_insta">
-                                <a href="#">
-                                    <img src="img/instagram/5.png" alt="">
-                                </a>
-                            </div>
-                            <div class="single_insta">
-                                <a href="#">
-                                    <img src="img/instagram/6.png" alt="">
-                                </a>
-                            </div>
+
                         </div>
                     </div>
                 </div>

@@ -39,7 +39,7 @@
                 </div>
 
 
-
+{{--
                 <div class="col-md-4">
                     <article class="blog_item">
                         <div class="blog_item_img">
@@ -55,7 +55,7 @@
                                     more</a></p>
                         </div>
                     </article>
-                </div>
+                </div>  --}}
 
 
 

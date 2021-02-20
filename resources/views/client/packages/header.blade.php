@@ -20,16 +20,16 @@
 </div>  --}}
 <div>
     <ul class="nav nav-tabs" id="myTab" role="tablist"  >
-        <li class="nav-item" style="list-style: none;" >
-          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Highlights</a>
+        <li class="nav-item" style="list-style: none; border-bottom-color:yellow;border-bottom-style:solid; " >
+          <a class="nav-link active"  id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Highlights</a>
         </li>
-        <li class="nav-item" style="list-style: none;"  >
+        <li class="nav-item" style="list-style: none; border-bottom-color:yellow;border-bottom-style:solid;"  >
           <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Itinenary</a>
         </li>
-        <li class="nav-item" style="list-style: none;"  >
+        <li class="nav-item" style="list-style: none; border-bottom-color:yellow;border-bottom-style:solid;"  >
           <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Includes/Exludes</a>
         </li>
-        <li class="nav-item" style="list-style: none;"  >
+        <li class="nav-item" style="list-style: none; border-bottom-color:yellow;border-bottom-style:solid;"  >
             <a class="nav-link" id="fourth-tab" data-toggle="tab" href="#fouth" role="tab" aria-controls="fouth" aria-selected="false">Book Now</a>
           </li>
       </ul>

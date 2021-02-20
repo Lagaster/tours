@@ -656,6 +656,10 @@ h3 {
     top: 11px
 }
 
+.panel-body {
+    margin-top: 28px;
+}
+
 .slicknav_menu .slicknav_nav a:hover {
     background: 0 0;
     color: white
