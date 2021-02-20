@@ -4,8 +4,8 @@
 
     <div class="destination_banner_wrap overlay">
         <div class="text-center destination_text">
-            <h3>EXPERIENCE THE WONDER IN MT KENYA</h3>
-            <p>LUXURY SAFARI TOURS</p>
+            <h3>Experience The Wonder </h3>
+            <p>In MT KENYA</p>
         </div>
     </div>
     <div class="destination_details_info">
@@ -19,17 +19,17 @@
                         @include('client.packages.header')
                         <div class="panel-body">
                             <div class="tab-content">
-                                <div class="tab-pane fade in active" id="tab1primary">
+                                <div class="tab-pane fade in show active" id="home">
 
                                     Appreciate the picturesque beauty of the majestic, snowcapped Mt Kenya and the riverbank
                                     oasis of Samburu. The snow of Mt Kenya is a peculiar phenomenon, unexpected so close to
                                     the earth equator, yet vitally important to the local ecosystem, which includes the
                                     Samburu Wildlife Reserve.
                                 </div>
-                                <div class="tab-pane fade" id="tab2primary">
+                                <div class="tab-pane fade" id="profile">
                                     @include("client.packages.itinenarys.masai-mara-flight")
                                 </div>
-                                <div class="tab-pane fade" id="tab3primary">
+                                <div class="tab-pane fade" id="contact">
                                     <div class="row">
                                         <div class="single_destination col-md-6 ">
                                             <h4>Cost inclusive of:</h4>
@@ -59,10 +59,7 @@
 
 
                                 </div>
-                                <div class="tab-pane fade" id="tab4primary">
-                                    <img class="img-fluid" src="{{ asset('assets/client/img/map.jpg') }}" alt="Tour Map">
-                                </div>
-                                <div class="tab-pane fade" id="tab5primary">
+                                <div class="tab-pane fade" id="fouth">
                                     <div>
 
 

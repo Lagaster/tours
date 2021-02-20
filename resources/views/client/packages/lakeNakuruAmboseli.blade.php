@@ -5,7 +5,7 @@
     <div class="destination_banner_wrap overlay">
         <div class="text-center destination_text">
             <h3>Lake Nakuru Amboseli</h3>
-            <p>LUXURY SAFARI TOURS</p>
+            <p>TOUR</p>
         </div>
     </div>
     <div class="destination_details_info">
@@ -19,15 +19,15 @@
                         @include('client.packages.header')
                         <div class="panel-body">
                             <div class="tab-content">
-                                <div class="tab-pane fade in active" id="tab1primary">
+                                <div class="tab-pane fade in active" id="home">
                                     Lake Nakuru is one of Kenya’s smallest park and one of the best places to spot white
                                     rhinos. Amboseli is home to lots of elephants and Mount Kilimanjaro. Safari
                                     accommodation ranges from 5-star lodges to 4 star tented camps depending on your budget.
                                 </div>
-                                <div class="tab-pane fade" id="tab2primary">
+                                <div class="tab-pane fade" id="profile">
                                     @include("client.packages.itinenarys.lakeNakuruAmboseli")
                                 </div>
-                                <div class="tab-pane fade" id="tab3primary">
+                                <div class="tab-pane fade" id="contact">
                                     <div class="row">
                                         <div class="single_destination col-md-6 ">
                                             <h4>Cost inclusive of:</h4>
@@ -53,10 +53,7 @@
 
 
                                 </div>
-                                <div class="tab-pane fade" id="tab4primary">
-                                    <img class="img-fluid" src="{{ asset('assets/client/img/map.jpg') }}" alt="Tour Map">
-                                </div>
-                                <div class="tab-pane fade" id="tab5primary">
+                                <div class="tab-pane fade" id="fouth">
                                     <div>
 
 

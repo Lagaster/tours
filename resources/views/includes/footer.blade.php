@@ -69,7 +69,7 @@
                         <ul class="links double_links">
                             <li><a href="#">Amboseli</a></li>
                             <li><a href="#">Maasai Mara</a></li>
-                            <li><a href="">The Ark</a></li>
+                            <li><a href="#">The Ark</a></li>
                             <li><a href="#">Aberdare </a></li>
                             <li><a href="#">Mara Comp</a></li>
                         </ul>

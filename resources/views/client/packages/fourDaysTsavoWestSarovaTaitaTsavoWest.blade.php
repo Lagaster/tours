@@ -4,8 +4,8 @@
 
     <div class="destination_banner_wrap overlay">
         <div class="text-center destination_text">
-            <h3>4 DAYS TSAVO WEST – SAROVA TAITA – TSAVO EAST</h3>
-            <p>Luxury lodge Safari Package</p>
+            <h3>4 Days Tsavo West – Sarova Taita </h3>
+            <p> – Tsavo East</p>
         </div>
     </div>
     <div class="destination_details_info">
@@ -19,7 +19,7 @@
                         @include('client.packages.header')
                         <div class="panel-body">
                             <div class="tab-content">
-                                <div class="tab-pane fade in active" id="tab1primary">
+                                <div class="tab-pane fade in show active" id="home">
                                     Tsavo West’s broken volcanic hills sprouting the luscious Mzima springs are both
                                     serenading and enthralling, for this scenic beauty is a natural bathtub of hippos and
                                     crocodiles, as well as fish.
@@ -30,10 +30,10 @@
                                     friends on your return.
 
                                 </div>
-                                <div class="tab-pane fade" id="tab2primary">
+                                <div class="tab-pane fade" id="profile">
                                     @include('client.packages.itinenarys.fourDaysTsavoWestSarovaTaitaTsavoWest')
                                 </div>
-                                <div class="tab-pane fade" id="tab3primary">
+                                <div class="tab-pane fade" id="contact">
                                     <div class="row">
                                         <div class="single_destination col-md-6 ">
                                             <h4>Cost inclusive of:</h4>
@@ -62,10 +62,7 @@
 
 
                                 </div>
-                                <div class="tab-pane fade" id="tab4primary">
-                                    <img class="img-fluid" src="{{ asset('assets/client/img/map.jpg') }}" alt="Tour Map">
-                                </div>
-                                <div class="tab-pane fade" id="tab5primary">
+                                <div class="tab-pane fade" id="show">
                                     <div>
                                         @livewire('book-package',["tour" =>"4 DAYS TSAVO WEST – SAROVA TAITA – TSAVO EAST"])
                                     </div>

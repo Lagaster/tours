@@ -4,8 +4,8 @@
 
     <div class="destination_banner_wrap overlay">
         <div class="text-center destination_text">
-            <h3>Fly In Mara</h3>
-            <p>LUXURY SAFARI TOURS</p>
+            <h3>Fly-In Mara</h3>
+            <p>ADVENTURE</p>
         </div>
     </div>
     <div class="destination_details_info">
@@ -15,19 +15,21 @@
             <div class="row">
                 <div class="col-md-12">
 
+
+
                     <div class="panel with-nav-tabs panel-primary">
                         @include('client.packages.header')
                         <div class="panel-body">
                             <div class="tab-content">
-                                <div class="tab-pane fade in active" id="tab1primary">
+                                <div class="tab-pane fade in show" id="home">
                                     Ashnil Mara Camp is luxurious with 40 luxury tents which is
                                     in the Masai Mara National Reserve and close to the Mara River
                                     famous for the wildebeest migration.
                                 </div>
-                                <div class="tab-pane fade" id="tab2primary">
+                                <div class="tab-pane fade" id="profile">
                                     @include("client.packages.itinenarys.masai-mara-flight")
                                 </div>
-                                <div class="tab-pane fade" id="tab3primary">
+                                <div class="tab-pane fade" id="contact">
                                     <div class="row">
                                         <div class="single_destination col-md-6 ">
                                             <h4>Cost inclusive of:</h4>
@@ -63,10 +65,7 @@
 
 
                                 </div>
-                                <div class="tab-pane fade" id="tab4primary">
-                                    <img class="img-fluid" src="{{ asset('assets/client/img/map.jpg') }}" alt="Tour Map">
-                                </div>
-                                <div class="tab-pane fade" id="tab5primary">
+                                <div class="tab-pane fade" id="fouth">
                                     <div>
 
 

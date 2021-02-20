@@ -4,8 +4,8 @@
 
     <div class="destination_banner_wrap overlay">
         <div class="text-center destination_text">
-            <h3>NAIROBI NATIONAL PARK AND ANIMAL ORPHANAGE FAMILY FRIENDLY</h3>
-            <p>FAMILY TOURS</p>
+            <h3> Nairobi National Park And Animal Orphanage </h3>
+            <p>Family Friendly</p>
         </div>
     </div>
     <div class="destination_details_info">
@@ -19,19 +19,36 @@
                         @include('client.packages.header')
                         <div class="panel-body">
                             <div class="tab-content">
-                                <div class="tab-pane fade in active" id="tab1primary">
-                                    Family tours carry memories that last a lifetime, because not only does the family get
-                                    to enjoy a fantastic tour but they also get to create memories with each other. Spending
-                                    time with family strengthens the bond between them. Nairobi national park is one of the
-                                    very few parks located inside a city making it a unique park. Inside the park are large
-                                    and diverse wildlife population. Species found in the park include African buffaloes,
-                                    eastern black rhinoceros, African leopard, lion and many more. The Nairobi animal
-                                    orphanage is in the Nairobi national park. It serves as treatments and rehabilitation.
+                                <div class="tab-pane fade in show active" id="home">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p>Family tours carry memories that last a lifetime, because not only does the
+                                                family get
+                                                to enjoy a fantastic tour but they also get to create memories with each
+                                                other. Spending
+                                                time with family strengthens the bond between them. Nairobi national park is
+                                                one of the
+                                                very few parks located inside a city making it a unique park.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>
+                                                Inside the park are large
+                                                and diverse wildlife population. Species found in the park include African
+                                                buffaloes,
+                                                eastern black rhinoceros, African leopard, lion and many more. The Nairobi
+                                                animal
+                                                orphanage is in the Nairobi national park. It serves as treatments and
+                                                rehabilitation.</p>
+                                        </div>
+                                    </div>
+
+
                                 </div>
-                                <div class="tab-pane fade" id="tab2primary">
+                                <div class="tab-pane fade" id="profile">
                                     @include("client.packages.itinenarys.nairobinationalparkandandanimalorphanage")
                                 </div>
-                                <div class="tab-pane fade" id="tab3primary">
+                                <div class="tab-pane fade" id="contact">
                                     <div class="row">
                                         <div class="single_destination col-md-6 ">
                                             <h4>Cost inclusive of:</h4>
@@ -62,10 +79,7 @@
 
 
                                 </div>
-                                <div class="tab-pane fade" id="tab4primary">
-                                    <img class="img-fluid" src="{{ asset('assets/client/img/map.jpg') }}" alt="Tour Map">
-                                </div>
-                                <div class="tab-pane fade" id="tab5primary">
+                                <div class="tab-pane fade" id="fouth">
                                     <div>
 
 

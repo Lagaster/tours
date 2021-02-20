@@ -4,8 +4,8 @@
 
     <div class="destination_banner_wrap overlay">
         <div class="text-center destination_text">
-            <h3>Days Tour</h3>
-            <p>YOUTHFUL ADRENALINE TOURS</p>
+            <h3>Youthful Adrenaline Tours</h3>
+            <p></p>
         </div>
     </div>
     <div class="destination_details_info">
@@ -19,7 +19,7 @@
                         @include('client.packages.header')
                         <div class="panel-body">
                             <div class="tab-content">
-                                <div class="tab-pane fade in active" id="tab1primary">
+                                <div class="tab-pane fade in active" id="home">
                                     <ul class="list-group">
                                         <li class="list-group-item ">Kayaking, water gliding, plunging, lunch and entrance
                                             fee @Rapids Camp Sagana (5,500ksh)</li>
@@ -28,10 +28,10 @@
 
                                     </ul>
                                 </div>
-                                <div class="tab-pane fade" id="tab2primary">
+                                <div class="tab-pane fade" id="profile">
                                     {{-- @include("client.packages.itinenarys.mountKenyaTreck") --}}
                                 </div>
-                                <div class="tab-pane fade" id="tab3primary">
+                                <div class="tab-pane fade" id="contact">
                                     <div class="row">
                                         <div class="single_destination col-md-6 ">
                                             <h4>Cost inclusive of:</h4>
@@ -61,10 +61,7 @@
 
 
                                 </div>
-                                <div class="tab-pane fade" id="tab4primary">
-                                    <img class="img-fluid" src="{{ asset('assets/client/img/map.jpg') }}" alt="Tour Map">
-                                </div>
-                                <div class="tab-pane fade" id="tab5primary">
+                                <div class="tab-pane fade" id="fouth">
                                     <div>
 
 

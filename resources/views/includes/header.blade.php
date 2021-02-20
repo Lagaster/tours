@@ -18,7 +18,7 @@
                                     <li><a class="active" href="/"><b>HOME</b> </a></li>
                                     <li><a href="{{ route('about') }}"><b>ABOUT</b> </a></li>
                                     {{-- <li><a class="" href="#">Destination</a></l /li> --}}
-                                    <li><a href="{{ route('packages') }}"><b>PACKAGES</b> </a>
+                                    {{--  <li><a href="{{ route('packages') }}"><b>PACKAGES</b> </a>  --}}
                                         {{-- <ul class="submenu">
                                                 <li><a href="{{ route('maraflight') }}">3 Days Masai Mara Flight and
                                                         Luxury Safari Package.</a></a></li>

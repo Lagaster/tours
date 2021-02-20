@@ -5,7 +5,7 @@
     <div class="destination_banner_wrap overlay">
         <div class="text-center destination_text">
             <h3>MOUNT KENYA TREK</h3>
-            <p>Journey To Mount Kenya Luxury Safari Package</p>
+            <p></p>
         </div>
     </div>
     <div class="destination_details_info">
@@ -19,19 +19,21 @@
                         @include('client.packages.header')
                         <div class="panel-body">
                             <div class="tab-content">
-                                <div class="tab-pane fade in active" id="tab1primary">
+                                <div class="tab-pane fade in toggle-active" id="home">
                                     The Mount Kenya trek is a challenging and enjoyable journey to Mount Kenya’s highest
                                     trekking peak (Point Lenana) at 4985 meters. From the summit there is a beautiful view
                                     of the dramatic volcanic massif and the two main peaks of Batian and Nelion, as well as
-                                    long views over the central plains of Kenya. It has been a popular and incredibly
-                                    attractive hike through an ancient landscape dotted with glaciers, rock spires, high
-                                    tarns and some beautiful unique flora and fauna like the giant groundsels and the
-                                    odd-looking rock hyrax which has evolved from the elephant.
+                                    long views over the central plains of Kenya.
+                                    </p>
+                                    <p> It has been a popular and incredibly
+                                        attractive hike through an ancient landscape dotted with glaciers, rock spires, high
+                                        tarns and some beautiful unique flora and fauna like the giant groundsels and the
+                                        odd-looking rock hyrax which has evolved from the elephant.
                                 </div>
-                                <div class="tab-pane fade" id="tab2primary">
+                                <div class="tab-pane fade" id="profile">
                                     @include("client.packages.itinenarys.mountKenyaTreck")
                                 </div>
-                                <div class="tab-pane fade" id="tab3primary">
+                                <div class="tab-pane fade" id="contact">
                                     <div class="row">
                                         <div class="single_destination col-md-6 ">
                                             <h4>Cost inclusive of:</h4>
@@ -61,10 +63,7 @@
 
 
                                 </div>
-                                <div class="tab-pane fade" id="tab4primary">
-                                    <img class="img-fluid" src="{{ asset('assets/client/img/map.jpg') }}" alt="Tour Map">
-                                </div>
-                                <div class="tab-pane fade" id="tab5primary">
+                                <div class="tab-pane fade" id="fouth">
                                     <div>
 
 

@@ -13,7 +13,7 @@
                             <div class="text-center slider_text">
                                 <h3>Aberdare</h3>
                                 <p>Country Club</p>
-                                <a href="#" class="boxed-btn3">Explore Now</a>
+                                {{--  <a href="#" class="boxed-btn3">Explore Now</a>  --}}
                             </div>
                         </div>
                     </div>
@@ -26,7 +26,7 @@
                             <div class="text-center slider_text">
                                 <h3>Mara</h3>
                                 <p>Leisure camp</p>
-                                <a href="#" class="boxed-btn3">Explore Now</a>
+                                {{--  <a href="#" class="boxed-btn3">Explore Now</a>  --}}
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                             <div class="text-center slider_text">
                                 <h3>The Ark</h3>
                                 <p>Kenya</p>
-                                <a href="#" class="boxed-btn3">Explore Now</a>
+                                {{--  <a href="#" class="boxed-btn3">Explore Now</a>  --}}
                             </div>
                         </div>
                     </div>

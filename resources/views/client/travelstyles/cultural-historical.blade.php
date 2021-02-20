@@ -16,6 +16,46 @@
         </div>
     </div>
 
+    .<div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p>
+                    For a very long-time cultural tours have been transacted to tourists by being combined by other tours or
+                    shunned from. Lately we have seen that tourists who experience the local cultures of a destination get a
+                    more authentic experience and enjoy their tour more. Cultural tours in Kenya reflects the purest form of
+                    traditional cultures of the 42 tribes of Kenya.
+                </p>
+                <p>
+                    Although cultural visits are not all about visiting authentic remote villages, gastronomic tours (food)
+                    and historical visits at the destination are also part of what makes the culture of a destination. That
+                    is why as Tavara tours and travel we strive to show you all these aspects of culture in any destination
+                    you desire to visit. We try and create a cultural tour that meets your needs but also shows you an
+                    interesting blend of culture that is reflected in the architecture, food, art, clothing, history, and
+                    people.
+
+                </p>
+
+            </div>
+            <div class="col-md-6">
+                <p>
+                    You are welcomed into a traditional village or home to observe familial structure, meal preparation and
+                    ancient practices. In these tours you can see why buildings in a destination were built the way they
+                    were, what is the history behind those walls. These visits will make you understand the mystery and
+                    lifestyles of the people and tribes of Kenya.
+                </p>
+                <p>
+                    Intriguing tribes to visit in Kenya include Masai, Samburu, Turkana, Rendille, Pokot and El Molo, the
+                    smallest tribe in Kenya located at the shores of Turkana. The above tribe visits are more common because
+                    they have kept their traditions are still intact till date. We are flexible in these tours as the number
+                    of days to participate in them depends on which tribe, season, occasion, and distance from the starting
+                    point.
+
+                </p>
+            </div>
+        </div>
+
+    </div>
+
 
     <section class="blog_area section-padding">
         <div class="container">
@@ -27,105 +67,19 @@
                 <div class="col-md-4">
                     <article class="blog_item">
                         <div class="blog_item_img">
-                            <a href="{{ route('maraFlightAdventure') }}">
-                                <img class="card-img rounded-0"
-                                    src="{{ asset('assets\client\img\mara\conservancyimg3.jpg') }}"
-                                    alt="FLY-IN MARA ADVENTURE">
-                            </a>
-
-
-                        </div>
-                        <div class="blog_details">
-                            <p>FLY-IN MARA ADVENTURE...<a href="{{ route('maraFlightAdventure') }}"
-                                    class="btn btn-sm ">Read more</a></p>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="col-md-4">
-                    <article class="blog_item">
-                        <div class="blog_item_img">
-                            <a href="{{ route('masaiMaraSamburuFly') }}">
-                                <img class="card-img rounded-0"
-                                    src="{{ asset('assets\client\img\mara\Description-of-Masai-Mara-National-ReserveA.jpg') }}"
-                                    alt="Masai mara Samburu">
-                            </a>
-                        </div>
-                        <div class="blog_details">
-                            <p>Masai Mara Samburu fly...<a href="{{ route('masaiMaraSamburuFly') }}"
-                                    class="btn btn-sm ">Read more</a></p>
-                        </div>
-                    </article>
-                </div>
-
-
-                <div class="col-md-4">
-                    <article class="blog_item">
-                        <div class="blog_item_img">
-                            <a href="{{ route('fourDaysTsavoWestSarovaTsavoEst') }}">
-                                <img class="card-img rounded-0"
-                                    src="{{ asset('assets\client\img\amboseli\148309239_full.jpg') }}"
-                                    alt="4 DAYS TSAVO WEST–SAROVA TAITA–TSAVO EAST">
-                            </a>
-                        </div>
-                        <div class="blog_details">
-                            <p>4 DAYS TSAVO WEST–SAROVA TAITA–TSAVO EAST...<a
-                                    href="{{ route('fourDaysTsavoWestSarovaTsavoEst') }}" class="btn btn-sm ">Read
-                                    more</a></p>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="col-md-4">
-                    <article class="blog_item">
-                        <div class="blog_item_img">
-                            <a href="{{ route('experienceWonderMtKenya') }}">
-                                <img class="card-img rounded-0"
-                                    src="{{ asset('/assets/client/img/amboseli/tent1.jpg') }}"
-                                    alt="Experience The Wonder In Mt Kenta">
-                            </a>
-                        </div>
-                        <div class="blog_details">
-                            <p>Experience The Wonder In Mt Kenta...<a href="{{ route('experienceWonderMtKenya') }}"
-                                    class="btn btn-sm ">Read
-                                    more</a></p>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="col-md-4">
-                    <article class="blog_item">
-                        <div class="blog_item_img">
-                            <a href="{{ route('lakeNakuruAmboseli') }}">
-                                <img class="card-img rounded-0"
-                                    src="{{ asset('assets/client/img/mara/e61f436045a42060f1e984224e57c604.png') }}"
-                                    alt="Lake Nakuru Amboseli Tour">
-                            </a>
-                        </div>
-                        <div class="blog_details">
-                            <p class="text text-capitalize">Lake Nakuru Amboseli Tour...<a
-                                    href="{{ route('lakeNakuruAmboseli') }}" class="btn btn-sm ">Read
-                                    more</a></p>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="col-md-4">
-                    <article class="blog_item">
-                        <div class="blog_item_img">
                             <a href="{{ route('historicalTourKenta') }}">
                                 <img class="card-img rounded-0"
-                                    src="{{ asset('assets/client/img/mara/Ecotourism-Safari-Masai-Mara.jpg') }}"
+                                    src="{{ asset('assets\client\img\pictorials\manyatta.png') }}"
                                     alt="Historical Tour In Kenya">
                             </a>
                         </div>
                         <div class="blog_details">
-                            <p class="text text-capitalize">Historical Tour In Kenya...<a
-                                    href="{{ route('historicalTourKenta') }}" class="btn btn-sm ">Read
-                                    more</a></p>
+                           <a
+                                    href="{{ route('historicalTourKenta') }}" class="btn btn-sm "> <p class="text text-capitalize">HISTORICAL TOUR OF  KENYA</a></p>
                         </div>
                     </article>
                 </div>
+
 
 
                 <div class="col-md-4">
@@ -133,56 +87,16 @@
                         <div class="blog_item_img">
                             <a href="{{ route('mountKenyaTreck') }}">
                                 <img class="card-img rounded-0"
-                                    src="{{ asset('assets/client/img/mara/Ecotourism-Safari-Masai-Mara.jpg') }}"
+                                    src="{{ asset('assets\client\img\pictorials\MtKenyaytrack.png') }}"
                                     alt="Mt. Kenya Treck">
                             </a>
                         </div>
                         <div class="blog_details">
-                            <p class="text text-capitalize">Mt. Kenya Treck...<a href="{{ route('mountKenyaTreck') }}"
-                                    class="btn btn-sm ">Read
-                                    more</a></p>
+                            <a href="{{ route('mountKenyaTreck') }}"
+                                    class="btn btn-sm "><p class="text text-capitalize">MOUNT KENYA TREK</p></a>
                         </div>
                     </article>
                 </div>
-
-
-                <div class="col-md-4">
-                    <article class="blog_item">
-                        <div class="blog_item_img">
-                            <a href="{{ route('nairobiNationalPark') }}">
-                                <img class="card-img rounded-0"
-                                    src="{{ asset('assets/client/img/mara/Ecotourism-Safari-Masai-Mara.jpg') }}"
-                                    alt="Nairobi National Park and Animal Orphanage">
-                            </a>
-                        </div>
-                        <div class="blog_details">
-                            <p class="text text-capitalize">Nairobi National Park and Animal Orphanage...<a
-                                    href="{{ route('nairobiNationalPark') }}" class="btn btn-sm ">Read
-                                    more</a></p>
-                        </div>
-                    </article>
-                </div>
-
-
-
-                <div class="col-md-4">
-                    <article class="blog_item">
-                        <div class="blog_item_img">
-                            <a href="{{ route('daystour') }}">
-                                <img class="card-img rounded-0"
-                                    src="{{ asset('assets/client/img/mara/Ecotourism-Safari-Masai-Mara.jpg') }}"
-                                    alt="Day tours">
-                            </a>
-                        </div>
-                        <div class="blog_details">
-                            <p class="text text-capitalize">Day tours...<a href="{{ route('daystour') }}"
-                                    class="btn btn-sm ">Read
-                                    more</a></p>
-                        </div>
-                    </article>
-                </div>
-
-
 
 
 
