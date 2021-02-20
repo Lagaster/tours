@@ -35,7 +35,7 @@
                 <h4 class="text text-capitalize">Day 4: Lake Nakuru – Lake Naivasha </h4>
                 <p style="text-align: justify;">
                     After breakfast proceed on a game drive in the Lake Nakuru Park, known for its prolific bird
-                    life including flamingos. The pack contains sanctuary for the conversation of the white
+                    life including flamingos. The park contains sanctuary for the conversation of the white
                     rhino while the species like Cape Buffalo and water-buck can be seen near the shoreline.
                     Dinner and overnight at Sawela lodge.
                 </p>
@@ -51,7 +51,7 @@
 
             <div class="single_destination">
                 <h4 class="text text-capitalize">Day 6: Amboseli full Day</h4>
-                <p style="text-align: justify;">A day of game drives in this pack which Contains swamp grounds
+                <p style="text-align: justify;">A day of game drives in this park which Contains swamp grounds
                     in which elephants and hippos bath in abundance. A variety of plain game antelopes and birds
                     can also be seen and Mt. Kilimanjaro peak too if weather condition permits. We will cater
                     for picnic lunch return to the lodge for the overnight at the Amboseli Serena lodge.

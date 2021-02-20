@@ -46,7 +46,7 @@
                                         <div class="single_destination col-md-6 ">
                                             <h4>Cost inclusive of:</h4>
                                             <ol>
-                                                <li>All Pack entrance fees</li>
+                                                <li>All park entrance fees</li>
                                                 <li>Accommodation as per itinerary</li>
                                                 <li>All meals</li>
                                                 <li>Transport in a 4 * 4 land cruiser with hatch roof on top</li>

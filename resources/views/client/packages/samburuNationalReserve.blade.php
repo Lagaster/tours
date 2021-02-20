@@ -47,7 +47,7 @@
                                             <h4>Cost inclusive of:</h4>
                                             <ol>
                                                 <li>Transport in a 4* 4 land cruiser </li>
-                                                <li>Pack entrance fee </li>
+                                                <li>Park entrance fee </li>
                                                 <li>Accommodation as per the itinerary </li>
                                                 <li>All meals</li>
                                                 <li>2 liters of water per person per day </li>

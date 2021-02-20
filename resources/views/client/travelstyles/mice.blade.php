@@ -8,8 +8,8 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="text-center bradcam_text">
-                        <h3>Packages</h3>
-                        {{-- <p>Pixel perfect design with awesome contents</p> --}}
+                        <h3>Mice </h3>
+                        <p>Packages</p>
                     </div>
                 </div>
             </div>

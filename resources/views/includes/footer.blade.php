@@ -14,9 +14,9 @@
                             <br>
                             Simco Plaza 5th Floor Suite
                             <br>
-                            <a href="#">+254 7 000 000</a> <br>
-                            <a href="mailto:info@tavaratoursandtravel.co.ke">info@tavaratoursandtravel.co.ke</a>
-                        </p>
+                            <a href="https://api.whatsapp.com/send?phone=+254742607434"><i class="fa fa-whatsapp"></i> +254 742 607 434</a> <br>
+                            <a href="mailto:info@tavaratoursandtravel.co.ke">info@tavaratoursandtravel.co.ke</a><br>
+                            <a href="https://www.facebook.com/diana.nyonga.12"> <i class="fa fa-facebook">acebook</i> </a>                        </p>
                         {{-- <div class="socail_links">
                             <ul>
                                 <li>
@@ -54,8 +54,8 @@
                             Company
                         </h3>
                         <ul class="links">
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">About</a></li>
+                            <li><a href="{[route('index')]}">Home</a></li>
+                            <li><a href="{{ route('about') }}">About</a></li>
                             <li><a href="{{ route('pictorials') }}">Pictorials</a></li>
                             <li><a href="#"> Contact</a></li>
                         </ul>

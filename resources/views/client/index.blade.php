@@ -11,7 +11,7 @@
                     <div class="row align-items-center">
                         <div class="col-xl-12 col-md-12">
                             <div class="text-center slider_text">
-                                <h3>Abardare</h3>
+                                <h3>Aberdare</h3>
                                 <p>Country Club</p>
                                 <a href="#" class="boxed-btn3">Explore Now</a>
                             </div>
@@ -48,40 +48,74 @@
         </div>
     </div>
 
+    <div class="testimonial_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
 
-    {{-- <div class="where_togo_area">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-3">
-                <div class="form_area">
-                    <h3>Where you want to go?</h3>
-                </div>
-            </div>
-            <div class="col-lg-9">
-                <div class="search_wrap">
-                    <form class="search_form" action="#">
-                        <div class="input_field">
-                            <input type="text" placeholder="Where to go?">
+                    <h3 style="text-align: center">SIX STYLES OF TRAVEL TOURS</h3>
+
+                    <div class="travel-row justify-content-between">
+
+
+                        <div class=" travel-card  ">
+                            <a href="{{ route('luxury-safari-packages') }}">
+                                <img class=" image-travel " src="{{ asset('assets/client/img/amboseli/tent1.jpg') }}"
+                                    alt="">
+                                <div class="travel-title">
+                                    <h5 class="card-title">Luxury Safari </h5>
+                                </div>
+                            </a>
                         </div>
-                        <div class="input_field">
-                            <input id="datepicker" placeholder="Date">
+                        <div class=" travel-card  ">
+                            <a href="{{ route('cultural-historicalpackages') }}">
+                                <img class=" image-travel " src="{{ asset('assets/client/img/amboseli/tent1.jpg') }}"
+                                    alt="">
+                                <div class="travel-title">
+                                    <h5 class="card-title">Cultural & Historical</h5>
+                                </div>
+                            </a>
                         </div>
-                        <div class="input_field">
-                            <select>
-                                <option data-display="Travel type">Travel type</option>
-                                <option value="1">Some option</option>
-                                <option value="2">Another option</option>
-                            </select>
+                        <div class=" travel-card  ">
+                            <a href="{{ route('adventurepackages') }}">
+                                <img class=" image-travel " src="{{ asset('assets/client/img/amboseli/tent1.jpg') }}"
+                                    alt="">
+                                <div class="travel-title">
+                                    <h5 class="card-title">Adventure</h5>
+                                </div>
+                            </a>
                         </div>
-                        <div class="search_btn">
-                            <button class="boxed-btn4 " type="submit">Search</button>
+                        <div class=" travel-card  ">
+                            <a href="{{ route('familypackages') }}">
+                                <img class=" image-travel " src="{{ asset('assets/client/img/amboseli/tent1.jpg') }}"
+                                    alt="">
+                                <div class="travel-title">
+                                    <h5 class="card-title">Family</h5>
+                                </div>
+                            </a>
                         </div>
-                    </form>
+                        <div class=" travel-card  ">
+                            <a href="{{ route('daypackages') }}">
+                                <img class=" image-travel " src="{{ asset('assets/client/img/amboseli/tent1.jpg') }}"
+                                    alt="">
+                                <div class="travel-title">
+                                    <h5 class="card-title">Day</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class=" travel-card  ">
+                            <img class=" image-travel " src="{{ asset('assets/client/img/amboseli/tent1.jpg') }}" alt="">
+                            <div class="travel-title">
+                                <h5 class="card-title">Mice</h5>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
-</div> --}}
+
 
 
     <div class="popular_destination_area">
@@ -103,7 +137,7 @@
                                 alt="Aberdares">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Aberdares National Pack
+                            <p class="d-flex align-items-center">Aberdares National Park
                             </p>
                         </div>
                     </div>
@@ -113,10 +147,10 @@
                         <div class="thumb">
                             <img height="170" width="200"
                                 src="{{ asset('assets/client/img/amboseli/6-Reasons-Why-You-Must-Visit-Amboseli-National-Park.jpg') }}"
-                                alt="Amboseli national pack">
+                                alt="Amboseli national park">
                         </div>
                         <div class="content">
-                            <p class="d-flex align-items-center">Amboseli National Pack
+                            <p class="d-flex align-items-center">Amboseli National park
                             </p>
                         </div>
                     </div>
@@ -197,7 +231,7 @@
                             <a href="destination_details.html">
                                 <h3>The Ark Kenya </h3>
                             </a>
-                            <p>Aberdares National Pack</p>
+                            <p>Aberdares National Park</p>
                             <div class="rating_days d-flex  justify-content-end ">
 
                                 <div class="days">
@@ -261,7 +295,7 @@
                             <a href="destination_details.html">
                                 <h3>Amboseli </h3>
                             </a>
-                            <p>Best Amboseli national Pack</p>
+                            <p>Best Amboseli national park</p>
                             <div class="rating_days d-flex  justify-content-end ">
 
                                 <div class="days">
@@ -283,7 +317,7 @@
                             <a href="destination_details.html">
                                 <h3>masai warriors ceremony </h3>
                             </a>
-                            <p>Maasai Mara National Pack</p>
+                            <p>Maasai Mara National park</p>
                             <div class="rating_days d-flex  justify-content-end ">
 
                                 <div class="days">
@@ -319,22 +353,6 @@
 
         </div>
     </div>
-    {{-- <div class="video_area video_bg overlay">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-center video_wrap">
-                        <h3>Enjoy Video</h3>
-                        <div class="video_icon">
-                            <a class="popup-video video_play_button" href="https://www.youtube.com/watch?v=f59dDEk57i0">
-                                <i class="fa fa-play"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> --}}
     <div class="travel_variation_area">
         <div class="container">
             <div class="row">
@@ -355,7 +373,7 @@
                                 src="{{ asset('assets/client/img/mara/Description-of-Masai-Mara-National-ReserveA.jpg') }}"
                                 alt="">
                         </div>
-                        <h3>Masai Mara National Pack</h3>
+                        <h3>Masai Mara National park</h3>
                         <p>
                             As dusk roll in,enjoy romantic evening while you watch the sunset over the plains.
                         </p>
@@ -375,60 +393,6 @@
             </div>
         </div>
     </div>
-
-    <div class="testimonial_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-
-<h3 style="text-align: center">SIX STYLES OF TRAVEL TOURS</h3>
-
-<div class="travel-row justify-content-between">
-
-
-    <div class=" travel-card  ">
-        <img class=" image-travel " src="{{ asset('assets/client/img/amboseli/tent1.jpg') }}" alt="">
-        <div class="travel-title">
-            <h5 class="card-title">Luxury Safari </h5>
-        </div>
-    </div>
-    <div class=" travel-card  ">
-        <img class=" image-travel " src="{{ asset('assets/client/img/amboseli/tent1.jpg') }}" alt="">
-        <div class="travel-title">
-            <h5 class="card-title">Cultural & Historical</h5>
-        </div>
-    </div>
-    <div class=" travel-card  ">
-        <img class=" image-travel " src="{{ asset('assets/client/img/amboseli/tent1.jpg') }}" alt="">
-        <div class="travel-title">
-            <h5 class="card-title">Adventure</h5>
-        </div>
-    </div>
-    <div class=" travel-card  ">
-        <img class=" image-travel " src="{{ asset('assets/client/img/amboseli/tent1.jpg') }}" alt="">
-        <div class="travel-title">
-            <h5 class="card-title">Family</h5>
-        </div>
-    </div>
-    <div class=" travel-card  ">
-        <img class=" image-travel " src="{{ asset('assets/client/img/amboseli/tent1.jpg') }}" alt="">
-        <div class="travel-title">
-            <h5 class="card-title">Day</h5>
-        </div>
-    </div>
-    <div class=" travel-card  ">
-        <img class=" image-travel " src="{{ asset('assets/client/img/amboseli/tent1.jpg') }}" alt="">
-        <div class="travel-title">
-            <h5 class="card-title">Mice</h5>
-        </div>
-    </div>
-</div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="recent_trip_area">
         <div class="container">
             <div class="row justify-content-center">

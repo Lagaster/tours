@@ -92,7 +92,7 @@
             <div class="single_destination">
                 <h4 class="text text-capitalize">Day 8: Masai Mara – Nairobi</h4>
                 <p style="text-align: justify;">
-                    Early morning breakfast at your comp, check out of the camp and pack and drive to Nairobi
+                    Early morning breakfast at your comp, check out of the camp and park and drive to Nairobi
                     arriving late in the versioning to be dropped at your Nairobi hotel or back to the airport to
                     catch your flight back home .
                 </p>

@@ -48,7 +48,7 @@
                                             <ol>
                                                 <li>Transport in a 4 * 4 land cruiser</li>
                                                 <li>All meals</li>
-                                                <li>All Pack entrance fees</li>
+                                                <li>All park entrance fees</li>
                                                 <li>Accommodation as per itinerary</li>
                                                 <li>2 liters of water per person per day</li>
                                                 <li>All taxes</li>

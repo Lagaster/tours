@@ -50,7 +50,7 @@
                                                 <li>Accommodation as per itinerary</li>
                                                 <li>All meals (B L D)</li>
                                                 <li>Services of our professional driver /Guide</li>
-                                                <li>All Pack Entrance fee</li>
+                                                <li>All park Entrance fee</li>
                                                 <li>All game drives</li>
                                                 <li>Statutory taxes</li>
 

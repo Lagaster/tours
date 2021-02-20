@@ -658,11 +658,11 @@ h3 {
 
 .slicknav_menu .slicknav_nav a:hover {
     background: 0 0;
-    color: #ff4a52
+    color: white
 }
 
 .slicknav_menu .slicknav_nav a.active {
-    color: #ff4a52
+    color: white
 }
 
 @media(max-width:767px) {
@@ -694,6 +694,8 @@ h3 {
     margin-right: 6px;
     margin-top: 3px;
     position: relative;
+    background-color: wheat;
+    color: wheat;
     padding-bottom: 3px;
     top: -11px;
     right: -5px
@@ -749,7 +751,7 @@ h3 {
     top: 0;
     z-index: 9;
     position: relative;
-    background-color: #2c6499;
+    background-color: #040e27;
 }
 
 @media(max-width:767px) {
@@ -901,7 +903,7 @@ h3 {
 }
 
 .header-area .main-header-area .main-menu ul li a:hover {
-    color: #37c70c
+    color: rgb(255, 81, 0);
 }
 
 @media(min-width:992px) and (max-width:1200px) {
@@ -1002,7 +1004,7 @@ h3 {
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
     box-shadow: 0 3px 16px 0 rgba(0, 0, 0, .1);
-    background-color: #2c6499;
+    background-color: #040e27;
 }
 
 .level-all {
@@ -1098,7 +1100,7 @@ h3 {
 }
 
 .header-area .social_wrap .social_links {
-    margin-right: 4px
+    margin-right: 1px
 }
 
 .header-area .social_wrap .social_links li {
@@ -1109,7 +1111,7 @@ h3 {
     display: inline-block;
     color: #aab1b7;
     font-size: 16px;
-    margin: 0 11px
+    margin: 0 5px
 }
 
 .header-area .social_wrap .social_links li a:hover {
@@ -1117,8 +1119,8 @@ h3 {
 }
 
 .header-area .social_wrap .number {
-    margin-right: 20px;
-    padding-right: 20px;
+    margin-right: 5px;
+    padding-right: 5px;
     border-right: 1px solid #eaeaea
 }
 
@@ -1683,7 +1685,7 @@ h3 {
 }
 
 .footer .footer_top .footer_widget p a:hover {
-    color: #ff4a52
+    color: rgb(255, 81, 0);
 }
 
 .footer .footer_top .footer_widget p.footer_text {
@@ -2741,7 +2743,7 @@ h3 {
 }
 
 .popular_places_area {
-    padding-top: 142px;
+    padding-top: 10px;
     padding-bottom: 1px;
     background: #f7fafd
 }
@@ -3125,8 +3127,8 @@ h3 {
 }
 
 .travel_variation_area {
-    padding-top: 150px;
-    padding-bottom: 114px
+    padding-top: 5px;
+    padding-bottom: 14px
 }
 
 @media(max-width:767px) {

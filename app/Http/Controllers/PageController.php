@@ -18,6 +18,9 @@ class PageController extends Controller
     {
         return view('client.packages.masai-mara-flight');
     }
+    public function aboutus(){
+        return view('client.about');
+    }
 
     public function package()
     {
