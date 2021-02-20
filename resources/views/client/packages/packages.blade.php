@@ -115,7 +115,7 @@
                         <div class="blog_item_img">
                             <a href="{{ route('historicalTourKenta') }}">
                                 <img class="card-img rounded-0"
-                                    src="{{ asset('assets/client/img/mara/Ecotourism-Safari-Masai-Mara.jpg') }}"
+                                    src="{{ asset('assets\client\img\pictorials\manyatta.png') }}"
                                     alt="Historical Tour In Kenya">
                             </a>
                         </div>
@@ -133,7 +133,7 @@
                         <div class="blog_item_img">
                             <a href="{{ route('mountKenyaTreck') }}">
                                 <img class="card-img rounded-0"
-                                    src="{{ asset('assets/client/img/mara/Ecotourism-Safari-Masai-Mara.jpg') }}"
+                                    src="{{ asset('assets\client\img\pictorials\MtKenyaytrack.png') }}"
                                     alt="Mt. Kenya Treck">
                             </a>
                         </div>
@@ -151,7 +151,7 @@
                         <div class="blog_item_img">
                             <a href="{{ route('nairobiNationalPark') }}">
                                 <img class="card-img rounded-0"
-                                    src="{{ asset('assets/client/img/mara/Ecotourism-Safari-Masai-Mara.jpg') }}"
+                                    src="{{ asset('assets\client\img\pictorials\nairobiNationalPark.png') }}"
                                     alt="Nairobi National Park and Animal Orphanage">
                             </a>
                         </div>
@@ -170,7 +170,7 @@
                         <div class="blog_item_img">
                             <a href="{{ route('daystour') }}">
                                 <img class="card-img rounded-0"
-                                    src="{{ asset('assets/client/img/mara/Ecotourism-Safari-Masai-Mara.jpg') }}"
+                                    src="{{ asset('assets\client\img\pictorials\water.png') }}"
                                     alt="Day tours">
                             </a>
                         </div>
