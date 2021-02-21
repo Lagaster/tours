@@ -133,7 +133,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_destination">
                         <div class="thumb">
-                            <img height="170" width="200" src="{{ asset('assets/client/img/aberdares/1.jpeg') }}"
+                            <img height="220px" width="100%" src="{{ asset('assets/client/img/aberdares/1.jpeg') }}"
                                 alt="Aberdares">
                         </div>
                         <div class="content">
@@ -145,7 +145,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_destination">
                         <div class="thumb">
-                            <img height="170" width="200"
+                            <img height="220px" width="100%"
                                 src="{{ asset('assets/client/img/amboseli/6-Reasons-Why-You-Must-Visit-Amboseli-National-Park.jpg') }}"
                                 alt="Amboseli national park">
                         </div>
@@ -158,7 +158,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_destination">
                         <div class="thumb">
-                            <img height="170" width="200" src="{{ asset('assets/client/img/mara/conservancyimg3.jpg') }}"
+                            <img height="220px" width="100%" src="{{ asset('assets/client/img/mara/conservancyimg3.jpg') }}"
                                 alt="Maasai Mara">
                         </div>
                         <div class="content">
@@ -170,7 +170,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_destination">
                         <div class="thumb">
-                            <img height="170" width="200"
+                            <img height="220px" width="100%"
                                 src="{{ asset('assets/client/img/mara/lake-naivasha-and-maasai-mara-luxury-safari-4-days-tour-2-27894_1574158046.jpeg') }}"
                                 alt="">
                         </div>
@@ -183,7 +183,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_destination">
                         <div class="thumb">
-                            <img height="170" width="200"
+                            <img height="220px" width="100%"
                                 src="{{ asset('assets/client/img/mara/Ecotourism-Safari-Masai-Mara.jpg') }}" alt="">
                         </div>
                         <div class="content">
@@ -194,7 +194,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_destination">
                         <div class="thumb">
-                            <img height="170" width="200" src="{{ asset('assets/client/img/aberdares/2.jpg') }}" alt="">
+                            <img height="220px" width="100%" src="{{ asset('assets/client/img/aberdares/2.jpg') }}" alt="">
                         </div>
                         <div class="content">
                             <p class="d-flex align-items-center">Aberdares World life
@@ -223,7 +223,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_place">
                         <div class="thumb">
-                            <img src="{{ asset('assets/client/img/aberdares/25-the-ark-kenya-1580834691.jpg') }}"
+                            <img height="220px" width="100%" src="{{ asset('assets/client/img/aberdares/25-the-ark-kenya-1580834691.jpg') }}"
                                 alt="The Ark Kenya">
 
                         </div>
@@ -245,7 +245,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_place">
                         <div class="thumb">
-                            <img src="{{ asset('assets/client/img/aberdares/AberdareNationalParkMaguraWaterfall.jpg') }}"
+                            <img height="220px" width="100%" src="{{ asset('assets/client/img/aberdares/AberdareNationalParkMaguraWaterfall.jpg') }}"
                                 alt="Aberdare National Park Magura Waterfall">
 
                         </div>
@@ -267,7 +267,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_place">
                         <div class="thumb">
-                            <img src="{{ asset('assets/client/img/amboseli/getlstd-property-photo.jpg') }}" alt="">
+                            <img height="220px" width="100%" src="{{ asset('assets/client/img/amboseli/getlstd-property-photo.jpg') }}" alt="">
 
                         </div>
                         <div class="place_info">
@@ -288,7 +288,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_place">
                         <div class="thumb">
-                            <img src="{{ asset('assets/client/img/amboseli/banner-home.jpg') }}" alt="">
+                            <img height="220px" width="100%" src="{{ asset('assets/client/img/amboseli/banner-home.jpg') }}" alt="">
 
                         </div>
                         <div class="place_info">
@@ -309,7 +309,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_place">
                         <div class="thumb">
-                            <img src="{{ asset('assets/client/img/mara/masai-warriors-ceremony-masai-mara-national-park-masai-mara-kenya_main.jpg') }}"
+                            <img height="220px" width="100%" src="{{ asset('assets/client/img/mara/masai-warriors-ceremony-masai-mara-national-park-masai-mara-kenya_main.jpg') }}"
                                 alt="masai warriors ceremony masai mara national park masai mara kenya">
 
                         </div>
@@ -331,7 +331,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_place">
                         <div class="thumb">
-                            <img src="{{ asset('assets/client/img/mara/e61f436045a42060f1e984224e57c604.png') }}" alt="">
+                            <img height="220px" width="100%" src="{{ asset('assets/client/img/mara/e61f436045a42060f1e984224e57c604.png') }}" alt="">
 
                         </div>
                         <div class="place_info">
@@ -359,7 +359,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="text-center single_travel">
                         <div class="icon">
-                            <img width="260" height="200" src="{{ asset('assets/client/img/mara/3.jpg') }}" alt="">
+                            <img height="220px" width="100%" src="{{ asset('assets/client/img/mara/3.jpg') }}" alt="">
                         </div>
                         <h3>Maasai Mara</h3>
                         <p>Explore the Maasai Mara National Reserve on a 3-day camping safari that’s a cost-effective way to
@@ -369,7 +369,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="text-center single_travel">
                         <div class="icon">
-                            <img width="260" height="200"
+                            <img height="220px" width="100%"
                                 src="{{ asset('assets/client/img/mara/Description-of-Masai-Mara-National-ReserveA.jpg') }}"
                                 alt="">
                         </div>
@@ -382,7 +382,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="text-center single_travel">
                         <div class="icon">
-                            <img width="260" height="200"
+                            <img height="220px" width="100%"
                                 src="{{ asset('assets/client/img/mara/6-Days-Masai-Mara-Lake-Nakuru-Amboseli-Safaris-1.jpg') }}"
                                 alt="">
                         </div>
@@ -406,7 +406,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_trip">
                         <div class="thumb">
-                            <img src="{{ asset('assets/client/img/amboseli/tent1.jpg') }}" alt="">
+                            <img height="220px" width="100%" src="{{ asset('assets/client/img/amboseli/tent1.jpg') }}" alt="">
                         </div>
                         <div class="info">
                             <div class="date">
@@ -421,7 +421,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_trip">
                         <div class="thumb">
-                            <img src="{{ 'assets/client/img/aberdares/3.jpg' }}" alt="">
+                            <img height="220px" width="100%" src="{{ 'assets/client/img/aberdares/3.jpg' }}" alt="">
                         </div>
                         <div class="info">
                             <div class="date">
@@ -436,7 +436,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_trip">
                         <div class="thumb">
-                            <img src="{{ asset('assets/client/img/aberdares/4.jpg') }}" alt="">
+                            <img height="220px" width="100%" src="{{ asset('assets/client/img/aberdares/4.jpg') }}" alt="">
                         </div>
                         <div class="info">
                             <div class="date">

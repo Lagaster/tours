@@ -28,7 +28,7 @@
                     <article class="blog_item">
                         <div class="blog_item_img">
                             <a href="{{ route('maraFlightAdventure') }}">
-                                <img class="card-img rounded-0"
+                                <img  height="220px" width="100%"
                                     src="{{ asset('assets\client\img\mara\conservancyimg3.jpg') }}"
                                     alt="FLY-IN MARA ADVENTURE">
                             </a>
@@ -48,7 +48,7 @@
                     <article class="blog_item">
                         <div class="blog_item_img">
                             <a href="{{ route('masaiMaraSamburuFly') }}">
-                                <img class="card-img rounded-0"
+                                <img height="220px"  width="100%"
                                     src="{{ asset('assets\client\img\mara\Description-of-Masai-Mara-National-ReserveA.jpg') }}"
                                     alt="Masai mara Samburu">
                             </a>
@@ -65,7 +65,7 @@
                     <article class="blog_item">
                         <div class="blog_item_img">
                             <a href="{{ route('experienceWonderMtKenya') }}">
-                                <img class="card-img rounded-0" src="{{ asset('/assets/client/img/amboseli/tent1.jpg') }}"
+                                <img height="220px" width="100%" src="{{ asset('/assets/client/img/amboseli/tent1.jpg') }}"
                                     alt="Experience The Wonder In Mt Kenta">
                             </a>
                         </div>
@@ -82,7 +82,7 @@
                     <article class="blog_item">
                         <div class="blog_item_img">
                             <a href="{{ route('fourDaysTsavoWestSarovaTsavoEst') }}">
-                                <img class="card-img rounded-0"
+                                <img  height="220px"  width="100%"
                                     src="{{ asset('assets\client\img\amboseli\148309239_full.jpg') }}"
                                     alt="4 DAYS TSAVO WEST–SAROVA TAITA–TSAVO EAST">
                             </a>
@@ -100,15 +100,15 @@
                     <article class="blog_item">
                         <div class="blog_item_img">
                             <a href="{{ route('lakeNakuruAmboseli') }}">
-                                <img class="card-img rounded-0"
+                                <img  height="220px"  width="100%"
                                     src="{{ asset('assets/client/img/mara/e61f436045a42060f1e984224e57c604.png') }}"
                                     alt="Lake Nakuru Amboseli Tour">
                             </a>
                         </div>
                         <div class="blog_details">
                             <a href="{{ route('lakeNakuruAmboseli') }}" class="btn btn-sm ">
-                                <p class="text text-capitalize">LAKE NAKURU AND AMBOSELI
-                            </a></p>
+                                <p class="text text-capitalize">LAKE NAKURU AND AMBOSELI</p>
+                            </a>
                         </div>
                     </article>
                 </div>

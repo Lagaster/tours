@@ -26,7 +26,7 @@
                     <article class="blog_item">
                         <div class="blog_item_img">
                             <a href="{{ route('daystour') }}">
-                                <img class="card-img rounded-0"
+                                <img height="220px" width="100%"
                                     src="{{ asset('assets\client\img\pictorials\water.png') }}"
                                     alt="Day tours">
                             </a>

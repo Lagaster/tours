@@ -45,7 +45,7 @@
                         and supportive friend who helps you plan every detail as you enjoy your trip. We want to support you
                         in every facet of your journey in Kenya.
                         I invite you to join us in exploring Kenya in style with Tavara Tours and travel. Make this the year
-                        you enjoy an experience of a lifetime
+                        you enjoy an experience of a lifetime.
 
                     </p>
                 </div>

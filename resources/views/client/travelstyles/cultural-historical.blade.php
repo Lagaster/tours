@@ -68,7 +68,7 @@
                     <article class="blog_item">
                         <div class="blog_item_img">
                             <a href="{{ route('historicalTourKenta') }}">
-                                <img class="card-img rounded-0"
+                                <img height="220px" width="100%"
                                     src="{{ asset('assets\client\img\pictorials\manyatta.png') }}"
                                     alt="Historical Tour In Kenya">
                             </a>
@@ -86,7 +86,7 @@
                     <article class="blog_item">
                         <div class="blog_item_img">
                             <a href="{{ route('mountKenyaTreck') }}">
-                                <img class="card-img rounded-0"
+                                <img height="220px" width="100%"
                                     src="{{ asset('assets\client\img\pictorials\MtKenyaytrack.png') }}"
                                     alt="Mt. Kenya Treck">
                             </a>
