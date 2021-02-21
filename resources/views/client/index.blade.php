@@ -124,8 +124,7 @@
                 <div class="col-lg-6">
                     <div class="text-center section_title mb_70">
                         <h3>Popular Destination</h3>
-                        <p>Walking through thi unspoiled terrain is paradise .Play around a golf watched by a family of
-                            warthong</p>
+                        <p></p>
                     </div>
                 </div>
             </div>

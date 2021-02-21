@@ -5,7 +5,7 @@
     <div class="destination_banner_wrap overlay">
         <div class="text-center destination_text">
             <h3>Experience The Wonder </h3>
-            <p>In MT KENYA</p>
+            <p>IN MT KENYA</p>
         </div>
     </div>
     <div class="destination_details_info">
@@ -21,10 +21,23 @@
                             <div class="tab-content">
                                 <div class="tab-pane fade in show active" id="home">
 
-                                    Appreciate the picturesque beauty of the majestic, snowcapped Mt Kenya and the riverbank
-                                    oasis of Samburu. The snow of Mt Kenya is a peculiar phenomenon, unexpected so close to
+                                    <div class="row">
+                                        <div class="col-md-6">
+<p>
+    Appreciate the picturesque beauty of the majestic, snowcapped Mt Kenya and the riverbank
+    oasis of Samburu.
+</p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>
+                                               The snow of Mt Kenya is a peculiar phenomenon, unexpected so close to
                                     the earth equator, yet vitally important to the local ecosystem, which includes the
                                     Samburu Wildlife Reserve.
+                                            </p>
+                                        </div>
+                                    </div>
+
+
                                 </div>
                                 <div class="tab-pane fade" id="profile">
                                     @include("client.packages.itinenarys.masai-mara-flight")
