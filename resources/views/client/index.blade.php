@@ -283,7 +283,7 @@
 
                         </div>
                         <div class="place_info">
-                            <a href="destination_details.html">
+                            <a href="{{ route('fourDaysTsavoWestSarovaTsavoEst') }}">
                                 <h3>luscious Mzima springs </h3>
                             </a>
                             <p>Tsavo West</p>
@@ -300,11 +300,12 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_place">
                         <div class="thumb">
+                            <a href="{{ route('mountKenyaTreck') }}">
                             <img height="220px" width="100%" src="{{ asset('assets\client\img\pictorials\mtKenya.png') }}" alt="">
-
+                            </a>
                         </div>
                         <div class="place_info">
-                            <a href="destination_details.html">
+                            <a href="{{ route('mountKenyaTreck') }}">
                                 <h3 class="text text-capitalize">Mt Kenya</h3>
                             </a>
                             <p>Mt Kenya Trek</p>
@@ -321,19 +322,20 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_place">
                         <div class="thumb">
+                            <a href="{{ route('historicalTourKenta') }}">
                             <img height="220px" width="100%" src="{{ asset('assets/client/img/amboseli/banner-home.jpg') }}" alt="">
-
+                            </a>
                         </div>
                         <div class="place_info">
-                            <a href="destination_details.html">
+                            <a href="{{ route('historicalTourKenta') }}">
                                 <h3>Saiwa Swamp Camp </h3>
                             </a>
-                            <p>Saiwa Swamp national parkk</p>
+                            <p>Saiwa Swamp national park</p>
                             <div class="rating_days d-flex justify-content-end ">
 
                                 <div class="days">
                                     <i class="fa fa-clock-o"></i>
-                                    <a href="#">3 Days</a>
+                                    <a href="{{ route('historicalTourKenta') }}">3 Days</a>
                                 </div>
                             </div>
                         </div>
@@ -349,7 +351,7 @@
 
                         </div>
                         <div class="place_info">
-                            <a href="destination_details.html">
+                            <a href="{{ route('masaiMaraSamburuFly') }}">
                                 <h3>masai warriors ceremony </h3>
                             </a>
                             <p>Maasai Mara National park</p>
@@ -366,20 +368,20 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_place">
                         <div class="thumb">
-                            <a href="{{ route('safari-Lake-Nakuru-and-Masai-Mara') }}">
+                            <a href="{{ route( 'lakeNakuruAmboseli'  ) }}">
                             <img height="220px" width="100%" src="{{ asset('assets/client/img/mara/e61f436045a42060f1e984224e57c604.png') }}" alt="">
                             </a>
                         </div>
                         <div class="place_info">
                             <a href="destination_details.html">
-                                <h3>   <a href="{{ route('safari-Lake-Nakuru-and-Masai-Mara') }}">Masai Mara Tours <a></h3>
+                                <h3>   <a href="{{ route(  'lakeNakuruAmboseli' ) }}">Lake Nakuru Tours <a></h3>
                             </a>
                             <p>3 Days Masai</p>
                             <div class="rating_days d-flex justify-content-end ">
 
                                 <div class="days">
                                     <i class="fa fa-clock-o"></i>
-                                    <a href="{{ route('safari-Lake-Nakuru-and-Masai-Mara') }}">3 Days</a>
+                                    <a href="{{ route( 'lakeNakuruAmboseli'  ) }}">3 Days</a>
                                 </div>
                             </div>
                         </div>
@@ -465,14 +467,14 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_trip">
                         <div class="thumb">
-                            <img height="220px" width="100%" src="{{ 'assets\client\img\amboseli\banner-home.jpg' }}" alt="">
+                            <img height="220px" width="100%" src="{{ 'assets\client\img\pictorials\nairobiNationalPark.png' }}" alt="">
                         </div>
                         <div class="info">
                             <div class="date">
                                 <span>Oct 12, 2020</span>
                             </div>
-                            <a href="{{ route('three-days-luxury-lodge-safari-Amboseli') }}">
-                                <h3>The Amboseli National Park in the central highlands</h3>
+                            <a href="{{ route('nairobiNationalPark') }}">
+                                <h3>The Nairobi National Park</h3>
                             </a>
                         </div>
                     </div>
@@ -480,16 +482,16 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_trip">
                         <div class="thumb">
-                            <a href="{{ route('safari-Lake-Nakuru-and-Masai-Mara') }}">
-                            <img height="220px" width="100%" src="{{ asset('assets\client\img\pictorials\f8.jpg') }}" alt="">
+                            <a href="{{ route('mountKenyaTreck') }}">
+                            <img height="220px" width="100%" src="{{ asset('assets\client\img\pictorials\mtKenya.png') }}" alt="">
                             </a>
                         </div>
                         <div class="info">
                             <div class="date">
                                 <span>Jan 2, 2021</span>
                             </div>
-                            <a href="{{ route('safari-Lake-Nakuru-and-Masai-Mara') }}">
-                                <h3>Enjoy watching Flamingos at Lake Nakuru</h3>
+                            <a href="{{ route('mountKenyaTreck') }}">
+                                <h3>Enjoy clamping Mt Kenya</h3>
                             </a>
                         </div>
                     </div>
