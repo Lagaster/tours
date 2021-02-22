@@ -54,7 +54,7 @@
                             Company
                         </h3>
                         <ul class="links">
-                            <li><a href="{[route('index')]}">Home</a></li>
+                            <li><a href="{{route('index')}}">Home</a></li>
                             <li><a href="{{ route('about') }}">About</a></li>
                             <li><a href="{{ route('pictorials') }}">Pictorials</a></li>
                             <li><a href="#"> Contact</a></li>
