@@ -7,7 +7,64 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="bradcam_text text-center">
+                    <div class="text-center bradcam_text">
+                        <h3>The Ark</h3>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="blog_area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="mb-1 col-md-6 ">
+                    {{-- <img style="margin-left: 30%" height="30%" width="40%"
+                src="{{ asset('assets/img/banner/arkkk.jpg') }}" alt=""> --}}
+
+                    <img width="100%" height="100%" src="{{ asset('assets/img/pictorialls/ark/elephants.jpg') }}" alt="">
+                </div>
+                <div class="mb-1 col-md-6 ">
+                    <img width="100%" height="100%" src="{{ asset('assets/img/pictorialls/ark/room1.jpg') }}" alt="">
+                </div>
+                <div class="mb-1 col-md-6 ">
+                    <img width="100%" height="100%" alt="" src="{{ asset('assets/img/pictorialls/ark/room2.jpg') }}">
+                </div>
+                <div class="mb-1 col-md-6 ">
+                    <img width="100%" height="100%" src="{{ asset('assets/img/pictorialls/ark/room3.jpg') }}" alt="">
+
+                </div>
+                <div class="mb-1 col-md-6 ">
+                    <img width="100%" height="100%" src="{{ asset('assets/img/pictorialls/ark/room4.jpg') }}" alt=""><br>
+
+                </div>
+                <div class="mb-1 col-md-6 ">
+                    <img width="100%" height="100%" src="{{ asset('assets/img/pictorialls/ark/room5.jpg') }}" alt="">
+
+                </div>
+                <div class="mb-1 col-md-6 ">
+                    <img width="100%" src="{{ asset('assets/img/pictorialls/ark/elephant.jpg') }}" alt="">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+@endsection
+
+{{-- @extends('layouts.mainapp')
+@section('content')
+
+
+
+    <div class="bradcam_area slider_bg_3">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="text-center bradcam_text">
                         <h3>The Ark</h3>
 
                     </div>
@@ -25,7 +82,7 @@
                     <img style="margin-left: 30%" height="30%" width="40%"
                         src="{{ asset('assets/img/banner/arkkk.jpg') }}" alt=""><br>
 
-                    <div class="bradcam_text text-center">
+                    <div class="text-center bradcam_text">
                         <h3>The Ark</h3>
                     </div>
                     <p style="text-align: justify">
@@ -56,7 +113,8 @@
                         shuttle bus will take you to the Country Club from The Ark so that you can relax in the new Health
                         Club and Spa or go horse riding along-side giraffes and other animals that are home to our private
                         sanctuary.
-                    </p><img width="95%" height="45%" src="{{ asset('assets/img/pictorialls/ark/elephants.jpg') }}"
+                    </p>
+                    <img width="95%" height="45%" src="{{ asset('assets/img/pictorialls/ark/elephants.jpg') }}"
                         alt="">
                 </div>
 
@@ -202,4 +260,4 @@
     </section>
 
 
-@endsection
+@endsection --}}
