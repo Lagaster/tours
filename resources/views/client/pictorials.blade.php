@@ -26,19 +26,15 @@
                     <article class="blog_item">
                         <div class="blog_item_img">
 
-                            {{-- <a href="{{ route('theark') }}"> --}}
+                            <a href="{{ route('theark') }}">
                             <img class="card-img rounded-0" src="{{ asset('assets/img/blog/theark.jpg') }}" alt="">
-                            {{-- </a> --}}
+                            </a>
 
                         </div>
                         <div class="blog_details">
                             <a class="d-inline-block" href="{{ route('theark') }}">
                                 <h2>The Ark</h2>
                             </a>
-
-                            {{-- <p>Set in the heart of the Aberdare National Park, iconic and yes, quirky, The ark overlooks...
-                                <a href="{{ route('theark') }}" class="btn btn-sm ">Read more</a>
-                            </p> --}}
                         </div>
                     </article>
                 </div>

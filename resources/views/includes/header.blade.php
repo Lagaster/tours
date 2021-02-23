@@ -56,7 +56,7 @@
                                     </li>
 
                                     <li><a href="{{ route('pictorials') }}"><b>PICTORIALS</b> </a></li>
-                                    <li><a href="#"><b>CONTACT</b> </a></li>
+                                    <li><a href="{{ route('contact_us') }}"><b>CONTACT</b> </a></li>
                                 </ul>
                             </nav>
                         </div>

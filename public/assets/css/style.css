@@ -5853,3 +5853,19 @@ h6 {
     margin-right: 10px;
     font-size: 12px
 }
+
+
+/* contact form styling */
+
+.section-form-padding {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/* Abbreviation in the contact page */
+
+abbr[title] {
+    cursor: inherit !important;
+    text-decoration: none !important;
+}

@@ -38,8 +38,8 @@
                     <h3></h3>
                     <div>
                         <img height="100%" width="100%" src="{{ asset('assets/img/blog/aberdarecountryclub.jpg') }}"
-                    </div>
-                    <p>
+                   </div> <br><br>
+                    <p >
                         Every trip is expertly planned by a vibrant team playing the role of a well-connected friend,
                         showing our clients the beauty of our motherland, Kenya. We want to be that reliable, responsive,
                         and supportive friend who helps you plan every detail as you enjoy your trip. We want to support you

@@ -57,7 +57,7 @@
                             <li><a href="{{route('index')}}">Home</a></li>
                             <li><a href="{{ route('about') }}">About</a></li>
                             <li><a href="{{ route('pictorials') }}">Pictorials</a></li>
-                            <li><a href="#"> Contact</a></li>
+                            <li><a href="{{ route('contact_us') }}"> Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -82,26 +82,26 @@
                         </h3>
                         <div class="instagram_feed">
                             <div class="single_insta">
-                                <a href="#">
+                                <a href="{{ route('pictorials') }}">
                                     <img  src="{{ asset('assets/img/blog/maaraleisurecamp.jpg') }}" alt="">
                                 </a>
                             </div>
                             <div class="single_insta">
-                                <a href="#">
+                                <a href="{{ route('pictorials') }}">
                                     <img src="{{ asset('assets/img/blog/theark.jpg') }}" alt="">
                                 </a>
                             </div>
 
                             <div class="single_insta">
-                                <a href="#">
+                                <a href="{{ route('pictorials') }}">
                                     <img src="{{ asset('assets/img/blog/aberdarecountryclub.jpg') }}" alt="">
                                 </a>
                             </div>
-                            <div class="single_insta">
+                            {{--  <div class="single_insta">
                                 <a href="#">
                                     <img  src="{{ asset('assets/img/blog/maaraleisurecamp.jpg') }}" alt="">
                                 </a>
-                            </div>
+                            </div>  --}}
 
                         </div>
                     </div>
@@ -130,7 +130,7 @@
     </div>
 </footer>
 
-<div class="modal fade custom_search_pop" id="exampleModalCenter" tabindex="-1" role="dialog"
+{{--  <div class="modal fade custom_search_pop" id="exampleModalCenter" tabindex="-1" role="dialog"
     aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
@@ -140,4 +140,4 @@
             </div>
         </div>
     </div>
-</div>
+</div>  --}}

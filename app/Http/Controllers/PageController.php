@@ -14,14 +14,17 @@ class PageController extends Controller
     {
         return view('client.index');
     }
+
+    public function aboutus(){
+        return view('client.about');
+    }
+    public function contact(){
+        return view('client.contact');
+    }
     public function maraFlight()
     {
         return view('client.packages.masai-mara-flight');
     }
-    public function aboutus(){
-        return view('client.about');
-    }
-
     public function package()
     {
         return view('client.packages.packages');

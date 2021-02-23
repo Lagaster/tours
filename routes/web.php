@@ -17,6 +17,10 @@ use App\Http\Controllers\TraveltourController;
 
 Route::get('/', [PageController::class, 'index'])->name('index');
 Route::get('about-us',[PageController::class,'aboutus'])->name('about');
+Route::get('/contact-us | Tavara Tours',[PageController::class,'contact'])->name('contact_us');
+
+
+// pictorials
 Route::get('/pictorials', [PageController::class, 'pictorials'])->name('pictorials');
 Route::get('/theark', [PageController::class, 'theark'])->name('theark');
 Route::get('maracamp', [PageController::class, 'maraleisurecamp'])->name('maracamp');

@@ -24,9 +24,11 @@
                                         <div class="col-md-6">
 
                                             <p>
-Tsavo West’s broken volcanic hills sprouting the luscious Mzima springs are both
-                                    serenading and enthralling, for this scenic beauty is a natural bathtub of hippos and
-                                    crocodiles, as well as fish.
+                                                Tsavo West’s broken volcanic hills sprouting the luscious Mzima springs are
+                                                both
+                                                serenading and enthralling, for this scenic beauty is a natural bathtub of
+                                                hippos and
+                                                crocodiles, as well as fish.
                                             </p>
                                             <h3>
                                                 Tour Route
@@ -37,13 +39,16 @@ Tsavo West’s broken volcanic hills sprouting the luscious Mzima springs are bo
 
                                         </div>
                                         <div class="col-md-6">
-<p>
-    The Rhino sanctuary houses giant roaring rhinos while the Sarova Taita safari and the
-                                    exciting Lion Hill camp lends a panoramic beauty to this adventurous safari trip. If the
-                                    thrill lacks magnitude yet, Tsavo East’s crowded herds of
-                                    world-famous elephants and its man-eating lions will give you scary stories to tell your
-                                    friends on your return.
-</p>
+                                            <p>
+                                                The Rhino sanctuary houses giant roaring rhinos while the Sarova Taita
+                                                safari and the
+                                                exciting Lion Hill camp lends a panoramic beauty to this adventurous safari
+                                                trip. If the
+                                                thrill lacks magnitude yet, Tsavo East’s crowded herds of
+                                                world-famous elephants and its man-eating lions will give you scary stories
+                                                to tell your
+                                                friends on your return.
+                                            </p>
                                         </div>
                                     </div>
 
