@@ -6,7 +6,7 @@
                 <div class="row align-items-center">
                     <div class="col-xl-2 col-lg-2">
                         <div class="logo">
-                            <a href="#">
+                            <a href="{{ route('index') }}">
                                 <h3 style="color: whitesmoke">Tavara Tours And Travel</h3>
                             </a>
                         </div>
@@ -15,7 +15,7 @@
                         <div class="main-menu d-none d-lg-block">
                             <nav>
                                 <ul id="navigation">
-                                    <li><a class="active" href="/"><b>HOME</b> </a></li>
+                                    <li><a class="active" href="{{ route('index') }}"><b>HOME</b> </a></li>
                                     <li><a href="{{ route('about') }}"><b>ABOUT</b> </a></li>
                                     {{-- <li><a class="" href="#">Destination</a></l /li> --}}
                                     {{--  <li><a href="{{ route('packages') }}"><b>PACKAGES</b> </a>  --}}

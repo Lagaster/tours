@@ -26,6 +26,12 @@
                                     trekking peak (Point Lenana) at 4985 meters. From the summit there is a beautiful view
                                     of the dramatic volcanic massif and the two main peaks of Batian and Nelion, as well as
                                     long views over the central plains of Kenya.
+                                    </p> <br>
+                                    <h3>
+                                        Tour Route
+                                    </h3>
+                                    <p>
+                                        Nairobi – Mount Kenya - Nairobi
                                     </p>
                                         </div>
                                         <div class="col-md-6">

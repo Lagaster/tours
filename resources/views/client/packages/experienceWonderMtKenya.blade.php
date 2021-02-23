@@ -23,16 +23,23 @@
 
                                     <div class="row">
                                         <div class="col-md-6">
-<p>
-    Appreciate the picturesque beauty of the majestic, snowcapped Mt Kenya and the riverbank
-    oasis of Samburu.
-</p>
+                                            <p>
+                                                Appreciate the picturesque beauty of the majestic, snowcapped Mt Kenya and
+                                                the riverbank
+                                                oasis of Samburu.
+                                            </p>
+                                            <h3>
+                                                Tour Route
+                                            </h3>
+                                            <p>
+                                                Nairobi-Mt Kenya-Samburu-Nairobi
+                                            </p>
                                         </div>
                                         <div class="col-md-6">
                                             <p>
-                                               The snow of Mt Kenya is a peculiar phenomenon, unexpected so close to
-                                    the earth equator, yet vitally important to the local ecosystem, which includes the
-                                    Samburu Wildlife Reserve.
+                                                The snow of Mt Kenya is a peculiar phenomenon, unexpected so close to
+                                                the earth equator, yet vitally important to the local ecosystem, which
+                                                includes the Samburu Wildlife Reserve.
                                             </p>
                                         </div>
                                     </div>

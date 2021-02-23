@@ -20,14 +20,34 @@
                         <div class="panel-body">
                             <div class="tab-content">
                                 <div class="tab-pane fade in show active" id="home">
-                                    Tsavo West’s broken volcanic hills sprouting the luscious Mzima springs are both
+                                    <div class="row">
+                                        <div class="col-md-6">
+
+                                            <p>
+Tsavo West’s broken volcanic hills sprouting the luscious Mzima springs are both
                                     serenading and enthralling, for this scenic beauty is a natural bathtub of hippos and
                                     crocodiles, as well as fish.
-                                    The Rhino sanctuary houses giant roaring rhinos while the Sarova Taita safari and the
+                                            </p>
+                                            <h3>
+                                                Tour Route
+                                            </h3>
+                                            <p>
+                                                Mombasa - Tsavo West - Taita Sarova - Tsavo East
+                                            </p>
+
+                                        </div>
+                                        <div class="col-md-6">
+<p>
+    The Rhino sanctuary houses giant roaring rhinos while the Sarova Taita safari and the
                                     exciting Lion Hill camp lends a panoramic beauty to this adventurous safari trip. If the
                                     thrill lacks magnitude yet, Tsavo East’s crowded herds of
                                     world-famous elephants and its man-eating lions will give you scary stories to tell your
                                     friends on your return.
+</p>
+                                        </div>
+                                    </div>
+
+
 
                                 </div>
                                 <div class="tab-pane fade" id="profile">

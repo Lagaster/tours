@@ -20,16 +20,39 @@
                         <div class="panel-body">
                             <div class="tab-content">
                                 <div class="tab-pane fade in show active" id="home" style="text-align: justify">
-                                    Saiwa Swamp national park is a forested paradise filled exotic flowers, trees, and
-                                    birds. It is also a habitat of the rare and endangered semi-aquatic Sitatunga antelope
-                                    and as a preserve for the rare De Brazza’s monkey. The sheer abundance of birdlife at
-                                    Kakamega forest is overwhelming, it is a quiet haven for nature lovers.
-                                    </p>
-                                    <p> The local guides will tell you the history and importance of the forest as they know
-                                        more since its their homeland. Hell’s gate National Park has an incredibly beautiful
-                                        scenery where zebras, buffalos, antelopes, baboons, and other wildlife roam an
-                                        idyllic
-                                        landscape of forests, gorges, and grassy volcanoes near the shores of Lake Naivasha.
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p>
+                                                Saiwa Swamp national park is a forested paradise filled exotic flowers,
+                                                trees, and
+                                                birds. It is also a habitat of the rare and endangered semi-aquatic
+                                                Sitatunga antelope
+                                                and as a preserve for the rare De Brazza’s monkey. The sheer abundance of
+                                                birdlife at
+                                                Kakamega forest is overwhelming, it is a quiet haven for nature lovers.
+                                            </p>
+                                            <br>
+                                            <h3>Tour Route</h3>
+                                            <p>
+                                                Nairobi – Cherengani Hill – Saiwa Swamp – Kakamega Forest – Kisumu – Kisii –
+                                                Hell’s Gate - Nairobi
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p> The local guides will tell you the history and importance of the forest as
+                                                they know
+                                                more since its their homeland. Hell’s gate National Park has an incredibly
+                                                beautiful
+                                                scenery where zebras, buffalos, antelopes, baboons, and other wildlife roam
+                                                an
+                                                idyllic
+                                                landscape of forests, gorges, and grassy volcanoes near the shores of Lake
+                                                Naivasha.</p>
+                                        </div>
+                                    </div>
+
+
+
                                 </div>
                                 <div class="tab-pane fade" id="profile">
                                     @include("client.packages.itinenarys.historicalTourKenta")

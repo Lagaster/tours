@@ -24,10 +24,16 @@
                                 <div class="tab-pane fade in active show" id="home">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <p class="" style="text-align: justify" >
+                                            <p class="" style="text-align: justify">
                                                 Ashnil Mara Camp is luxurious with 40 luxury tents which is
                                                 in the Masai Mara National Reserve and close to the Mara River
                                                 famous for the wildebeest migration.
+                                            </p>
+                                            <h3>
+                                                Tour Route
+                                            </h3>
+                                            <p>
+                                                NAIROBI-MASAI MARA-NAIROBI
                                             </p>
                                         </div>
                                         <div class="col-md-6">

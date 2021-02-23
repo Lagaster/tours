@@ -20,11 +20,30 @@
                         <div class="panel-body">
                             <div class="tab-content">
                                 <div class="tab-pane fade in active" id="home">
-                                    Appreciate the picturesque beauty of the majestic, snowcapped Mt Kenya and the
-                                    riverbank oasis of Samburu. The snow of Mt Kenya is a peculiar phenomenon, unexpected
-                                    so close to the earth equator, yet vitally important to the local ecosystem, which
-                                    includes
-                                    the Samburu Wildlife Reserve.
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p>
+                                                Appreciate the picturesque beauty of the majestic, snowcapped Mt Kenya and
+                                                the
+                                                riverbank oasis of Samburu. The snow of Mt Kenya is a peculiar phenomenon,
+                                                unexpected
+                                                so close to the earth equator, yet vitally important to the local ecosystem,
+                                                which
+                                                includes
+                                                the Samburu Wildlife Reserve.
+                                            </p>
+                                            <h3>
+                                                Tour Route
+                                            </h3>
+                                            <p>
+                                                NAIROBI-SAMBURU-MASAI MARA-NAIROBI
+                                            </p>
+                                        </div>
+                                        <div class="col-md-6">
+
+                                        </div>
+                                    </div>
+
                                 </div>
                                 <div class="tab-pane fade" id="profile">
                                     @include("client.packages.itinenarys.masaiMaraSamburu")

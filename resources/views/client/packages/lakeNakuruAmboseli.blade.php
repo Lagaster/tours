@@ -20,9 +20,25 @@
                         <div class="panel-body">
                             <div class="tab-content">
                                 <div class="tab-pane fade in active" id="home">
-                                    Lake Nakuru is one of Kenya’s smallest park and one of the best places to spot white
-                                    rhinos. Amboseli is home to lots of elephants and Mount Kilimanjaro. Safari
-                                    accommodation ranges from 5-star lodges to 4 star tented camps depending on your budget.
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p>
+                                                Lake Nakuru is one of Kenya’s smallest park and one of the best places to
+                                                spot white
+                                                rhinos. Amboseli is home to lots of elephants and Mount Kilimanjaro. Safari
+                                                accommodation ranges from 5-star lodges to 4 star tented camps depending on
+                                                your budget.
+                                            </p>
+                                            <h3>
+                                                Tour Route
+                                            </h3>
+                                            <p>
+                                                Nairobi - Lake Nakuru - Amboseli
+                                            </p>
+                                        </div>
+                                    </div>
+
+
                                 </div>
                                 <div class="tab-pane fade" id="profile">
                                     @include("client.packages.itinenarys.lakeNakuruAmboseli")
