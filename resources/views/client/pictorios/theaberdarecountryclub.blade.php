@@ -8,7 +8,98 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="bradcam_text text-center">
+                    <div class="text-center bradcam_text">
+                        <h3>The Aberdare Country Club</h3>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="blog_area section-padding">
+        <div class="container">
+
+            <div class="row">
+                {{--  <div class="mb-1 col-md-12 item-center center ">
+                    <img style="margin-left: 20%;"
+                        src="{{ asset('assets/img/pictorialls/aberdare/logo-aberdare-country-club.png') }}"
+                        alt=""><br><br>
+                    <h3 style="margin-left: 20%;">The Aberdare Country Club</h3>
+
+
+
+                </div>  --}}
+                    <div class="row">
+
+                        <div class="mb-1 col-md-6 ">
+                            <img width="100%" height="100%"
+                                src="{{ asset('assets/img/pictorialls/aberdare/giraffe2.jpg') }}" alt="">
+                            <img src="" alt="">
+
+                        </div>
+                        <div class="mb-1 col-md-6 ">
+                            <img height="100%" width="100%" src="{{ asset('assets/img/pictorialls/aberdare/img1.jpg') }}"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="mb-1 col-md-6 ">
+                            <img width="100%" height="100%" src="{{ asset('assets/img/pictorialls/aberdare/img3.png') }}"
+                                alt="">
+                        </div>
+                        <div class="mb-1 col-md-6 ">
+                            <img width="100%" height="100%" src="{{ asset('assets/img/pictorialls/aberdare/img4.jpg') }}"
+                                alt="">
+                        </div>
+                        <div class="mb-1 col-md-6 ">
+                            <img height="100%" width="100%" src="{{ asset('assets/img/pictorialls/aberdare/img2.jpg') }}"
+                                alt="">
+                        </div>
+                        <div class="mb-1 col-md-6">
+                            <img height="100%" width="100%" src="{{ asset('assets/img/pictorialls/aberdare/spa.jpg') }}"
+                                alt="">
+                        </div>
+                        <div class="mb-1 col-md-6 ">
+                            <img height="100%" width="100%" src="{{ asset('assets/img/pictorialls/aberdare/golf.jpg') }}"
+                                alt="">
+                        </div>
+
+                        <div class="mb-1 col-md-6 ">
+                            <img height="100%" width="100%" src="{{ asset('assets/img/pictorialls/aberdare/cycle.jpg') }}"
+                                alt="">
+                        </div>
+                        <div class="mb-1 col-md-6 ">
+                            <img height="100%" width="100%" src="{{ asset('assets/img/pictorialls/aberdare/fall.jpg') }}"
+                                alt="">
+                        </div>
+                    </div>
+
+
+
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+@endsection
+
+{{--  @extends('layouts.mainapp')
+@section('content')
+
+
+
+
+    <div class="bradcam_area slide_aberdare">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="text-center bradcam_text">
                         <h3>The Aberdare Country Club</h3>
 
                     </div>
@@ -342,4 +433,5 @@
     </section>
 
 
-@endsection
+@endsection  --}}
+

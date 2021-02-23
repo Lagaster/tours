@@ -54,7 +54,7 @@
                             Company
                         </h3>
                         <ul class="links">
-                            <li><a href="{[route('index')]}">Home</a></li>
+                            <li><a href="{{route('index')}}">Home</a></li>
                             <li><a href="{{ route('about') }}">About</a></li>
                             <li><a href="{{ route('pictorials') }}">Pictorials</a></li>
                             <li><a href="#"> Contact</a></li>
@@ -67,11 +67,11 @@
                             Popular destination
                         </h3>
                         <ul class="links double_links">
-                            <li><a href="#">Amboseli</a></li>
-                            <li><a href="#">Maasai Mara</a></li>
-                            <li><a href="#">The Ark</a></li>
-                            <li><a href="#">Aberdare </a></li>
-                            <li><a href="#">Mara Comp</a></li>
+                            <li><a href="{{ route('nairobiNationalPark') }}">Nairobi</a></li>
+                            <li><a href="{{ route('masaiMaraSamburuFly') }}">Masai Mara</a></li>
+                            <li><a href="{{ route('theark') }}">The Ark</a></li>
+                            {{--  <li><a href="#">Aberdare</a></li>
+                            <li><a href="#">Mara Comp</a></li>  --}}
                         </ul>
                     </div>
                 </div>
@@ -114,7 +114,7 @@
             <div class="footer_border"></div>
             <div class="row">
                 <div class="col-xl-12">
-                    <p class="copy_right text-center">
+                    <p class="text-center copy_right">
 
                         Copyright &copy;<script data-cfasync="false">
                         </script>

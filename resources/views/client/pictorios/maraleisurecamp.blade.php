@@ -8,7 +8,77 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="bradcam_text text-center">
+                    <div class="text-center bradcam_text">
+                        <h3>Mara Leisure Camp</h3>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="blog_area section-padding">
+        <div class="container">
+            <div class="row">
+               {{--  <div class="row">  --}}
+                {{--  <div class="col-md-6">
+                    <img style="margin-left: 20%;" src="{{ asset('assets/img/pictorialls/mara/maracamplogo.jpg') }}"
+                    alt="">
+
+                </div>  --}}
+                <div class="mb-1 col-md-6 ">
+                    <img height="100%" width="100%" src="{{ asset('assets/img/pictorialls/mara/baloon.jpg') }}"
+                    alt="">
+                </div>
+               {{--  </div>  --}}
+                <div class="mb-1 col-md-6 ">
+                    <img height="100%" width="100%" src="{{ asset('assets/img/pictorialls/mara/cheetah.jpg') }}"
+                        alt="">
+                </div>
+                <div class="mb-1 col-md-6 ">
+                    <img height="100%" width="100%" src="{{ asset('assets/img/pictorialls/mara/img1.jpg') }}" alt="">
+                </div>
+                <div class="mb-1 col-md-6 ">
+                    <img width="100%" src="{{ asset('assets/img/pictorialls/mara/img2.png') }}" alt="">
+                </div>
+                <div class="mb-1 col-md-6 ">
+                    <img height="100%" width="100%" src="{{ asset('assets/img/pictorialls/mara/img3.jpg') }}" alt="">
+                </div>
+                <div class="mb-1 col-md-6 ">
+                    <img height="100%" width="100%" src="{{ asset('assets/img/pictorialls/mara/img4.jpg') }}" alt="">
+
+                </div>
+
+                <div class="mb-1 col-md-6 ">
+                    <img width="100%" height="100%" src="{{ asset('assets/img/pictorialls/mara/lion.jpg') }}" alt="">
+                </div>
+                <div class="mb-1 col-md-6 ">
+                    <img width="100%" height="100%" src="{{ asset('assets/img/pictorialls/mara/nature.jpg') }}" alt="">
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+@endsection
+
+
+
+{{--  @extends('layouts.mainapp')
+@section('content')
+
+
+
+
+    <div class="bradcam_area slide_maracamp">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="text-center bradcam_text">
                         <h3>Mara Leisure Camp</h3>
 
                     </div>
@@ -295,3 +365,4 @@
 
 
 @endsection
+  --}}
