@@ -17,10 +17,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h3>Tavara Tours And Travel</h3>
+                    <h3 style="text-align: center">Tavara Tours And Travel</h3>
                     <br>
                     <h4 style="text-align: center">
                         CONNECT
+                        <hr>
                         <br><br>
                         <div class="row">
                             <div class="col-md-6">
@@ -50,7 +51,7 @@
                             <div class="col-md-6">
 
                                 <a href="">
-                                <div class="fa fa-twitter"> </div> <span>Twitter: @and_tavara </span>
+                                <div class="fa fa-twitter"> </div> <span>Twitter:<br> @and_tavara </span>
                                 </a>
                             </div>
                         </div>

@@ -7,7 +7,7 @@
                     <div class="col-xl-2 col-lg-2">
                         <div class="logo">
                             <a href="{{ route('index') }}">
-                                <h3 style="color: whitesmoke">Tavara Tours And Travel</h3>
+                                <img src="{{ asset('assets/img/logo/logo1.jpg') }}" alt="">
                             </a>
                         </div>
                     </div>
