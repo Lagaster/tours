@@ -6,11 +6,12 @@
                 <div class="col-xl-4 col-md-6 col-lg-4 ">
                     <div class="footer_widget">
                         <div class="footer_logo">
-                            <a href="#">
-                                <img src="img/footer_logo.png" alt="">
+                            <a style="margin-right: 20%" href="{{ route('index') }}">
+                                <img height="75px" width="70%"  src="{{ asset('assets/img/logo/logo1.png') }}" alt="">
                             </a>
                         </div>
-                        <p><b>Tavara Tours And Travel</b> <br>
+
+                        <p><b>Tavara Tours And Travel</b>
                             <br>
                             Simco Plaza 5th Floor Suite
                             <br>
@@ -130,14 +131,3 @@
     </div>
 </footer>
 
-{{--  <div class="modal fade custom_search_pop" id="exampleModalCenter" tabindex="-1" role="dialog"
-    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <div class="serch_form">
-                <input type="text" placeholder="Search">
-                <button type="submit">search</button>
-            </div>
-        </div>
-    </div>
-</div>  --}}

@@ -6,8 +6,8 @@
                 <div class="row align-items-center">
                     <div class="col-xl-2 col-lg-2">
                         <div class="logo">
-                            <a href="{{ route('index') }}">
-                                <img src="{{ asset('assets/img/logo/logo1.jpg') }}" alt="">
+                            <a style="margin-right: 20%" href="{{ route('index') }}">
+                                <img height="80px" width="120%"  src="{{ asset('assets/img/logo/logo1.png') }}" alt="">
                             </a>
                         </div>
                     </div>
@@ -15,7 +15,7 @@
                         <div class="main-menu d-none d-lg-block">
                             <nav>
                                 <ul id="navigation">
-                                    <li><a class="active" href="{{ route('index') }}"><b>HOME</b> </a></li>
+                                    <li><a class="active" href="{{ route('index') }}"><b style="margin-left: 20px" >HOME</b> </a></li>
                                     <li><a href="{{ route('about') }}"><b>ABOUT</b> </a></li>
                                     {{-- <li><a class="" href="#">Destination</a></l /li> --}}
                                     {{--  <li><a href="{{ route('packages') }}"><b>PACKAGES</b> </a>  --}}

@@ -396,7 +396,7 @@
                         </div>
                         <h3> <a href="{{ route('historicalTourKenta') }}"> Historical Tour Of Kenya</a> </h3>
                         <p>
-                            Homeland.
+                            Homeland
 
                         </p>
                     </div>
@@ -411,7 +411,7 @@
                             </a>
                         </div>
                         <h3>  <a href="{{ route('daystour') }}" > Youth Tour </a> </h3>
-                        <p>Youthful Adrenaline Tours.</p>
+                        <p>Youthful Adrenaline Tours</p>
                     </div>
                 </div>
             </div>
