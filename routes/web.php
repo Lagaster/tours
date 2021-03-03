@@ -17,7 +17,7 @@ use App\Http\Controllers\TraveltourController;
 
 Route::get('/', [PageController::class, 'index'])->name('index');
 Route::get('about-us',[PageController::class,'aboutus'])->name('about');
-Route::get('/contact-us | Tavara Tours',[PageController::class,'contact'])->name('contact_us');
+Route::get('/contact-us',[PageController::class,'contact'])->name('contact_us');
 
 
 // pictorials

@@ -47,6 +47,7 @@
                     Trek from Met Station to the Naro Moru gate and be transferred to Nairobi at your preferred
                     location. </p>
             </div>
+            @include("client.packages.itinenarys.levels.levelfive")
 
 
 
