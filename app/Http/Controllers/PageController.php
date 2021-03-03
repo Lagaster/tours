@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Mail\BookPackage;
 use Illuminate\Http\Request;
 use App\Http\Requests\BookRequest;
+use App\Mail\ContactUs;
 use Illuminate\Support\Facades\Mail;
 
 
@@ -145,7 +146,6 @@ class PageController extends Controller
 
     public function bookPackage(BookRequest $request)
     {
-        return $request;
         $bookData = $request->all();
         Mail::to("info@tavaratoursandtravel.com")
             ->cc("benerd@tavaratoursandtravel.com")
@@ -154,4 +154,16 @@ class PageController extends Controller
             ->send(new BookPackage($bookData));
         return back();
     }
+
+    public function contactUs(Request $request)
+    {
+
+        // return (new ContactUs($request->all()))->render();
+         Mail::to('info@lagaster.com', 'Lagaster Dev')
+            ->cc('abrahamkivosh@gmail.com', 'Abraham Kivondo')
+            ->send(new ContactUs($request->all()));
+            return back()->with('success',"We will contact you soon");
+
+    }
+
 }

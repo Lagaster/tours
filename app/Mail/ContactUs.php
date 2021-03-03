@@ -7,7 +7,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class BookPackage extends Mailable
+class ContactUs extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -16,7 +16,7 @@ class BookPackage extends Mailable
      *
      * @return void
      */
-    public $data;
+    public $data ;
     public function __construct($data)
     {
         $this->data = $data;
@@ -29,7 +29,7 @@ class BookPackage extends Mailable
      */
     public function build()
     {
-        return $this->markdown('BookPackage')->subject("Booking Package")
+        return $this->view('contactUsEmail')->subject("Contact Form")
         ->from('info@lagaster.com', 'Tavara tours')
         ->replyTo('info@lagaster.com', 'Lagaster Dev')
         ->priority(3)

@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <div class="bradcam_text text-center">
+                    <div class="text-center bradcam_text">
                         <h3>Contact Us</h3>
                     </div>
                 </div>
@@ -58,7 +58,12 @@
                     </h4>
                 </div>
                 <div class="col-md-6">
-                    <form class="form-contact" action="#" method="#">
+                    <div>
+                        @if (session('success'))
+                            <div class="bg-success h3" > {{session('success')}}</div>
+                        @endif
+                    </div>
+                    <form class="form-contact" action="{{ route('contactUs') }}" method="POST">
                         @csrf
                         <div class="row">
                             <div class="form-group col-md-6 ">
@@ -76,12 +81,12 @@
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="phone">Phone</label>
-                                <input id="phone" class="form-control" value="{{ old('number') }}" type="number"
+                                <input id="phone" class="form-control" value="{{ old('phone') }}" type="number"
                                     name="phone">
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="email">Email</label>
-                                <input id="email" class="form-control" value="{{ old('email') }}" type="number"
+                                <input id="email" class="form-control" value="{{ old('email') }}" type="email"
                                     name="email">
                             </div>
 

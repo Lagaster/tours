@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\TraveltourController;
+use Illuminate\Support\Facades\Mail;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,7 +18,7 @@ use App\Http\Controllers\TraveltourController;
 
 Route::get('/', [PageController::class, 'index'])->name('index');
 Route::get('about-us',[PageController::class,'aboutus'])->name('about');
-Route::get('/contact-us',[PageController::class,'contact'])->name('contact_us');
+Route::get('contact-us',[PageController::class,'contact'])->name('contact_us');
 
 
 // pictorials
@@ -59,3 +60,5 @@ Route::get('days-tour', [PageController::class, 'daystour'])->name('daystour');
 
 
 Route::post('book-now', [PageController::class, 'bookPackage'])->name('book-package');
+
+Route::post('contactUs', [PageController::class,'contactUs'])->name('contactUs');

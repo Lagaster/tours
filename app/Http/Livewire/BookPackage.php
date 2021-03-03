@@ -43,10 +43,8 @@ class BookPackage extends Component
 
         ];
 
-        Mail::to("info@tavaratoursandtravel.com")
-            ->cc("benerd@tavaratoursandtravel.com")
-            ->bcc("Kimunto@tavaratoursandtravel.com")
-
+        Mail::to("info@lagaster.com", 'Lagaster Dev')
+          ->cc('abrahamkivosh@gmail.com', 'Abraham Kivondo')
             ->send(new MailBookPackage($bookData));
         Session::flash('success', "Your booking has been successful. We will Contact you soon.");
 
