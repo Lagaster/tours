@@ -3,12 +3,12 @@
     <div class="row level-all justify-content-lg-center ">
 
         <div class="level-child level-disabled">
-            <img class="activity-img" src="{{ asset('assets/client/img/itinerary-level/level1.PNG') }}"
+            <img class="activity-img" width="90" height=60 src="{{ asset('assets/client/img/itinerary-level/level1.PNG') }}"
                 alt="" srcset="">
 
         </div>
         <div class="level-child active-level " data-toggle="modal" data-target="#modelId2">
-            <img class="activity-img" src="{{ asset('assets/client/img/itinerary-level/level2.PNG') }}"
+            <img class="activity-img" width="90" height=60 src="{{ asset('assets/client/img/itinerary-level/level2.PNG') }}"
                 alt="" srcset="">
 
         </div>
@@ -27,7 +27,7 @@
                         <div class="activity-header justify-content-lg-center ">
                             <div class="text text-capitalize activity-content row ">
                                 <span class="col-3 ">
-                                    <img class="activity-img "
+                                    <img class="activity-img " width="90" height=60
                                         src="{{ asset('assets/client/img/itinerary-level/level2.PNG') }}"
                                         alt="">
                                 </span>
@@ -103,16 +103,16 @@
 
 
         <div class="level-child level-disabled">
-            <img class="activity-img" src="{{ asset('assets/client/img/itinerary-level/level3.PNG') }}"
+            <img class="activity-img" width="90" height=60 src="{{ asset('assets/client/img/itinerary-level/level3.PNG') }}"
                 alt="">
 
         </div>
         <div class="level-child level-disabled">
-            <img class="activity-img" src="assets/client/img/itinerary-level/level4.PNG" alt="">
+            <img class="activity-img" width="90" height=60 src="assets/client/img/itinerary-level/level4.PNG" alt="">
 
         </div>
         <div class="level-child level-disabled">
-            <img class="activity-img" src="assets/client/img/itinerary-level/level5.PNG" alt="">
+            <img class="activity-img" width="90" height=60 src="assets/client/img/itinerary-level/level5.PNG" alt="">
 
         </div>
     </div>
