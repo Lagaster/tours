@@ -159,6 +159,18 @@ class PageController extends Controller
     {
 
         // return (new ContactUs($request->all()))->render();
+        $request->validate([
+            'first'=>"required|string",
+            'second'=>"required|string",
+            'email'=>'required|email',
+            'phone'=>'required|alpha_num',
+            'description'=>'required|min:3|max:400|string'
+        ],
+        [
+            'first.required'=> "First Name is required!",
+            'second.required'=> "Second Name is required!"
+        ]
+        ) ;
          Mail::to('info@lagaster.com', 'Lagaster Dev')
             ->cc('abrahamkivosh@gmail.com', 'Abraham Kivondo')
             ->send(new ContactUs($request->all()));

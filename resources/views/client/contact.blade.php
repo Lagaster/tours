@@ -38,7 +38,8 @@
                                 </a>
                             </div>
                         </div>
-                        <br><hr>
+                        <br>
+                        <hr>
                         <div class="row">
                             <div class="col-md-6">
 
@@ -51,7 +52,7 @@
                             <div class="col-md-6">
 
                                 <a href="">
-                                <div class="fa fa-twitter"> </div> <span>Twitter:<br> @and_tavara </span>
+                                    <div class="fa fa-twitter"> </div> <span>Twitter:<br> @and_tavara </span>
                                 </a>
                             </div>
                         </div>
@@ -60,7 +61,7 @@
                 <div class="col-md-6">
                     <div>
                         @if (session('success'))
-                            <div class="bg-success h3" > {{session('success')}}</div>
+                            <div class="bg-success h3"> {{ session('success') }}</div>
                         @endif
                     </div>
                     <form class="form-contact" action="{{ route('contactUs') }}" method="POST">
@@ -68,34 +69,49 @@
                         <div class="row">
                             <div class="form-group col-md-6 ">
                                 <label for="first">First Name</label>
-                                <input id="first" class="form-control" type="text" value="{{ old('first') }}"
-                                    name="first">
+                                <input id="first" class="form-control @error('first') is-invalid @enderror " type="text"
+                                    value="{{ old('first') }}" name="first">
+                                @error('first')
+                                    <div class="alert alert-danger">{{ $message }}</div>
+                                @enderror
                             </div>
                             <div class="form-group col-md-6 ">
                                 <label for="second">Second Name</label>
-                                <input id="second" class="form-control" type="text" value="{{ old('second') }}"
-                                    name="second">
+                                <input id="second" class="form-control @error('second') is-invalid @enderror " type="text"
+                                    value="{{ old('second') }}" name="second">
+                                @error('second')
+                                    <div class="alert alert-danger">{{ $message }}</div>
+                                @enderror
                             </div>
 
                         </div>
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <label for="phone">Phone</label>
-                                <input id="phone" class="form-control" value="{{ old('phone') }}" type="number"
-                                    name="phone">
+                                <input id="phone" class="form-control @error('phone') is-invalid @enderror "
+                                    value="{{ old('phone') }}" type="number" name="phone">
+                                    @error('phone')
+                                    <div class="alert alert-danger">{{ $message }}</div>
+                                @enderror
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="email">Email</label>
-                                <input id="email" class="form-control" value="{{ old('email') }}" type="email"
-                                    name="email">
+                                <input id="email" class="form-control @error('email') is-invalid @enderror "
+                                    value="{{ old('email') }}" type="email" name="email">
+                                @error('email')
+                                    <div class="alert alert-danger">{{ $message }}</div>
+                                @enderror
                             </div>
 
                         </div>
 
                         <div class="form-group">
                             <label for="description">Additional Informaton</label>
-                            <textarea id="description" class="form-control" name="description"
-                                rows="3">{{ old('description') }}</textarea>
+                            <textarea id="description" class="form-control @error('description') is-invalid @enderror "
+                                name="description" rows="3">{{ old('description') }}</textarea>
+                            @error('description')
+                                <div class="alert alert-danger">{{ $message }}</div>
+                            @enderror
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
