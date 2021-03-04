@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests\BookRequest;
 use App\Mail\ContactUs;
 use Illuminate\Support\Facades\Mail;
-
+use Illuminate\Support\Facades\Validator;
 
 class PageController extends Controller
 {
@@ -159,20 +159,26 @@ class PageController extends Controller
     {
 
         // return (new ContactUs($request->all()))->render();
-        $request->validate([
+       $rules = [
             'first'=>"required|string",
             'second'=>"required|string",
             'email'=>'required|email',
             'phone'=>'required|alpha_num',
             'description'=>'required|min:3|max:400|string'
-        ],
-        [
+       ];
+      $messages=  [
             'first.required'=> "First Name is required!",
             'second.required'=> "Second Name is required!"
-        ]
-        ) ;
-         Mail::to('info@lagaster.com', 'Lagaster Dev')
-            ->cc('abrahamkivosh@gmail.com', 'Abraham Kivondo')
+        ] ;
+
+        $validated = Validator::make($request->all(),$rules,$messages) ;
+        if ( $validated->fails() ) {
+            # code...
+            return back()->withInput()->withErrors($validated) ;
+        }
+         Mail::to('infowaretechs@gmail.com', 'Tavara Tours and Travel')
+            // ->cc('abrahamkivosh@gmail.com', 'Abraham Kivondo')
+
             ->send(new ContactUs($request->all()));
             return back()->with('success',"We will contact you soon");
 

@@ -452,9 +452,8 @@
                                             <td style="text-align: left; padding-left: 5px; padding-right: 5px;">
                                                 <h3 class="heading">Contact Info</h3>
                                                 <ul>
-                                                    <li><span class="text">203 Fake St. Mountain View, San Francisco,
-                                                            California, USA</span></li>
-                                                    <li><span class="text">+2547 000 000</span></a></li>
+                                                    <li><span class="text">Simco Plaza 5th Floor Suite</span></li>
+                                                    <li><span class="text">+254 742 607 434</span></a></li>
                                                 </ul>
                                             </td>
                                         </tr>

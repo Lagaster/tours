@@ -29,10 +29,11 @@ class ContactUs extends Mailable
      */
     public function build()
     {
+        $data = $this->data  ;
+
         return $this->view('contactUsEmail')->subject("Contact Form")
         ->from('info@lagaster.com', 'Tavara tours')
-        ->replyTo('info@lagaster.com', 'Lagaster Dev')
-        ->priority(3)
-        ;
+        ->replyTo($data['email'], $data['first'])
+        ->priority(3);
     }
 }

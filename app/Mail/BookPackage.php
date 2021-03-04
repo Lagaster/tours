@@ -29,9 +29,11 @@ class BookPackage extends Mailable
      */
     public function build()
     {
+        $data = $this->data;
+
         return $this->markdown('BookPackage')->subject("Booking Package")
         ->from('info@lagaster.com', 'Tavara tours')
-        ->replyTo('info@lagaster.com', 'Lagaster Dev')
+        // ->replyTo($data['email'], $data['first'])
         ->priority(3)
         ;
     }
