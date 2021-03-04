@@ -180,7 +180,7 @@ class PageController extends Controller
             // ->cc('abrahamkivosh@gmail.com', 'Abraham Kivondo')
 
             ->send(new ContactUs($request->all()));
-            return back()->with('success',"We will contact you soon");
+            return back()->with('success',"We will contact you soon.");
 
     }
 

@@ -7,7 +7,7 @@
                     <div class="col-xl-2 col-lg-2">
                         <div class="logo">
                             <a style="margin-right: 20%" href="{{ route('index') }}">
-                                <img height="80px" width="120%"  src="{{ asset('assets/img/logo/logo1.png') }}" alt="">
+                                <img height="75px" width="80%"   src="{{ asset('assets/img/logo/logo1.png') }}" alt="">
                             </a>
                         </div>
                     </div>
