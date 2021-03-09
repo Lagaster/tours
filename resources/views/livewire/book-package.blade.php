@@ -38,8 +38,8 @@
         <div class="row" >
             <div class="form-group col-md-6 ">
                 <label for="phone">Phone</label>
-                <input wire:model="phone" id="phone" placeholder="Email" class="form-control @error('phone')  border-danger   @enderror"
-                    value="{{ old('number') }}" type="number" name="phone">
+                <input wire:model="phone" id="phone" class="form-control @error('phone')  border-danger   @enderror"
+                    value="{{ old('number') }}" type="text" name="phone">
                 @error('phone')
                     <span class="text text-danger"> {{ $message }} </span>
                 @enderror
@@ -60,7 +60,7 @@
             <div class="form-group col-md-6 ">
                 <label for="adult">No Adult</label>
                 <input wire:model="adult" id="adult" class="form-control @error('adult')  border-danger   @enderror"
-                    value="{{ old('adult') }}" type="number" name="adult">
+                    value="{{ old('adult') }}" type="text" name="adult">
                 @error('adult')
                     <span class="text text-danger"> {{ $message }} </span>
                 @enderror
