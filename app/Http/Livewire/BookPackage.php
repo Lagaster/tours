@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Session;
 
 class BookPackage extends Component
 {
-    public $first, $second, $phone, $adult, $child, $startDate, $endDate, $tour, $description;
+    public $first, $second, $phone, $email, $adult, $child, $startDate, $endDate, $tour, $description;
 
 
 
@@ -21,6 +21,7 @@ class BookPackage extends Component
             'first' => "required|string",
             'second' => "required|string",
             'phone' => "required|alpha_num|min:10",
+            'email' => "required|email",
             'tour' => "required|string",
             'description' => "nullable",
             'adult' => "required|numeric|min:0",
@@ -33,6 +34,7 @@ class BookPackage extends Component
             'first' => $this->first,
             'second' => $this->second,
             'phone' => $this->phone,
+            'email' => $this->email,
             'tour' => $this->tour,
             'description' => $this->description,
             'adult' => $this->adult,
@@ -43,14 +45,16 @@ class BookPackage extends Component
 
         ];
 
-        Mail::to('infowaretechs@gmail.com', 'Tavara Tours and Travel')
-        //   ->cc('abrahamkivosh@gmail.com', 'Abraham Kivondo')
+
+        Mail::to('abrahamkivosh@gmail.com', 'Tavara Tours and Travel')
+        //   ->cc('abrahamkivosh@gmail.com', 'Abraham Kivondo')infowaretechs@gmail.com
             ->send(new MailBookPackage($bookData));
         Session::flash('success', "Your booking has been successful. We will Contact you soon.");
 
         $this->first  = "";
         $this->second  = "";
         $this->phone  = "";
+        $this->email  = "";
         $this->description  = "";
         $this->adult  = "";
         $this->child  = "";

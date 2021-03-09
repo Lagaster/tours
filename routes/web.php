@@ -62,3 +62,11 @@ Route::get('days-tour', [PageController::class, 'daystour'])->name('daystour');
 Route::post('book-now', [PageController::class, 'bookPackage'])->name('book-package');
 
 Route::post('contactUs', [PageController::class,'contactUs'])->name('contactUs');
+
+// Route::get('test', function () {
+//     Mail::raw('plain text message', function ($message) {
+//         $message->to('abrahamkivosh@gmail.com', 'John Doe');
+//         $message->subject('Subject');
+//         $message->priority(3);
+//     });
+// });

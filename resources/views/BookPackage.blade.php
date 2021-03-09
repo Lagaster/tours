@@ -381,8 +381,10 @@
                             </tr>
                             <tr>
                                 <td style="padding-left: 20px; color:black;">
-                                    <div>From:  {{ $data['first'] }} {{ $data['second'] }}</div>
-                                    <div>Phone Number:  {{ $data['phone'] }}</div> <br>
+                                    <div>From  :  {{ $data['first'] }} {{ $data['second'] }}</div>
+                                    <div>Email :  {{ $data['email'] }}</div> <br>
+                                    <div>Phone :  {{ $data['phone'] }}</div> <br>
+
                                 </td>
 
 

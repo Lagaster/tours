@@ -35,15 +35,27 @@
 
         </div>
         <input type="hidden" name="tour" value="{{ $tour ?? '' }}">
+        <div class="row" >
+            <div class="form-group col-md-6 ">
+                <label for="phone">Phone</label>
+                <input wire:model="phone" id="phone" placeholder="Email" class="form-control @error('phone')  border-danger   @enderror"
+                    value="{{ old('number') }}" type="number" name="phone">
+                @error('phone')
+                    <span class="text text-danger"> {{ $message }} </span>
+                @enderror
+            </div>
+            <div class="form-group col-md-6 ">
+                <label for="email">Email</label>
+                <input wire:model="email" id="email" class="form-control @error('email')  border-danger   @enderror"
+                    value="{{ old('email') }}" type="email" name="email">
+                @error('email')
+                    <span class="text text-danger"> {{ $message }} </span>
+                @enderror
+            </div>
 
-        <div class="form-group">
-            <label for="phone">Phone</label>
-            <input wire:model="phone" id="phone" class="form-control @error('phone')  border-danger   @enderror"
-                value="{{ old('number') }}" type="number" name="phone">
-            @error('phone')
-                <span class="text text-danger"> {{ $message }} </span>
-            @enderror
         </div>
+
+
         <div class="row">
             <div class="form-group col-md-6 ">
                 <label for="adult">No Adult</label>
