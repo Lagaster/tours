@@ -68,7 +68,7 @@
             <div class="form-group col-md-6 ">
                 <label for="child">No Childrens</label>
                 <input id="child" wire:model="child" class="form-control @error('child')  border-danger   @enderror "
-                    type="number" name="child">
+                    type="text" name="child">
                 @error('child')
                     <span class="text text-danger"> {{ $message }} </span>
                 @enderror

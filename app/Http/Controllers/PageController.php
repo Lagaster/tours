@@ -163,7 +163,7 @@ class PageController extends Controller
             'first'=>"required|string",
             'second'=>"required|string",
             'email'=>'required|email',
-            'phone'=>'required|alpha_num',
+            'phone'=>'required',
             'description'=>'required|min:3|max:400|string'
        ];
       $messages=  [
@@ -176,7 +176,7 @@ class PageController extends Controller
             # code...
             return back()->withInput()->withErrors($validated) ;
         }
-         Mail::to('infowaretechs@gmail.com', 'Tavara Tours and Travel')
+         Mail::to('info@tavaratoursandtravel.co.ke', 'Tavara Tours and Travel')
             // ->cc('abrahamkivosh@gmail.com', 'Abraham Kivondo')
 
             ->send(new ContactUs($request->all()));

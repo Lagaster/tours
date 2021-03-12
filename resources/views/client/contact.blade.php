@@ -89,7 +89,7 @@
                             <div class="form-group col-md-6">
                                 <label for="phone">Phone</label>
                                 <input id="phone" class="form-control @error('phone') is-invalid @enderror "
-                                    value="{{ old('phone') }}" type="number" name="phone">
+                                    value="{{ old('phone') }}" type="text" name="phone">
                                     @error('phone')
                                     <div class="alert alert-danger">{{ $message }}</div>
                                 @enderror
